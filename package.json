@@ -1,0 +1,101 @@
+{
+  "name": "playwright-demo-new",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "setup-data": "node scripts/setupTestData.js",
+    "validate-config": "node scripts/validate-config.js",
+
+    "campaign": "npx playwright test tests/campaign",
+    "contacts": "npx playwright test --project='Contact Tests' --reporter=html",
+    "sanity": "npx playwright test tests/Sanity",
+    "rbl": "npx playwright test tests/RBL",
+    "irc": "npx playwright test tests/IRC",
+
+    "rbl:headed": "npx playwright test tests/RBL --headed",
+    "sanity:headed": "npx playwright test tests/Sanity --headed",
+    "irc:headed": "npx playwright test tests/IRC --headed",
+    "campaign:headed": "npx playwright test tests/campaign --headed",
+
+    "rbl:ui": "npx playwright test tests/RBL --ui",
+    "sanity:ui": "npx playwright test tests/Sanity --ui",
+    "irc:ui": "npx playwright test tests/IRC --ui",
+    "campaign:ui": "npx playwright test tests/campaign --ui",
+
+    "test:allure": "./scripts/allure-report.sh test 'npm run test'",
+    "test:allure:sanity": "./scripts/allure-report.sh test 'npm run sanity'",
+    "test:allure:rbl": "./scripts/allure-report.sh test 'npm run rbl'",
+    "test:allure:irc": "./scripts/allure-report.sh test 'npm run irc'",
+    "test:allure:campaign": "./scripts/allure-report.sh test 'npm run campaign'",
+    "test:allure:contacts": "./scripts/allure-report.sh test 'npm run contacts'",
+
+    "allure:generate": "./scripts/allure-report.sh generate",
+    "allure:serve": "./scripts/allure-report.sh serve",
+    "allure:quick": "./scripts/allure-report.sh quick",
+    "allure:open": "./scripts/allure-report.sh open",
+    "allure:clean": "./scripts/allure-report.sh clean",
+
+    "test:rbl:allure": "./scripts/run-rbl.sh all --allure",
+    "test:rbl:allure:headed": "./scripts/run-rbl.sh all --allure --headed",
+    "test:rbl:tabbing:allure": "./scripts/run-rbl.sh tabbing --allure",
+    "test:rbl:setup:allure": "./scripts/run-rbl.sh setup --allure",
+    "test:rbl:users:allure": "./scripts/run-rbl.sh users --allure",
+    "test:rbl:skills:allure": "./scripts/run-rbl.sh skills --allure",
+    "test:rbl:leads:allure": "./scripts/run-rbl.sh leads --allure",
+    "test:rbl:campaigns:allure": "./scripts/run-rbl.sh campaigns --allure",
+    "test:rbl:disposition:allure": "./scripts/run-rbl.sh disposition --allure",
+
+    "rbl:allure": "./scripts/run-rbl.sh all --allure",
+    "rbl:allure:headed": "./scripts/run-rbl.sh all --allure --headed",
+    "rbl:tabbing:allure": "./scripts/run-rbl.sh tabbing --allure",
+    "rbl:setup:allure": "./scripts/run-rbl.sh setup --allure",
+    "rbl:users:allure": "./scripts/run-rbl.sh users --allure",
+    "rbl:skills:allure": "./scripts/run-rbl.sh skills --allure",
+    "rbl:leads:allure": "./scripts/run-rbl.sh leads --allure",
+    "rbl:campaigns:allure": "./scripts/run-rbl.sh campaigns --allure",
+    "rbl:disposition:allure": "./scripts/run-rbl.sh disposition --allure",
+
+    "t:rbl": "./scripts/run-rbl.sh all",
+    "t:rbl:allure": "./scripts/run-rbl.sh all --allure",
+    "t:rbl:h": "./scripts/run-rbl.sh all --headed",
+    "t:rbl:ha": "./scripts/run-rbl.sh all --allure --headed",
+    "t:tabbing": "./scripts/run-rbl.sh tabbing",
+    "t:tabbing:a": "./scripts/run-rbl.sh tabbing --allure",
+    "t:setup": "./scripts/run-rbl.sh setup",
+    "t:setup:a": "./scripts/run-rbl.sh setup --allure",
+    "t:users": "./scripts/run-rbl.sh users",
+    "t:users:a": "./scripts/run-rbl.sh users --allure",
+    "t:skills": "./scripts/run-rbl.sh skills",
+    "t:skills:a": "./scripts/run-rbl.sh skills --allure",
+    "t:leads": "./scripts/run-rbl.sh leads",
+    "t:leads:a": "./scripts/run-rbl.sh leads --allure",
+    "t:campaigns": "./scripts/run-rbl.sh campaigns",
+    "t:campaigns:a": "./scripts/run-rbl.sh campaigns --allure"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.53.2",
+    "@types/node": "^20.4.2",
+    "@types/react": "^18.2.14",
+    "allure-commandline": "^2.34.1",
+    "allure-playwright": "^3.3.2",
+    "eslint": "^9.30.1",
+    "prettier": "^3.6.2",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "mysql2": "^3.14.2",
+    "xlsx": "^0.18.5"
+  },
+  "directories": {
+    "example": "examples",
+    "test": "tests"
+  },
+  "description": ""
+}

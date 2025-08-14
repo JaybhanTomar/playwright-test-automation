@@ -1,0 +1,73 @@
+{
+  "cookies": [
+    {
+      "name": "JSESSIONID",
+      "value": "8319B6E6EF305A9F91CED2D8E91FF69A",
+      "domain": "qc2.devaavaz.biz",
+      "path": "/361-api",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://qc2.devaavaz.biz",
+      "localStorage": [
+        {
+          "name": "localeCode",
+          "value": "en_US"
+        },
+        {
+          "name": "currentSmsProvider",
+          "value": "undefined"
+        },
+        {
+          "name": "users",
+          "value": "{\"id\":21,\"login_id\":\"361admin@aavaz.biz\",\"first_name\":\"Admin\",\"last_name\":\"Admin\",\"is_active\":true,\"is_unlocked\":true,\"role\":\"admin\",\"timezone\":\"America/New_York\",\"extension\":172,\"is_first_time_login_flag\":false,\"is_forced_login\":false,\"settings\":{\"phone_format\":\"334\",\"channel_phone\":{\"provider_id\":1,\"provider_name\":\"11 External Phone\"},\"channel_sms\":null},\"sys_company_id\":1,\"location\":\"Default\",\"phone\":\"9822098661\",\"is_api_user\":false}"
+        },
+        {
+          "name": "isSessionExpire",
+          "value": "false"
+        },
+        {
+          "name": "previousUserState",
+          "value": ""
+        },
+        {
+          "name": "",
+          "value": "Bearer eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiIyMSIsImlhdCI6MTc1NTE3MTY1MiwiZXhwIjoxNzU1MjA3NjUyfQ.TP3SYGxeGT3AusSR3jcQB4etnCK9SqEDwaM4a1iiVQU5_jNLMNMhYE4PLLp1dpTm"
+        },
+        {
+          "name": "currentProvider",
+          "value": "11 External Phone"
+        },
+        {
+          "name": "notificationCount",
+          "value": "0"
+        },
+        {
+          "name": "urlCache",
+          "value": "{}"
+        },
+        {
+          "name": "filterHistory",
+          "value": ""
+        },
+        {
+          "name": "inactivityTime",
+          "value": "60"
+        },
+        {
+          "name": "role",
+          "value": "admin"
+        },
+        {
+          "name": "currentUserState",
+          "value": "ready"
+        }
+      ]
+    }
+  ]
+}
