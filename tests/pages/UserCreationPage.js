@@ -198,8 +198,6 @@ class UserCreationPage {
     }
   }
 
-
-
  // Update existingUser function to return userFound
 async existingUser(firstname, lastname, role, email, password, timezone, extension, phonenumber, userskill) {
   let userFound = false;
@@ -297,6 +295,201 @@ async updateUser(firstname, lastname, role, email, password, timezone, extension
     throw error;
   }
 }
+
+//Logout user
+get ClickOnUserName() {
+  return this.page.locator("//li[@class='dropdown user user-menu']//a[@class='dropdown-toggle']");
+}
+get logoutButton() {
+  return this.page.locator("//a[@class='btn btn-default']//span[contains(text(),'Logout')]/..");
+}
+get logoutButtonAlternative() {
+  return this.page.locator("//a[@class='btn btn-default'][.//span[contains(text(),'Logout')]]");
+}
+get loginform() {
+  return this.page.locator("//div[@id='login-pane']");
+}
+async logoutUser() {
+  try {
+    console.log('🔄 Starting logout process...');
+
+    // Check if we're already on login page
+    const isAlreadyLoggedOut = await this.loginform.isVisible({ timeout: 2000 });
+    if (isAlreadyLoggedOut) {
+      console.log('✅ User already logged out (login form visible)');
+      return true;
+    }
+
+    // ALWAYS click on user dropdown first to open it (it might be closed from previous role check)
+    console.log('👤 Opening user dropdown for logout...');
+    await this.ClickOnUserName.scrollIntoViewIfNeeded();
+    await this.ClickOnUserName.click();
+    await ErrorUtil.captureErrorIfPresent(this.page, 'ClickOnUserName');
+    await ErrorUtil.captureApiErrorIfPresent(this.apiCapture, 'ClickOnUserName');
+
+    // Wait for dropdown to fully open
+    await this.page.waitForTimeout(1500);
+
+    // Now immediately look for and click logout button while dropdown is open
+    console.log('🔍 Looking for logout button in open dropdown...');
+
+    // Try the exact logout button from your HTML structure
+    const exactLogoutButton = this.page.locator("//a[@href='javascript:;' and @class='btn btn-default']//span[contains(text(),'Logout')]/..");
+
+    if (await exactLogoutButton.isVisible({ timeout: 2000 })) {
+      console.log('🚪 Found exact logout button, clicking immediately...');
+      await exactLogoutButton.click();
+      await ErrorUtil.captureErrorIfPresent(this.page, 'exactLogoutButton');
+      await ErrorUtil.captureApiErrorIfPresent(this.apiCapture, 'exactLogoutButton');
+    } else {
+      console.log('❌ Exact logout button not found, trying alternatives...');
+
+      // Try multiple selectors for the logout button
+      const logoutSelectors = [
+        "//span[contains(text(),'Logout')]",
+        "//a[@class='btn btn-default']//span[contains(text(),'Logout')]",
+        "//a[@class='btn btn-default']",
+        "//a[contains(@class,'btn-default')]//span[text()='Logout']"
+      ];
+
+      let found = false;
+      for (const selector of logoutSelectors) {
+        const element = this.page.locator(selector);
+        if (await element.isVisible({ timeout: 1000 })) {
+          console.log(`🚪 Found logout with selector: ${selector}, clicking immediately...`);
+          await element.click();
+          found = true;
+          break;
+        }
+      }
+
+      if (!found) {
+        console.log('⚠️ No logout button found in open dropdown');
+        // Check if dropdown auto-closed and logged out
+        const loginFormVisible = await this.loginform.isVisible({ timeout: 3000 });
+        if (loginFormVisible) {
+          console.log('✅ User logged out automatically after dropdown click');
+          return true;
+        }
+        throw new Error('Logout button not found and no auto-logout detected');
+      }
+    }
+
+    // Wait for login form to appear (confirms logout success)
+    await expect(this.loginform).toBeVisible({ timeout: 10000 });
+    console.log('✅ User logged out successfully');
+    return true;
+
+  } catch (error) {
+    console.error(`❌ Error logging out user: ${error.message}`);
+
+    // Check if we ended up on login page anyway
+    const loginFormVisible = await this.loginform.isVisible({ timeout: 2000 });
+    if (loginFormVisible) {
+      console.log('✅ Login form is visible despite error - logout likely succeeded');
+      return true;
+    }
+
+    console.log(`Current URL: ${this.page.url()}`);
+    throw error;
+  }
 }
 
+
+//Verify Locked out User
+get lockedIcon() {
+  return this.page.locator("//a[normalize-space()='Ignore Caller']//i[@title='User is locked']");
+}
+async VerifyLockedOutUser(email) {
+  let userFound = false;
+  try {
+    while (true) {
+      const matchingEmails = await this.page.locator(`//td[normalize-space()='${email.trim()}']`).all();
+      if (matchingEmails.length > 0) {
+        const emailElement = matchingEmails[0];
+        await emailElement.scrollIntoViewIfNeeded();
+        await expect(emailElement).toBeVisible({ timeout: this.timeout });
+        userFound = true;
+        // Check if user is locked out
+        try {
+          await this.lockedIcon.waitFor({ state: 'visible', timeout: 10000 });
+          console.log(`${email}: User is locked out.`);
+          return true;
+        } catch (error) {
+          console.log(`${email}: User is not locked out.`);
+          return false;
+        }
+      }
+      const activePageText = await this.page.locator("//button[contains(@class,'Page-active')]").textContent();
+      const currentPage = parseInt(activePageText?.trim() || '1');
+      const pageButtons = await this.page.locator("//div[@id='userPagiTop']//button[contains(@aria-label,'Go to page')]").all();
+      const pageNumbers = await Promise.all(pageButtons.map(async btn => parseInt((await btn.textContent())?.trim() || '0')));
+      const maxPage = Math.max(...pageNumbers.filter(n => !isNaN(n)), currentPage);
+
+      if (currentPage >= maxPage) break;
+
+      await this.nextPageButton.click();
+      await this.page.waitForTimeout(1000);
+      await expect(this.page.locator("//button[contains(@class,'Page-active')]")).toHaveText(String(currentPage + 1));
+    }
+  } catch (error) {
+    console.error(`Error during pagination search: ${error.message}`);
+  }
+
+  if (!userFound) {
+    console.log(`${email}: User not found in any page.`);
+    return false;
+  }
+}
+
+//Activate locked out user
+async ActivateLockedOutUser(email) {
+  let userFound = false;
+  try {
+    while (true) {
+      const matchingEmails = await this.page.locator(`//td[normalize-space()='${email.trim()}']`).all();
+      if (matchingEmails.length > 0) {
+        const emailElement = matchingEmails[0];
+        await emailElement.scrollIntoViewIfNeeded();
+        await expect(emailElement).toBeVisible({ timeout: this.timeout });
+        userFound = true;
+
+        // Check if user is locked out and activate
+        try {
+          const activateButton = this.page.locator(`//td[normalize-space()='${email.trim()}']/following-sibling::td//button[@type='button'][normalize-space()='Activate']`);
+          await activateButton.waitFor({ state: 'visible', timeout: 5000 });
+          console.log(`${email}: User is locked out. Activating user...`);
+          await activateButton.click();
+          await this.page.waitForTimeout(2000);
+          console.log(`${email}: User activated successfully.`);
+          return true;
+        } catch (error) {
+          console.log(`${email}: User is not locked out or already active.`);
+          return false;
+        }
+      }
+
+      const activePageText = await this.page.locator("//button[contains(@class,'Page-active')]").textContent();
+      const currentPage = parseInt(activePageText?.trim() || '1');
+      const pageButtons = await this.page.locator("//div[@id='userPagiTop']//button[contains(@aria-label,'Go to page')]").all();
+      const pageNumbers = await Promise.all(pageButtons.map(async btn => parseInt((await btn.textContent())?.trim() || '0')));
+      const maxPage = Math.max(...pageNumbers.filter(n => !isNaN(n)), currentPage);
+
+      if (currentPage >= maxPage) break;
+
+      await this.nextPageButton.click();
+      await this.page.waitForTimeout(1000);
+      await expect(this.page.locator("//button[contains(@class,'Page-active')]")).toHaveText(String(currentPage + 1));
+    }
+  } catch (error) {
+    console.error(`Error during pagination search: ${error.message}`);
+  }
+
+  if (!userFound) {
+    console.log(`${email}: User not found in any page.`);
+    return false;
+  }
+}
+
+}
 module.exports = UserCreationPage;

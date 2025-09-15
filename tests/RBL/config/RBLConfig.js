@@ -7,7 +7,7 @@
 class RBLConfig {
   constructor() {
     // Default RBL environment - change this to switch all RBL tests to different environment
-    this.defaultEnvironment = 'qc3'; // Options: 'qc2', 'qc6', 'uat361', etc.
+    this.defaultEnvironment = 'uat361'; // Options: 'qc2', 'qc6', 'uat361', etc.
     
     // Test configuration - Optimized for speed
     this.testTimeout = 120000; // 2 minutes for fast execution

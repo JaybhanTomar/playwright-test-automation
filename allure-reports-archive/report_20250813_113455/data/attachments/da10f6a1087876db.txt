@@ -1,0 +1,80 @@
+
+📋 Starting Disposition Question setup with Excel data...
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Field Test Data.xlsx, Sheet: DispositionQuestionCreation
+✅ Successfully read 4 data objects from Excel
+DEBUG FieldData: [
+  {
+    category: 'BMRC',
+    question: 'Ticket Help07',
+    questionType: 'Main Question',
+    parentQuestion: '',
+    inputType: '',
+    min: '',
+    max: '',
+    noOfLines: '',
+    options: '',
+    optionValues: '',
+    allowOther: '',
+    tooltip: ''
+  },
+  {
+    category: 'BMRC',
+    question: 'Ticket Help08',
+    questionType: 'Text',
+    parentQuestion: 'Ticket Help07',
+    inputType: 'Text Single Line',
+    min: '0',
+    max: '155',
+    noOfLines: '',
+    options: '',
+    optionValues: '',
+    allowOther: '',
+    tooltip: 'Yes'
+  },
+  {
+    category: 'BMRC',
+    question: 'Ticket Help09',
+    questionType: 'Single Select',
+    parentQuestion: 'Ticket Help07',
+    inputType: 'Radio',
+    min: '',
+    max: '',
+    noOfLines: '',
+    options: '4',
+    optionValues: 'opt01,opt02,opt03,opt04',
+    allowOther: 'Yes',
+    tooltip: 'Yes'
+  },
+  {
+    category: 'BMRC',
+    question: 'Ticket Help10',
+    questionType: 'Single Select',
+    parentQuestion: 'Ticket Help07',
+    inputType: 'Radio',
+    min: '',
+    max: '',
+    noOfLines: '',
+    options: '4',
+    optionValues: 'opt01,opt02,opt03,opt04',
+    allowOther: 'Yes',
+    tooltip: 'Yes'
+  }
+]
+📊 Processing 4 disposition question(s) from Excel data
+
+📄 Running disposition question creation test for: Ticket Help07
+Ticket Help07: Child Question already exists. allong with  Parent Question.
+✅ Disposition question creation test completed for: Ticket Help07
+
+📄 Running disposition question creation test for: Ticket Help08
+Ticket Help08: Child Question already exists. allong with Ticket Help07 Parent Question.
+✅ Disposition question creation test completed for: Ticket Help08
+
+📄 Running disposition question creation test for: Ticket Help09
+Ticket Help09: Child Question does not exist. allong with Ticket Help07 Parent Question.
+Ticket Help09: Question does not exist. Creating it...
+BMRC : BMRC Category is selected
+Single Select : Single Select Question Type is selected
+📊 API Summary: Disposition Question tests completed
+✅ Browser context closed successfully
+✅ Browser closed successfully

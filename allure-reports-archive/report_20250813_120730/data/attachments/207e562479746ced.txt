@@ -1,0 +1,4 @@
+❌ Row with value "Blob_Contact_List" not found in any page.
+❌ List not found: Blob_Contact_List
+❌ Error assigning list to campaign: List not found: Blob_Contact_List
+❌ Error creating campaign: List not found: Blob_Contact_List

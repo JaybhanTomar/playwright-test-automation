@@ -1,0 +1,10 @@
+✅ Navigated to QC2: https://qc2.devaavaz.biz/
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Login Creds Data.xlsx, Sheet: UserLoginData
+✅ Successfully read 1 data objects from Excel
+Verifying user role. Expected: 'admin', Actual: 'admin'
+✅ Role verification passed: admin
+Successfully Clicked on SystemSetup page
+
+🔍 Testing Lead Stage navigation...
+ Create Lead Stage  button is visible after clicking LeadStage.
+✅ Lead Stage navigation test completed successfully

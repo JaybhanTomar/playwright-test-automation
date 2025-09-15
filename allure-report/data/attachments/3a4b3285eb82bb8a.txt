@@ -1,0 +1,11 @@
+
+📋 Starting RBL Lead Lost Reason update with Excel data...
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/RBL Test Data.xlsx, Sheet: LeadLostReasonUpdation
+✅ Successfully read 1 data objects from Excel
+
+📄 Running RBL lead lost reason update test for: Caseless
+⚠️ Skipping update for Caseless: New category or new lost reason is undefined/empty.
+✅ RBL lead lost reason update completed for: Caseless
+📊 API Summary: RBL Lead Process Field tests completed
+✅ Browser context closed successfully
+✅ Browser closed successfully

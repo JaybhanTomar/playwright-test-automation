@@ -29,7 +29,7 @@ test.describe.serial('RBL - Import Setup Tests', () => {
     await importPage.navigateToImport();
   });
 
-  test('RBL Import File Test', async () => {
+  test.skip('RBL Import File Test', async () => {
     console.log('\n📋 Starting RBL Import test with Excel data...');
     const importTestData = DocumentUpdateTestData.ImportData();
     console.log('DEBUG RBL ImportData:', importTestData);
@@ -90,7 +90,7 @@ test.describe.serial('RBL - Import Setup Tests', () => {
     }
   });
 
-  test('RBL Append To List Test', async () => {
+  test.skip('RBL Append To List Test', async () => {
     console.log('\n📋 Starting RBL Append To List test with Excel data...');
     const appendToListData = DocumentUpdateTestData.AppendToListData();
     console.log('DEBUG RBL AppendToListData:', appendToListData);

@@ -1,0 +1,140 @@
+✅ Navigated to QC6: https://qc6.devaavaz.biz/
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Login Creds Data.xlsx, Sheet: UserLoginData
+✅ Successfully read 1 data objects from Excel
+Verifying user role. Expected: 'admin', Actual: 'admin'
+✅ Role verification passed: admin
+Successfully Clicked on SystemSetup page
+ Create Lead Field  button is visible
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Field Test Data.xlsx, Sheet: LeadFieldCreation
+✅ Successfully read 4 data objects from Excel
+DEBUG FieldData: [
+  {
+    Category: 'BMRC',
+    DisplayName: 'Ticket Help03',
+    FieldName: 'TicketHelp03',
+    Type: 'Text',
+    InputType: 'Text Single Line',
+    Min: '0',
+    Max: '155',
+    NoOfLines: '',
+    Options: '',
+    OptionValues: '',
+    AllowOther: '',
+    Tooltip: 'Yes'
+  },
+  {
+    Category: 'BMRC',
+    DisplayName: 'Ticket Help04',
+    FieldName: 'TicketHelp04',
+    Type: 'Text',
+    InputType: 'Text Single Line',
+    Min: '0',
+    Max: '155',
+    NoOfLines: '',
+    Options: '',
+    OptionValues: '',
+    AllowOther: '',
+    Tooltip: 'Yes'
+  },
+  {
+    Category: 'BMRC',
+    DisplayName: 'Ticket Help05',
+    FieldName: 'TicketHelp05',
+    Type: 'Single Select',
+    InputType: 'Radio',
+    Min: '',
+    Max: '',
+    NoOfLines: '',
+    Options: '4',
+    OptionValues: 'opt01,opt02,opt03,opt04',
+    AllowOther: 'Yes',
+    Tooltip: 'Yes'
+  },
+  {
+    Category: 'BMRC',
+    DisplayName: 'Ticket Help06',
+    FieldName: 'TicketHelp06',
+    Type: 'Single Select',
+    InputType: 'Radio',
+    Min: '',
+    Max: '',
+    NoOfLines: '',
+    Options: '4',
+    OptionValues: 'opt01,opt02,opt03,opt04',
+    AllowOther: 'Yes',
+    Tooltip: 'Yes'
+  }
+]
+📊 Processing 4 lead field(s) from Excel data
+
+📄 Running lead field creation test for: TicketHelp03
+Lead field details: {
+  Category: 'BMRC',
+  Level: 'Lead',
+  DisplayName: 'Ticket Help03',
+  Type: 'Text',
+  InputType: 'Text Single Line',
+  Tooltip: 'Yes'
+}
+TicketHelp03: Lead Field is not created.
+TicketHelp03: Lead Field is not created. Creating it...
+BMRC: Category is selected
+TicketHelp03: Lead Field is already created.
+TicketHelp03: Lead Field is created successfully.
+✅ Lead field creation completed for: TicketHelp03
+
+📄 Running lead field creation test for: TicketHelp04
+Lead field details: {
+  Category: 'BMRC',
+  Level: 'Lead',
+  DisplayName: 'Ticket Help04',
+  Type: 'Text',
+  InputType: 'Text Single Line',
+  Tooltip: 'Yes'
+}
+TicketHelp04: Lead Field is not created.
+TicketHelp04: Lead Field is not created. Creating it...
+BMRC: Category is selected
+TicketHelp04: Lead Field is already created.
+TicketHelp04: Lead Field is created successfully.
+✅ Lead field creation completed for: TicketHelp04
+
+📄 Running lead field creation test for: TicketHelp05
+Lead field details: {
+  Category: 'BMRC',
+  Level: 'Lead',
+  DisplayName: 'Ticket Help05',
+  Type: 'Single Select',
+  InputType: 'Radio',
+  Tooltip: 'Yes'
+}
+TicketHelp05: Lead Field is not created.
+TicketHelp05: Lead Field is not created. Creating it...
+BMRC: Category is selected
+DEBUG fillOptions - fieldName: TicketHelp05
+DEBUG fillOptions - raw optionValues: opt01,opt02,opt03,opt04
+DEBUG fillOptions - optionList: [ 'opt01', 'opt02', 'opt03', 'opt04' ]
+DEBUG fillOptions - numOptions: 4
+TicketHelp05: Lead Field is already created.
+TicketHelp05: Lead Field is created successfully.
+✅ Lead field creation completed for: TicketHelp05
+
+📄 Running lead field creation test for: TicketHelp06
+Lead field details: {
+  Category: 'BMRC',
+  Level: 'Lead',
+  DisplayName: 'Ticket Help06',
+  Type: 'Single Select',
+  InputType: 'Radio',
+  Tooltip: 'Yes'
+}
+TicketHelp06: Lead Field is not created.
+TicketHelp06: Lead Field is not created. Creating it...
+BMRC: Category is selected
+DEBUG fillOptions - fieldName: TicketHelp06
+DEBUG fillOptions - raw optionValues: opt01,opt02,opt03,opt04
+DEBUG fillOptions - optionList: [ 'opt01', 'opt02', 'opt03', 'opt04' ]
+DEBUG fillOptions - numOptions: 4
+TicketHelp06: Lead Field is already created.
+TicketHelp06: Lead Field is created successfully.
+✅ Lead field creation completed for: TicketHelp06

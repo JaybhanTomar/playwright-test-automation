@@ -1,0 +1,6 @@
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/WorkFlow Test Data.xlsx, Sheet: UserLockoutData
+📊 Processing 0 user lock out test(s) from Excel data
+📊 API Summary: 0 calls, 0 failed
+📊 API Summary: RBL tests completed on QC3
+✅ Browser context closed successfully
+✅ Browser closed successfully

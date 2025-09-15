@@ -1,0 +1,4 @@
+❌ API Failed: https://qc3.devaavaz.biz/361-api/v3/client_settings/public - Status: 503
+❌ API Failed: https://qc3.devaavaz.biz/361-api/v3/users/auth - Status: 500
+Error clicking login button or dismissing popup: Captured error banner: "Oops!Request failed with status code 503"
+Login failed for user 361admin@aavaz.biz: Login button click failed or popup not handled: Captured error banner: "Oops!Request failed with status code 503"

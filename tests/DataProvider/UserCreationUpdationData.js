@@ -17,6 +17,11 @@ class UserCreationUpdationData {
     const excelPath = path.join(__dirname, '../data/Login Creds Data.xlsx');
     return ExcelUtils.readExcelDataAsObjects(excelPath, 'UserLoginData');
   }
+
+  static UserLockoutData() {
+    const excelPath = path.join(__dirname, '../data/WorkFlow Test Data.xlsx');
+    return ExcelUtils.readExcelDataAsObjects(excelPath, 'UserLockoutData');
+  }
 }
 
 module.exports = UserCreationUpdationData;

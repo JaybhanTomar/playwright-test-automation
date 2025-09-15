@@ -1,0 +1,19 @@
+
+📋 Sanity Configuration:
+   Environment: QC6
+   Headless: false
+   Timeout: 600s
+   Browser Args: --start-maximized, --disable-web-security, --disable-features=VizDisplayCompositor
+
+🌐 Sanity Config: Navigating to QC6 environment
+✅ Navigated to QC6: https://qc6.devaavaz.biz/
+✅ Sanity Config: Successfully navigated to QC6
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Login Creds Data.xlsx, Sheet: UserLoginData
+✅ Successfully read 1 data objects from Excel
+Verifying user role. Expected: 'admin', Actual: 'admin'
+✅ Role verification passed: admin
+Successfully Clicked on SystemSetup page
+
+🔍 Testing Lead Stage navigation...
+ Create Lead Stage  button is visible after clicking LeadStage.
+✅ Lead Stage navigation test completed successfully

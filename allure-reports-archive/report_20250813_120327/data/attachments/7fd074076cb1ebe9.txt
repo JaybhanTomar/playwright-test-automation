@@ -1,0 +1,6 @@
+
+🔍 Testing Ticket Stage navigation...
+Successfully Clicked on SystemSetup page
+ Create Ticket Field  button is visible
+ Create Ticket Stage  button is visible after clicking TicketStage.
+✅ Ticket Stage navigation test completed successfully

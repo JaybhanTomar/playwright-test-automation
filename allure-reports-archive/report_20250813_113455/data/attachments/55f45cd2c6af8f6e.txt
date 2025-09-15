@@ -1,0 +1,52 @@
+locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('//input[@id=\'dispoScreenName\']') to be visible
+    123 × locator resolved to hidden <input required="" data-v-29f812af="" id="dispoScreenName"/>
+
+    at SystemSetupPage.createDispositionScreen (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:1738:50)
+    at /home/jtomar/playwright-demo/playwright-demo-new/tests/RBL/RBL/J_setupDispositionScreen.spec.js:74:7 {
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    stepId: 'pw:api@53',
+    location: {
+      file: '/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js',
+      line: 1738,
+      column: 50,
+      function: 'SystemSetupPage.createDispositionScreen'
+    },
+    category: 'pw:api',
+    title: "Wait for selector locator('//input[@id=\\'dispoScreenName\\']')",
+    apiName: 'locator.waitFor',
+    params: {
+      selector: "//input[@id='dispoScreenName']",
+      strict: true,
+      omitReturnValue: true,
+      state: 'visible',
+      timeout: 60000
+    },
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@53'
+    },
+    complete: [Function: complete],
+    endWallTime: 1754924751862,
+    error: {
+      message: 'TimeoutError: locator.waitFor: Timeout 60000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//input[@id=\\'dispoScreenName\\']') to be visible\x1B[22m\n" +
+        '\x1B[2m    123 × locator resolved to hidden <input required="" data-v-29f812af="" id="dispoScreenName"/>\x1B[22m\n',
+      stack: 'TimeoutError: locator.waitFor: Timeout 60000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//input[@id=\\'dispoScreenName\\']') to be visible\x1B[22m\n" +
+        '\x1B[2m    123 × locator resolved to hidden <input required="" data-v-29f812af="" id="dispoScreenName"/>\x1B[22m\n' +
+        '\n' +
+        '    at SystemSetupPage.createDispositionScreen (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:1738:50)\n' +
+        '    at /home/jtomar/playwright-demo/playwright-demo-new/tests/RBL/RBL/J_setupDispositionScreen.spec.js:74:7',
+      cause: undefined
+    }
+  }
+}

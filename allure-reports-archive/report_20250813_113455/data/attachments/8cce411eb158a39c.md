@@ -1,0 +1,253 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - link "Logo":
+    - /url: /
+    - img "Logo"
+  - navigation:
+    - button "Toggle navigation"
+    - list:
+      - listitem: DCC 0
+      - listitem: CCC 0
+      - listitem: ACC 0
+      - listitem "Notification":  0
+      - listitem:
+        - button "Ready to make and receive calls."
+      - listitem:
+        - link "Admin 0":
+          - /url: javascript:;
+- complementary:
+  - list:
+    - listitem:
+      - link "Home":
+        - /url: /
+    - listitem:
+      - link "Dashboard":
+        - /url: /dashboard
+    - listitem:
+      - link "Import":
+        - /url: /import/list
+    - listitem:
+      - link "Campaign":
+        - /url: "#"
+      - list:
+        - listitem:
+          - link "AActive Campaigns":
+            - /url: /campaigns/active
+        - listitem:
+          - link "AArchived Campaigns":
+            - /url: /campaigns/viewArchiveCampaign
+    - listitem:
+      - link "Leads":
+        - /url: "#"
+    - listitem:
+      - link "Tickets":
+        - /url: "#"
+    - listitem:
+      - link "Contact":
+        - /url: "#"
+    - listitem:
+      - link "Reports":
+        - /url: "#"
+    - listitem:
+      - link "Time Log":
+        - /url: /timeLog
+    - listitem:
+      - link "Agent Monitor":
+        - /url: /agentmonitor
+    - listitem:
+      - link "User Preferences":
+        - /url: "#"
+    - listitem:
+      - link "System Setup":
+        - /url: /settings
+  - button "Search and Add Contact"
+  - button "FEEDBACK"
+  - button "Toggle sidebar"
+- heading "" [level=4]:
+  - button ""
+- heading "Assignment List" [level=4]
+- list:
+  - text: 
+  - listitem:
+    - link "Home":
+      - /url: /
+  - listitem: / Assignment List
+- heading "Assignment List" [level=4]
+- text: Verify_Skil_Camp
+- combobox:
+  - option "20" [selected]
+  - option "30"
+  - option "50"
+  - option "70"
+  - option "100"
+- button
+- text: page 1 of 1
+- list:
+  - listitem:
+    - img
+  - listitem:
+    - img
+  - listitem:
+    - button "Go to page 1": "1"
+  - listitem:
+    - img
+  - listitem:
+    - img
+- table:
+  - rowgroup:
+    - row "Name Description Import Date Associated Campaign Choose List":
+      - columnheader "Name"
+      - columnheader "Description"
+      - columnheader "Import Date"
+      - columnheader "Associated Campaign"
+      - columnheader "Choose List"
+  - rowgroup:
+    - row "Test Simplet List Jul 16th 2025 Vinit test Camp":
+      - cell "Test Simplet List"
+      - cell
+      - cell "Jul 16th 2025"
+      - cell "Vinit test Camp"
+      - cell:
+        - radio [checked]
+    - row "Test Jay786 Jul 2nd 2025 Autopreview":
+      - cell "Test Jay786"
+      - cell
+      - cell "Jul 2nd 2025"
+      - cell "Autopreview"
+      - cell:
+        - radio
+    - row "Test Jay786 Jul 2nd 2025 --":
+      - cell "Test Jay786"
+      - cell
+      - cell "Jul 2nd 2025"
+      - cell "--"
+      - cell:
+        - radio
+    - row "Test Jay787 Jun 27th 2025 Ignorecamp02":
+      - cell "Test Jay787"
+      - cell
+      - cell "Jun 27th 2025"
+      - cell "Ignorecamp02"
+      - cell:
+        - radio
+    - row "Test Jay786 Jun 27th 2025 --":
+      - cell "Test Jay786"
+      - cell
+      - cell "Jun 27th 2025"
+      - cell "--"
+      - cell:
+        - radio
+    - row "Test Jay788 Jun 27th 2025 J_Final_Automation10, J_Final_Automation08, J_Final_Automation09":
+      - cell "Test Jay788"
+      - cell
+      - cell "Jun 27th 2025"
+      - cell "J_Final_Automation10, J_Final_Automation08, J_Final_Automation09"
+      - cell:
+        - radio
+    - row "Test Jay787 Jun 27th 2025 --":
+      - cell "Test Jay787"
+      - cell
+      - cell "Jun 27th 2025"
+      - cell "--"
+      - cell:
+        - radio
+    - row "Test Jay786 Jun 27th 2025 --":
+      - cell "Test Jay786"
+      - cell
+      - cell "Jun 27th 2025"
+      - cell "--"
+      - cell:
+        - radio
+    - row "Test Jay01 Jun 27th 2025 --":
+      - cell "Test Jay01"
+      - cell
+      - cell "Jun 27th 2025"
+      - cell "--"
+      - cell:
+        - radio
+    - row "Test Jay01 Jun 27th 2025 --":
+      - cell "Test Jay01"
+      - cell
+      - cell "Jun 27th 2025"
+      - cell "--"
+      - cell:
+        - radio
+    - row "Test Jay01 Jun 26th 2025 --":
+      - cell "Test Jay01"
+      - cell
+      - cell "Jun 26th 2025"
+      - cell "--"
+      - cell:
+        - radio
+    - row "Test Jay Jun 26th 2025 --":
+      - cell "Test Jay"
+      - cell
+      - cell "Jun 26th 2025"
+      - cell "--"
+      - cell:
+        - radio
+    - row "Test Jay Jun 26th 2025 --":
+      - cell "Test Jay"
+      - cell
+      - cell "Jun 26th 2025"
+      - cell "--"
+      - cell:
+        - radio
+    - row "Test Jay Jun 26th 2025 --":
+      - cell "Test Jay"
+      - cell
+      - cell "Jun 26th 2025"
+      - cell "--"
+      - cell:
+        - radio
+    - row "Test Jay Jun 26th 2025 --":
+      - cell "Test Jay"
+      - cell
+      - cell "Jun 26th 2025"
+      - cell "--"
+      - cell:
+        - radio
+    - row "Test Jay Jun 26th 2025 --":
+      - cell "Test Jay"
+      - cell
+      - cell "Jun 26th 2025"
+      - cell "--"
+      - cell:
+        - radio
+    - row "Test Jay Jun 26th 2025 --":
+      - cell "Test Jay"
+      - cell
+      - cell "Jun 26th 2025"
+      - cell "--"
+      - cell:
+        - radio
+    - row "Test Jay Jun 26th 2025 --":
+      - cell "Test Jay"
+      - cell
+      - cell "Jun 26th 2025"
+      - cell "--"
+      - cell:
+        - radio
+    - row "Test Jay Jun 26th 2025 --":
+      - cell "Test Jay"
+      - cell
+      - cell "Jun 26th 2025"
+      - cell "--"
+      - cell:
+        - radio
+- list:
+  - listitem:
+    - img
+  - listitem:
+    - img
+  - listitem:
+    - button "Go to page 1": "1"
+  - listitem:
+    - img
+  - listitem:
+    - img
+- button "Skip List"
+- button "Add List"
+```

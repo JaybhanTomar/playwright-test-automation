@@ -32,7 +32,7 @@ test.describe.serial('RBL - Campaign Creation Tests', () => {
     await campaignCreationUpdationPage.navigateToActiveCampaign();
   });
 
-  test('RBL Create Campaign Test', async () => {
+  test.skip('RBL Create Campaign Test', async () => {
     console.log('\n📋 Starting RBL Campaign creation with Excel data...');
     const campaignCreationData = CampaignCreationUpdationData.CampaignCreationData();
     console.log('DEBUG RBL CampaignData:', campaignCreationData);

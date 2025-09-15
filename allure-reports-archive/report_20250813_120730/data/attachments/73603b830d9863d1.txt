@@ -1,0 +1,39 @@
+
+📋 Starting Lead Stage complete test (Click → Setup → Click → Update)...
+✅ Navigated to QC2: https://qc2.devaavaz.biz/
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Login Creds Data.xlsx, Sheet: UserLoginData
+✅ Successfully read 1 data objects from Excel
+Verifying user role. Expected: 'admin', Actual: 'admin'
+✅ Role verification passed: admin
+Successfully Clicked on SystemSetup page
+
+🔍 Step 1: Navigating to Lead Stage...
+ Create Lead Stage  button is visible after clicking LeadStage.
+✅ Lead Stage navigation completed
+
+📋 Step 2: Starting Lead Stage setup with Excel data...
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Field Test Data.xlsx, Sheet: LeadStageCreation
+✅ Successfully read 1 data objects from Excel
+DEBUG FieldData: [
+  { Category: 'BMRC', Stage: 'J_New', Probability: '20', Default: '' }
+]
+📊 Processing 1 lead stage(s) from Excel data
+
+📄 Running lead stage creation test for: J_New
+J_New: Lead Stage is already created.
+J_New: Lead Stage is already created. Not creating it again.
+✅ Lead stage creation test completed for: J_New
+
+🔍 Step 3: Navigating back to Lead Stage for update...
+Successfully Clicked on SystemSetup page
+ Create Lead Stage  button is visible after clicking LeadStage.
+✅ Lead Stage navigation for update completed
+
+📋 Step 4: Starting Lead Stage update with Excel data...
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Field Test Data.xlsx, Sheet: LeadStageUpdation
+✅ Successfully read 1 data objects from Excel
+
+📄 Running lead stage update test for: J_New
+⚠️ Skipping update for J_New: New category or new stage is undefined/empty.
+✅ Lead stage update completed for: J_New
+📊 API Summary: Lead Stage complete test finished

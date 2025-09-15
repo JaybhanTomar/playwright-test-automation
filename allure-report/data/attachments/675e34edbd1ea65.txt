@@ -1,0 +1,24 @@
+✅ Navigated to QC2: https://qc2.devaavaz.biz/
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Login Creds Data.xlsx, Sheet: UserLoginData
+✅ Successfully read 1 data objects from Excel
+Verifying user role. Expected: 'admin', Actual: 'admin'
+✅ Role verification passed: admin
+Navigating to Active Campaign...
+✅ DemandCampPage is visible
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Campaign Creation Updation Data.xlsx, Sheet: Creation Data
+✅ Successfully read 1 data objects from Excel
+
+📋 Running create campaign test for: Verify_Skil_Camp
+🔍 Verifying existing campaign: Verify_Skil_Camp
+❌ Campaign not found: Verify_Skil_Camp. Resetting to first page...
+Creating new campaign: Verify_Skil_Camp
+✅ Selected date: August 5, 2025
+Available options for dropdown (//select[@id='campaignType']): [ 'Demand Campaign', 'Support Campaign' ]
+✅ Selected option 'Demand Campaign' in dropdown.
+Available options for dropdown (//select[@id='assignmentType']): [ 'Direct', 'Skills' ]
+✅ Selected option 'Skills' in dropdown.
+Available options for dropdown (//select[@id='dialMode']): [ 'Batch Preview', 'Auto-Preview' ]
+✅ Selected option 'Auto-Preview' in dropdown.
+✅ Campaign created: Verify_Skil_Camp
+Assigning list to campaign: Blob_Contact_List
+✅ Assignment List page is visible

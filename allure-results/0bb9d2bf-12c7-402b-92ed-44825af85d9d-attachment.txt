@@ -1,0 +1,5 @@
+Error during pagination search: locator.all: Target page, context or browser has been closed
+Error during pagination search: locator.all: Target page, context or browser has been closed
+Error during pagination search: locator.all: Target page, context or browser has been closed
+Error during pagination search: locator.all: Target page, context or browser has been closed
+Error during pagination search: locator.all: Target page, context or browser has been closed

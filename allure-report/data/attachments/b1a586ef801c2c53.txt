@@ -1,0 +1,4 @@
+Login failed for user 361admin@aavaz.biz: locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('//input[@id=\'user_login\']') to be visible
+

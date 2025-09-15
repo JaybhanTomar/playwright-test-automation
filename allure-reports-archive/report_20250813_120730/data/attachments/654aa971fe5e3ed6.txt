@@ -1,0 +1,54 @@
+Navigating to Active Campaign...
+⚠️ Could not scroll element into view: locator.scrollIntoViewIfNeeded: Timeout 4893.449999999993ms exceeded.
+Call log:
+  - attempting scroll into view action
+    - waiting for element to be stable
+    - element is not stable
+  - retrying scroll into view action
+    - waiting for element to be stable
+    - element is not visible
+  - retrying scroll into view action
+    - waiting 20ms
+    2 × waiting for element to be stable
+      - element is not visible
+    - retrying scroll into view action
+      - waiting 100ms
+    9 × waiting for element to be stable
+      - element is not visible
+    - retrying scroll into view action
+      - waiting 500ms
+
+⚠️ Could not scroll element into view: locator.scrollIntoViewIfNeeded: Timeout 4982.290999999997ms exceeded.
+Call log:
+  - attempting scroll into view action
+    2 × waiting for element to be stable
+      - element is not visible
+    - retrying scroll into view action
+    - waiting 20ms
+    2 × waiting for element to be stable
+      - element is not visible
+    - retrying scroll into view action
+      - waiting 100ms
+    9 × waiting for element to be stable
+      - element is not visible
+    - retrying scroll into view action
+      - waiting 500ms
+
+⚠️ Could not click element: Timed out 10000ms waiting for expect(locator).toBeVisible()
+
+Locator: locator('xpath=(//a[@id=\'modifyCampaign\'])[1]')
+Expected: visible
+Received: hidden
+Call log:
+  - Expect "toBeVisible" with timeout 10000ms
+  - waiting for locator('xpath=(//a[@id=\'modifyCampaign\'])[1]')
+    14 × locator resolved to <a id="modifyCampaign" aria-current="page" href="/campaigns/active" class="router-link-active router-link-exact-active">…</a>
+       - unexpected value "hidden"
+
+✅ DemandCampPage is visible
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Campaign Creation Updation Data.xlsx, Sheet: Updation Data
+✅ Successfully read 1 data objects from Excel
+
+📋 Running modify campaign test for: AavazCampaign
+Modifying campaign: AavazCampaign
+Navigating to modify campaign page for: AavazCampaign

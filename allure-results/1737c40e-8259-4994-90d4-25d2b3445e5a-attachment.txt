@@ -1,0 +1,16 @@
+Error during pagination search: locator.all: Target page, context or browser has been closed
+Error updating user sachincaller@tekege.com: locator.scrollIntoViewIfNeeded: Target page, context or browser has been closed
+❌ Error updating user Sachin Caller: locator.scrollIntoViewIfNeeded: Target page, context or browser has been closed
+Error during pagination search: locator.all: Target page, context or browser has been closed
+Error updating user sachinadmin@tekege.com: locator.scrollIntoViewIfNeeded: Target page, context or browser has been closed
+❌ Error updating user Sachin Admin: locator.scrollIntoViewIfNeeded: Target page, context or browser has been closed
+Error during pagination search: locator.all: Target page, context or browser has been closed
+Error updating user jaycaller@tekege.com: locator.scrollIntoViewIfNeeded: Target page, context or browser has been closed
+❌ Error updating user Jay Caller: locator.scrollIntoViewIfNeeded: Target page, context or browser has been closed
+Error during pagination search: locator.all: Target page, context or browser has been closed
+Error updating user jayadmin@tekege.com: locator.scrollIntoViewIfNeeded: Target page, context or browser has been closed
+❌ Error updating user Jay Admin: locator.scrollIntoViewIfNeeded: Target page, context or browser has been closed
+Error during pagination search: locator.all: Target page, context or browser has been closed
+Error updating user aavazcaller@tekege.com: locator.scrollIntoViewIfNeeded: Target page, context or browser has been closed
+❌ Error updating user Aavaz Caller: locator.scrollIntoViewIfNeeded: Target page, context or browser has been closed
+Error logging out user: locator.isVisible: Target page, context or browser has been closed

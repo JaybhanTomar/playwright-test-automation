@@ -196,6 +196,33 @@ module.exports = {
         actionTimeout: 10000, // Longer timeout for RBL tests
         navigationTimeout: 15000
       }
+    },
+    {
+      name: 'SanityAgent Tests',
+      testMatch: /SanityAgent\/.*\.spec\.js$/,
+      use: {
+        baseURL: baseURL,
+        qcEnv: 'qc6', // Using qc6 as per user's configuration
+        headless: false, // Set to false for SanityAgent tests to see the browser
+        viewport: null,
+        javaScriptEnabled: true,
+        launchOptions: {
+          args: [
+            '--start-maximized',
+            '--disable-web-security',
+            '--disable-features=VizDisplayCompositor',
+            '--no-sandbox',
+            '--disable-dev-shm-usage',
+            '--disable-gpu',
+            '--disable-extensions',
+            '--disable-background-timer-throttling',
+            '--disable-backgrounding-occluded-windows',
+            '--disable-renderer-backgrounding'
+          ]
+        },
+        actionTimeout: 10000, // Longer timeout for agent tests
+        navigationTimeout: 15000
+      }
     }
   ],
   workers: 1,

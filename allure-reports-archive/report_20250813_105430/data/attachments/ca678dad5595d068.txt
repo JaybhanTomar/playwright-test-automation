@@ -1,0 +1,10 @@
+
+📋 Starting Lead Stage update with Excel data...
+Successfully Clicked on SystemSetup page
+ Create Lead Stage  button is visible after clicking LeadStage.
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Field Test Data.xlsx, Sheet: LeadStageUpdation
+✅ Successfully read 1 data objects from Excel
+
+📄 Running lead stage update test for: J_New
+J_New: Lead Stage is already created.
+📊 API Summary: 21 calls, 0 failed

@@ -1,0 +1,59 @@
+RBL Updated User Login beforeAll starting
+
+📋 RBL Configuration:
+   Environment: QC3
+   Headless: false
+   Timeout: 120s
+   Browser Args: --start-maximized, --disable-web-security, --disable-features=VizDisplayCompositor, --no-sandbox, --disable-dev-shm-usage, --disable-gpu, --disable-extensions, --disable-background-timer-throttling, --disable-backgrounding-occluded-windows, --disable-renderer-backgrounding, --disable-features=TranslateUI, --disable-ipc-flooding-protection
+
+RBL Updated User Login beforeAll finished
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/WorkFlow Test Data.xlsx, Sheet: UserUpdationData
+✅ Successfully read 5 data objects from Excel
+📊 Testing login for 5 updated user(s)
+📋 [1/5] Testing login for updated user: Sachin Caller (sachincaller@tekege.com)
+🌐 RBL Config: Navigating to QC3 environment
+⏭️ Continuing despite API failure (continue-on-failure enabled)...
+✅ Navigated to QC3: https://qc3.devaavaz.biz/
+✅ RBL Config: Successfully navigated to QC3
+⏭️ Continuing despite API failure (continue-on-failure enabled)...
+Screenshot captured at: error-Click_on_login_button-2025-09-03T14-03-03-726Z.png
+📋 [2/5] Testing login for updated user: Sachin Admin (sachinadmin@tekege.com)
+🌐 RBL Config: Navigating to QC3 environment
+✅ Navigated to QC3: https://qc3.devaavaz.biz/
+✅ RBL Config: Successfully navigated to QC3
+⏭️ Continuing despite API failure (continue-on-failure enabled)...
+⏭️ Continuing despite API failure (continue-on-failure enabled)...
+Screenshot captured at: error-Click_on_login_button-2025-09-03T14-03-09-164Z.png
+📋 [3/5] Testing login for updated user: Jay Caller (jaycaller@tekege.com)
+🌐 RBL Config: Navigating to QC3 environment
+✅ Navigated to QC3: https://qc3.devaavaz.biz/
+✅ RBL Config: Successfully navigated to QC3
+⏭️ Continuing despite API failure (continue-on-failure enabled)...
+⏭️ Continuing despite API failure (continue-on-failure enabled)...
+Screenshot captured at: error-Click_on_login_button-2025-09-03T14-03-14-350Z.png
+📋 [4/5] Testing login for updated user: Jay Admin (jayadmin@tekege.com)
+🌐 RBL Config: Navigating to QC3 environment
+⏭️ Continuing despite API failure (continue-on-failure enabled)...
+✅ Navigated to QC3: https://qc3.devaavaz.biz/
+✅ RBL Config: Successfully navigated to QC3
+⏭️ Continuing despite API failure (continue-on-failure enabled)...
+Screenshot captured at: error-Click_on_login_button-2025-09-03T14-03-19-697Z.png
+📋 [5/5] Testing login for updated user: Aavaz Caller (aavazcaller@tekege.com)
+🌐 RBL Config: Navigating to QC3 environment
+✅ Navigated to QC3: https://qc3.devaavaz.biz/
+✅ RBL Config: Successfully navigated to QC3
+⏭️ Continuing despite API failure (continue-on-failure enabled)...
+📊 API Summary: 18 calls, 9 failed
+❌ Failed APIs:
+  - GET https://qc3.devaavaz.biz/361-api/v3/client_settings/public (503)
+  - POST https://qc3.devaavaz.biz/361-api/v3/users/auth (500)
+  - GET https://qc3.devaavaz.biz/361-api/v3/client_settings/public (503)
+  - POST https://qc3.devaavaz.biz/361-api/v3/users/auth (500)
+  - GET https://qc3.devaavaz.biz/361-api/v3/client_settings/public (503)
+  - POST https://qc3.devaavaz.biz/361-api/v3/users/auth (500)
+  - GET https://qc3.devaavaz.biz/361-api/v3/client_settings/public (503)
+  - POST https://qc3.devaavaz.biz/361-api/v3/users/auth (500)
+  - GET https://qc3.devaavaz.biz/361-api/v3/client_settings/public (503)
+📊 API Summary: RBL tests completed on QC3
+✅ Browser context closed successfully
+✅ Browser closed successfully

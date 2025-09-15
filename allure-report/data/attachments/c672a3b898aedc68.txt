@@ -1,0 +1,13 @@
+
+📋 Starting Lead Lost Reason setup with Excel data...
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Field Test Data.xlsx, Sheet: LeadLostReasonCreation
+✅ Successfully read 1 data objects from Excel
+DEBUG FieldData: [ { Category: 'Lakshya Home', LostReason: 'Not Want to Purchase' } ]
+📊 Processing 1 lead lost reason(s) from Excel data
+
+📄 Running lead lost reason creation test for: Not Want to Purchase
+Not Want to Purchase: Lead Lost Reason is not created.
+Not Want to Purchase: Lead Lost Reason is not created. Creating it...
+Lakshya Home: Category is selected
+Not Want to Purchase: Lead Lost Reason is not created.
+✅ Lead lost reason creation test completed for: Not Want to Purchase

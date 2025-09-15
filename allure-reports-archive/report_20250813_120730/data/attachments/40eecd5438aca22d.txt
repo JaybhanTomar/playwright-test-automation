@@ -1,0 +1,53 @@
+
+📋 RBL Configuration:
+   Environment: QC2
+   Headless: false
+   Timeout: 600s
+   Browser Args: --start-maximized, --disable-web-security, --disable-features=VizDisplayCompositor
+
+🌐 RBL Config: Navigating to QC2 environment
+✅ Navigated to QC2: https://qc2.devaavaz.biz/
+✅ RBL Config: Successfully navigated to QC2
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Login Creds Data.xlsx, Sheet: UserLoginData
+✅ Successfully read 1 data objects from Excel
+Verifying user role. Expected: 'admin', Actual: 'admin'
+✅ Role verification passed: admin
+✅ RBL Setup: Successfully logged in to QC2
+Successfully Clicked on SystemSetup page
+✅ RBL Setup: Navigated to System Setup
+
+🔍 Testing Dispositions navigation...
+ Create Disposition Screen  button is visible after clicking Dispositions.
+✅ Dispositions navigation test completed successfully
+✅ RBL Disposition Screen: Setup completed on QC2
+
+📋 Starting RBL Disposition Screen setup with Excel data...
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/RBL Test Data.xlsx, Sheet: DispositionScreenCreation
+✅ Successfully read 1 data objects from Excel
+DEBUG RBL DispositionScreenData: [
+  {
+    DispositionScreenName: 'Positive Response Screen',
+    Type: 'Positive',
+    Category: 'RBL',
+    Question: 'Interested in Product',
+    Description: 'Screen for handling positive customer responses'
+  }
+]
+📊 Processing 1 RBL disposition screen(s) from Excel data
+
+📄 Running RBL disposition screen creation test for: Positive Response Screen
+RBL Disposition screen details: {
+  DispositionScreenName: 'Positive Response Screen',
+  Type: 'Positive',
+  Category: 'RBL',
+  Question: 'Interested in Product',
+  Description: 'Screen for handling positive customer responses'
+}
+Positive Response Screen: Disposition Screen does not exist.
+Positive Response Screen: Disposition Screen does not exist. Creating it...
+✅ Clicked Create Disposition Screen button
+✅ Filled disposition screen name: Positive Response Screen
+📊 API Summary: 14 calls, 0 failed
+📊 API Summary: RBL tests completed on QC2
+✅ Browser context closed successfully
+✅ Browser closed successfully

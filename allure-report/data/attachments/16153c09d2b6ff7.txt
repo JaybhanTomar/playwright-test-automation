@@ -1,0 +1,224 @@
+⚠️ JD Templates not found or not accessible: locator.scrollIntoViewIfNeeded: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator('//div[contains(text(),\'JD Templates\')]')
+
+❌ API Failed: https://qc2.devaavaz.biz/361-api/v3/webhooks - Status: 500
+❌ API Failed: https://o4504178358681600.ingest.sentry.io/api/4504178360057856/envelope/?sentry_key=a87712579ff541538ae15096a1373f73&sentry_version=7&sentry_client=sentry.javascript.vue%2F7.16.0 - Status: 429
+locator.scrollIntoViewIfNeeded: Target page, context or browser has been closed
+Call log:
+  - attempting scroll into view action
+    - waiting for element to be stable
+
+    at SystemSetupPage.tabToWebhooks (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:4210:30)
+    at SystemSetupPage.tabToSystemSetupElements (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:93:9)
+    at /home/jtomar/playwright-demo/playwright-demo-new/tests/RBL/RBL/1_Tabbing.spec.js:27:5
+❌ Webhooks navigation failed: locator.scrollIntoViewIfNeeded: Target page, context or browser has been closed
+locator.scrollIntoViewIfNeeded: Target page, context or browser has been closed
+    at SystemSetupPage.NavigateToSystemSetup (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:51:43)
+    at SystemSetupPage.tabToSystemSetupElements (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:107:22)
+    at /home/jtomar/playwright-demo/playwright-demo-new/tests/RBL/RBL/1_Tabbing.spec.js:27:5 {
+  [Symbol(step)]: {
+    stepId: 'pw:api@435',
+    location: {
+      file: '/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js',
+      line: 51,
+      column: 43,
+      function: 'SystemSetupPage.NavigateToSystemSetup'
+    },
+    category: 'pw:api',
+    title: "Scroll into view locator('//li[12]//a[.=\\'System Setup\\']')",
+    apiName: 'locator.scrollIntoViewIfNeeded',
+    params: {
+      selector: "//li[12]//a[.='System Setup']",
+      strict: true,
+      state: 'attached',
+      timeout: 10000
+    },
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@435'
+    },
+    complete: [Function: complete],
+    endWallTime: 1755066805939,
+    error: {
+      message: 'Error: locator.scrollIntoViewIfNeeded: Target page, context or browser has been closed',
+      stack: 'Error: locator.scrollIntoViewIfNeeded: Target page, context or browser has been closed\n' +
+        '    at SystemSetupPage.NavigateToSystemSetup (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:51:43)\n' +
+        '    at SystemSetupPage.tabToSystemSetupElements (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:107:22)\n' +
+        '    at /home/jtomar/playwright-demo/playwright-demo-new/tests/RBL/RBL/1_Tabbing.spec.js:27:5',
+      cause: undefined
+    }
+  }
+}
+⚠️ Recovery navigation failed: Exception occurred in NavigateToSystemSetup: locator.scrollIntoViewIfNeeded: Target page, context or browser has been closed
+locator.isVisible: Target page, context or browser has been closed
+    at SystemSetupPage.tabToPhone (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:4286:32)
+    at Object.method (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:80:43)
+    at SystemSetupPage.tabToSystemSetupElements (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:93:23)
+    at /home/jtomar/playwright-demo/playwright-demo-new/tests/RBL/RBL/1_Tabbing.spec.js:27:5 {
+  [Symbol(step)]: {
+    stepId: 'pw:api@436',
+    location: {
+      file: '/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js',
+      line: 4286,
+      column: 32,
+      function: 'SystemSetupPage.tabToPhone'
+    },
+    category: 'pw:api',
+    title: "Is visible locator('//div[contains(text(),\\'Phone\\')]')",
+    apiName: 'locator.isVisible',
+    params: { selector: "//div[contains(text(),'Phone')]", strict: true },
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@436'
+    },
+    complete: [Function: complete],
+    endWallTime: 1755066805944,
+    error: {
+      message: 'Error: locator.isVisible: Target page, context or browser has been closed',
+      stack: 'Error: locator.isVisible: Target page, context or browser has been closed\n' +
+        '    at SystemSetupPage.tabToPhone (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:4286:32)\n' +
+        '    at Object.method (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:80:43)\n' +
+        '    at SystemSetupPage.tabToSystemSetupElements (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:93:23)\n' +
+        '    at /home/jtomar/playwright-demo/playwright-demo-new/tests/RBL/RBL/1_Tabbing.spec.js:27:5',
+      cause: undefined
+    }
+  }
+}
+❌ Phone navigation failed: Exception occurred in tabToPhone: locator.isVisible: Target page, context or browser has been closed
+locator.scrollIntoViewIfNeeded: Target page, context or browser has been closed
+    at SystemSetupPage.NavigateToSystemSetup (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:51:43)
+    at SystemSetupPage.tabToSystemSetupElements (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:107:22)
+    at /home/jtomar/playwright-demo/playwright-demo-new/tests/RBL/RBL/1_Tabbing.spec.js:27:5 {
+  [Symbol(step)]: {
+    stepId: 'pw:api@437',
+    location: {
+      file: '/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js',
+      line: 51,
+      column: 43,
+      function: 'SystemSetupPage.NavigateToSystemSetup'
+    },
+    category: 'pw:api',
+    title: "Scroll into view locator('//li[12]//a[.=\\'System Setup\\']')",
+    apiName: 'locator.scrollIntoViewIfNeeded',
+    params: {
+      selector: "//li[12]//a[.='System Setup']",
+      strict: true,
+      state: 'attached',
+      timeout: 10000
+    },
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@437'
+    },
+    complete: [Function: complete],
+    endWallTime: 1755066805948,
+    error: {
+      message: 'Error: locator.scrollIntoViewIfNeeded: Target page, context or browser has been closed',
+      stack: 'Error: locator.scrollIntoViewIfNeeded: Target page, context or browser has been closed\n' +
+        '    at SystemSetupPage.NavigateToSystemSetup (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:51:43)\n' +
+        '    at SystemSetupPage.tabToSystemSetupElements (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:107:22)\n' +
+        '    at /home/jtomar/playwright-demo/playwright-demo-new/tests/RBL/RBL/1_Tabbing.spec.js:27:5',
+      cause: undefined
+    }
+  }
+}
+⚠️ Recovery navigation failed: Exception occurred in NavigateToSystemSetup: locator.scrollIntoViewIfNeeded: Target page, context or browser has been closed
+locator.scrollIntoViewIfNeeded: Target page, context or browser has been closed
+    at SystemSetupPage.tabToManageAccount (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:4590:34)
+    at Object.method (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:81:52)
+    at SystemSetupPage.tabToSystemSetupElements (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:93:23)
+    at /home/jtomar/playwright-demo/playwright-demo-new/tests/RBL/RBL/1_Tabbing.spec.js:27:5 {
+  [Symbol(step)]: {
+    stepId: 'pw:api@438',
+    location: {
+      file: '/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js',
+      line: 4590,
+      column: 34,
+      function: 'SystemSetupPage.tabToManageAccount'
+    },
+    category: 'pw:api',
+    title: "Scroll into view locator('//label[normalize-space()=\\'Manage Account\\']')",
+    apiName: 'locator.scrollIntoViewIfNeeded',
+    params: {
+      selector: "//label[normalize-space()='Manage Account']",
+      strict: true,
+      state: 'attached',
+      timeout: 10000
+    },
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@438'
+    },
+    complete: [Function: complete],
+    endWallTime: 1755066805953,
+    error: {
+      message: 'Error: locator.scrollIntoViewIfNeeded: Target page, context or browser has been closed',
+      stack: 'Error: locator.scrollIntoViewIfNeeded: Target page, context or browser has been closed\n' +
+        '    at SystemSetupPage.tabToManageAccount (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:4590:34)\n' +
+        '    at Object.method (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:81:52)\n' +
+        '    at SystemSetupPage.tabToSystemSetupElements (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:93:23)\n' +
+        '    at /home/jtomar/playwright-demo/playwright-demo-new/tests/RBL/RBL/1_Tabbing.spec.js:27:5',
+      cause: undefined
+    }
+  }
+}
+❌ Manage Account navigation failed: Exception occurred in tabToManageAccount: locator.scrollIntoViewIfNeeded: Target page, context or browser has been closed
+locator.scrollIntoViewIfNeeded: Target page, context or browser has been closed
+    at SystemSetupPage.NavigateToSystemSetup (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:51:43)
+    at SystemSetupPage.tabToSystemSetupElements (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:107:22)
+    at /home/jtomar/playwright-demo/playwright-demo-new/tests/RBL/RBL/1_Tabbing.spec.js:27:5 {
+  [Symbol(step)]: {
+    stepId: 'pw:api@439',
+    location: {
+      file: '/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js',
+      line: 51,
+      column: 43,
+      function: 'SystemSetupPage.NavigateToSystemSetup'
+    },
+    category: 'pw:api',
+    title: "Scroll into view locator('//li[12]//a[.=\\'System Setup\\']')",
+    apiName: 'locator.scrollIntoViewIfNeeded',
+    params: {
+      selector: "//li[12]//a[.='System Setup']",
+      strict: true,
+      state: 'attached',
+      timeout: 10000
+    },
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@439'
+    },
+    complete: [Function: complete],
+    endWallTime: 1755066805964,
+    error: {
+      message: 'Error: locator.scrollIntoViewIfNeeded: Target page, context or browser has been closed',
+      stack: 'Error: locator.scrollIntoViewIfNeeded: Target page, context or browser has been closed\n' +
+        '    at SystemSetupPage.NavigateToSystemSetup (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:51:43)\n' +
+        '    at SystemSetupPage.tabToSystemSetupElements (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:107:22)\n' +
+        '    at /home/jtomar/playwright-demo/playwright-demo-new/tests/RBL/RBL/1_Tabbing.spec.js:27:5',
+      cause: undefined
+    }
+  }
+}
+⚠️ Recovery navigation failed: Exception occurred in NavigateToSystemSetup: locator.scrollIntoViewIfNeeded: Target page, context or browser has been closed

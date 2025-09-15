@@ -1,0 +1,5 @@
+
+🔍 Navigating back to Lead Stage for update...
+Successfully Clicked on SystemSetup page
+ Create Lead Stage  button is visible after clicking LeadStage.
+✅ Lead Stage navigation for update completed

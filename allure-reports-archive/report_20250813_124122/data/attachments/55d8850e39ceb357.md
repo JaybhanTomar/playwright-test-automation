@@ -1,0 +1,304 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - link "Logo":
+    - /url: /
+    - img "Logo"
+  - navigation:
+    - button "Toggle navigation"
+    - list:
+      - listitem "Notification":  0
+      - listitem:
+        - button "Click to become ready to make and receive calls"
+      - listitem:
+        - link "Admin 0":
+          - /url: javascript:;
+    - strong:  Disposition question successfully created.
+    - text: 
+- complementary:
+  - list:
+    - listitem:
+      - link "Home":
+        - /url: /
+    - listitem:
+      - link "Dashboard":
+        - /url: /dashboard
+    - listitem:
+      - link "Import":
+        - /url: /import/list
+    - listitem:
+      - link "Campaign":
+        - /url: "#"
+    - listitem:
+      - link "Leads":
+        - /url: "#"
+    - listitem:
+      - link "Tickets":
+        - /url: "#"
+    - listitem:
+      - link "Contact":
+        - /url: "#"
+    - listitem:
+      - link "Reports":
+        - /url: "#"
+    - listitem:
+      - link "Time Log":
+        - /url: /timeLog
+    - listitem:
+      - link "Agent Monitor":
+        - /url: /agentmonitor
+    - listitem:
+      - link "User Preferences":
+        - /url: "#"
+    - listitem:
+      - link "System Setup":
+        - /url: /settings
+  - button "Search and Add Contact"
+  - button "FEEDBACK"
+  - button "Toggle sidebar"
+- heading "" [level=4]:
+  - button ""
+- heading "Disposition Question" [level=4]
+- list:
+  - text: 
+  - listitem:
+    - link "Home":
+      - /url: /
+  - listitem: / Disposition Question
+- list:
+  - listitem:
+    - link "Disposition Screen":
+      - /url: "#dispositionScreen"
+  - listitem:
+    - link "Disposition Question":
+      - /url: "#dispositionQuestion"
+- text: Create Disposition Question
+- heading "Di Create Disposition Question" [level=4]
+- text: Category*
+- combobox:
+  - option "General"
+  - option "Aavaz0"
+  - option "BMRC" [selected]
+  - option "Aavaz"
+  - option "IRC"
+  - option "RBL"
+- textbox "Question*": Ticket Help09
+- text: Question* Question Type*
+- combobox:
+  - option "Select"
+  - option "Main Question"
+  - option "Text"
+  - option "Single Select" [selected]
+  - option "Multi Select"
+- text: Parent Question
+- combobox:
+  - option "Select Question" [selected]
+  - option "Ticket Help07"
+- text: Input Type*
+- combobox:
+  - option "Select"
+  - option "Radio" [selected]
+  - option "Drop Down"
+- text: Options*
+- combobox:
+  - option "Select Number Of Options" [selected]
+  - option "1"
+  - option "2"
+  - option "3"
+  - option "4"
+  - option "5"
+  - option "6"
+  - option "7"
+  - option "8"
+  - option "9"
+  - option "10"
+  - option "11"
+  - option "12"
+  - option "13"
+  - option "14"
+  - option "15"
+  - option "16"
+  - option "17"
+  - option "18"
+  - option "19"
+  - option "20"
+  - option "21"
+  - option "22"
+  - option "23"
+  - option "24"
+  - option "25"
+  - option "26"
+  - option "27"
+  - option "28"
+  - option "29"
+  - option "30"
+  - option "31"
+  - option "32"
+  - option "33"
+  - option "34"
+  - option "35"
+  - option "36"
+  - option "37"
+  - option "38"
+  - option "39"
+  - option "40"
+  - option "41"
+  - option "42"
+  - option "43"
+  - option "44"
+  - option "45"
+  - option "46"
+  - option "47"
+  - option "48"
+  - option "49"
+  - option "50"
+  - option "51"
+  - option "52"
+  - option "53"
+  - option "54"
+  - option "55"
+  - option "56"
+  - option "57"
+  - option "58"
+  - option "59"
+  - option "60"
+  - option "61"
+  - option "62"
+  - option "63"
+  - option "64"
+  - option "65"
+  - option "66"
+  - option "67"
+  - option "68"
+  - option "69"
+  - option "70"
+  - option "71"
+  - option "72"
+  - option "73"
+  - option "74"
+  - option "75"
+  - option "76"
+  - option "77"
+  - option "78"
+  - option "79"
+  - option "80"
+  - option "81"
+  - option "82"
+  - option "83"
+  - option "84"
+  - option "85"
+  - option "86"
+  - option "87"
+  - option "88"
+  - option "89"
+  - option "90"
+  - option "91"
+  - option "92"
+  - option "93"
+  - option "94"
+  - option "95"
+  - option "96"
+  - option "97"
+  - option "98"
+  - option "99"
+  - option "100"
+- text: Allow Other
+- checkbox "Allow Other"
+- text: Tooltip
+- checkbox "Tooltip"
+- button "Cancel"
+- button "Save"
+- textbox "Search on page"
+- text: Search on page
+- list:
+  - listitem: Filters
+- table:
+  - rowgroup:
+    - row "Category Parent Question Question Actions":
+      - columnheader "Category"
+      - columnheader "Parent Question"
+      - columnheader "Question"
+      - columnheader "Actions"
+  - rowgroup
+  - rowgroup:
+    - row "General -- Not Interested Edit Single Select Options":
+      - cell "General"
+      - cell "--"
+      - cell "Not Interested"
+      - cell "Edit Single Select Options":
+        - button "Edit" [disabled]
+        - button "Single Select Options" [disabled]
+    - row "General -- Not Qualified Edit Single Select Options":
+      - cell "General"
+      - cell "--"
+      - cell "Not Qualified"
+      - cell "Edit Single Select Options":
+        - button "Edit" [disabled]
+        - button "Single Select Options" [disabled]
+    - row "General -- Call Back Edit Single Select Options":
+      - cell "General"
+      - cell "--"
+      - cell "Call Back"
+      - cell "Edit Single Select Options":
+        - button "Edit" [disabled]
+        - button "Single Select Options" [disabled]
+    - row "General Call Back Call Back Reason Edit Single Select Options":
+      - cell "General"
+      - cell "Call Back"
+      - cell "Call Back Reason"
+      - cell "Edit Single Select Options":
+        - button "Edit" [disabled]
+        - button "Single Select Options" [disabled]
+    - row "General Call Back Call Back Date Edit Open Ended Question":
+      - cell "General"
+      - cell "Call Back"
+      - cell "Call Back Date"
+      - cell "Edit Open Ended Question":
+        - button "Edit" [disabled]
+        - button "Open Ended Question" [disabled]
+    - row "General -- Lead Edit Single Select Options":
+      - cell "General"
+      - cell "--"
+      - cell "Lead"
+      - cell "Edit Single Select Options":
+        - button "Edit" [disabled]
+        - button "Single Select Options" [disabled]
+    - row "General -- No Answer Edit Single Select Options":
+      - cell "General"
+      - cell "--"
+      - cell "No Answer"
+      - cell "Edit Single Select Options":
+        - button "Edit" [disabled]
+        - button "Single Select Options" [disabled]
+    - row "General Call Back Requested Information Edit Multi Select Options":
+      - cell "General"
+      - cell "Call Back"
+      - cell "Requested Information"
+      - cell "Edit Multi Select Options":
+        - button "Edit" [disabled]
+        - button "Multi Select Options" [disabled]
+    - row "General -- Ticket Edit Single Select Options":
+      - cell "General"
+      - cell "--"
+      - cell "Ticket"
+      - cell "Edit Single Select Options":
+        - button "Edit" [disabled]
+        - button "Single Select Options" [disabled]
+    - row "BMRC -- Ticket Help07 Edit Main Question":
+      - cell "BMRC"
+      - cell "--"
+      - cell "Ticket Help07"
+      - cell "Edit Main Question":
+        - link "Edit":
+          - /url: /settings/library/dispositions/question/1015
+        - button "Main Question" [disabled]
+    - row "BMRC Ticket Help07 Ticket Help08 Edit Open Ended Question":
+      - cell "BMRC"
+      - cell "Ticket Help07"
+      - cell "Ticket Help08"
+      - cell "Edit Open Ended Question":
+        - link "Edit":
+          - /url: /settings/library/dispositions/question/1016
+        - button "Open Ended Question" [disabled]
+```

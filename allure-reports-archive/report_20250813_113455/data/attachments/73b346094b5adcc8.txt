@@ -1,0 +1,90 @@
+locator.selectOption: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('//select[@id=\'selectType\']')
+    - locator resolved to <select id="selectType" data-v-29f812af="" class="form-control">…</select>
+  - attempting select option action
+    2 × waiting for element to be visible and enabled
+      - did not find some options
+    - retrying select option action
+    - waiting 20ms
+    2 × waiting for element to be visible and enabled
+      - did not find some options
+    - retrying select option action
+      - waiting 100ms
+    19 × waiting for element to be visible and enabled
+       - did not find some options
+     - retrying select option action
+       - waiting 500ms
+
+    at SystemSetupPage.createDispositionScreen (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:1754:50)
+    at /home/jtomar/playwright-demo/playwright-demo-new/tests/RBL/RBL/J_setupDispositionScreen.spec.js:74:7 {
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    stepId: 'pw:api@59',
+    location: {
+      file: '/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js',
+      line: 1754,
+      column: 50,
+      function: 'SystemSetupPage.createDispositionScreen'
+    },
+    category: 'pw:api',
+    title: "Select option locator('//select[@id=\\'selectType\\']')",
+    apiName: 'locator.selectOption',
+    params: {
+      selector: "//select[@id='selectType']",
+      options: [Array],
+      strict: true,
+      timeout: 10000
+    },
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@59'
+    },
+    complete: [Function: complete],
+    endWallTime: 1754925406972,
+    error: {
+      message: 'TimeoutError: locator.selectOption: Timeout 10000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//select[@id=\\'selectType\\']')\x1B[22m\n" +
+        '\x1B[2m    - locator resolved to <select id="selectType" data-v-29f812af="" class="form-control">…</select>\x1B[22m\n' +
+        '\x1B[2m  - attempting select option action\x1B[22m\n' +
+        '\x1B[2m    2 × waiting for element to be visible and enabled\x1B[22m\n' +
+        '\x1B[2m      - did not find some options\x1B[22m\n' +
+        '\x1B[2m    - retrying select option action\x1B[22m\n' +
+        '\x1B[2m    - waiting 20ms\x1B[22m\n' +
+        '\x1B[2m    2 × waiting for element to be visible and enabled\x1B[22m\n' +
+        '\x1B[2m      - did not find some options\x1B[22m\n' +
+        '\x1B[2m    - retrying select option action\x1B[22m\n' +
+        '\x1B[2m      - waiting 100ms\x1B[22m\n' +
+        '\x1B[2m    19 × waiting for element to be visible and enabled\x1B[22m\n' +
+        '\x1B[2m       - did not find some options\x1B[22m\n' +
+        '\x1B[2m     - retrying select option action\x1B[22m\n' +
+        '\x1B[2m       - waiting 500ms\x1B[22m\n',
+      stack: 'TimeoutError: locator.selectOption: Timeout 10000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//select[@id=\\'selectType\\']')\x1B[22m\n" +
+        '\x1B[2m    - locator resolved to <select id="selectType" data-v-29f812af="" class="form-control">…</select>\x1B[22m\n' +
+        '\x1B[2m  - attempting select option action\x1B[22m\n' +
+        '\x1B[2m    2 × waiting for element to be visible and enabled\x1B[22m\n' +
+        '\x1B[2m      - did not find some options\x1B[22m\n' +
+        '\x1B[2m    - retrying select option action\x1B[22m\n' +
+        '\x1B[2m    - waiting 20ms\x1B[22m\n' +
+        '\x1B[2m    2 × waiting for element to be visible and enabled\x1B[22m\n' +
+        '\x1B[2m      - did not find some options\x1B[22m\n' +
+        '\x1B[2m    - retrying select option action\x1B[22m\n' +
+        '\x1B[2m      - waiting 100ms\x1B[22m\n' +
+        '\x1B[2m    19 × waiting for element to be visible and enabled\x1B[22m\n' +
+        '\x1B[2m       - did not find some options\x1B[22m\n' +
+        '\x1B[2m     - retrying select option action\x1B[22m\n' +
+        '\x1B[2m       - waiting 500ms\x1B[22m\n' +
+        '\n' +
+        '    at SystemSetupPage.createDispositionScreen (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:1754:50)\n' +
+        '    at /home/jtomar/playwright-demo/playwright-demo-new/tests/RBL/RBL/J_setupDispositionScreen.spec.js:74:7',
+      cause: undefined
+    }
+  }
+}

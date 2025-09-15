@@ -1,0 +1,111 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - link "Logo":
+    - /url: /
+    - img "Logo"
+  - navigation:
+    - button "Toggle navigation"
+    - list:
+      - listitem: DCC 0
+      - listitem: CCC 0
+      - listitem: ACC 0
+      - listitem "Notification":  0
+      - listitem:
+        - button "Click to become ready to make and receive calls"
+      - listitem:
+        - link "Admin 0":
+          - /url: javascript:;
+- complementary:
+  - list:
+    - listitem:
+      - link "Home":
+        - /url: /
+    - listitem:
+      - link "Dashboard":
+        - /url: /dashboard
+    - listitem:
+      - link "Import":
+        - /url: /import/list
+    - listitem:
+      - link "Campaign":
+        - /url: "#"
+      - list:
+        - listitem:
+          - link "AActive Campaigns":
+            - /url: /campaigns/active
+        - listitem:
+          - link "AArchived Campaigns":
+            - /url: /campaigns/viewArchiveCampaign
+    - listitem:
+      - link "Leads":
+        - /url: "#"
+    - listitem:
+      - link "Tickets":
+        - /url: "#"
+    - listitem:
+      - link "Contact":
+        - /url: "#"
+    - listitem:
+      - link "Reports":
+        - /url: "#"
+    - listitem:
+      - link "Time Log":
+        - /url: /timeLog
+    - listitem:
+      - link "Agent Monitor":
+        - /url: /agentmonitor
+    - listitem:
+      - link "User Preferences":
+        - /url: "#"
+    - listitem:
+      - link "System Setup":
+        - /url: /settings
+  - button "Search and Add Contact"
+  - button "FEEDBACK"
+  - button "Toggle sidebar"
+- heading "" [level=4]:
+  - button ""
+- heading "Assign Callers" [level=4]
+- list:
+  - text: 
+  - listitem:
+    - link "Home":
+      - /url: /
+  - listitem: / Assign Callers
+- text: Campaign List Information
+- button
+- list:
+  - listitem:
+    - textbox "Campaign Name" [disabled]: Verify_Skil_Camp01
+    - text: Campaign Name
+  - listitem:
+    - textbox "List Name" [disabled]: Test Simplet List
+    - text: List Name
+- text: Campaign Skills
+- button
+- text: General
+- list:
+  - listitem:
+    - text: Default
+    - checkbox "Default"
+- text: Aavaz0
+- list:
+  - listitem:
+    - text: QA
+    - checkbox "QA"
+- text: BMRC
+- list:
+  - listitem: No Skills Found
+- text: Aavaz
+- list:
+  - listitem: No Skills Found
+- text: IRC
+- list:
+  - listitem: No Skills Found
+- text: RBL
+- list:
+  - listitem: No Skills Found
+- button "Assign"
+```

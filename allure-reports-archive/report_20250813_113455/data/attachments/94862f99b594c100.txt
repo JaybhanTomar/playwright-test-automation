@@ -1,0 +1,65 @@
+Error: expect(Ticket).toContain(undefined) // indexOf
+
+Matcher error: expected value must be a string if received value is a string
+
+Expected has value: undefined
+Received has type:  string
+Received has value: "Ticket"
+    at callback (/home/jtomar/playwright-demo/playwright-demo-new/node_modules/playwright/lib/matchers/expect.js:256:40)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at Zone.run (/home/jtomar/playwright-demo/playwright-demo-new/node_modules/playwright-core/lib/server/utils/zones.js:42:36)
+    at Proxy.toContain (/home/jtomar/playwright-demo/playwright-demo-new/node_modules/playwright/lib/matchers/expect.js:257:79)
+    at SystemSetupPage.setupTicketField (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:2821:61)
+    at /home/jtomar/playwright-demo/playwright-demo-new/tests/Sanity/TicketFieldCreationUpdation.spec.js:62:7
+    at /home/jtomar/playwright-demo/playwright-demo-new/node_modules/playwright/lib/worker/workerMain.js:304:9
+    at /home/jtomar/playwright-demo/playwright-demo-new/node_modules/playwright/lib/worker/testInfo.js:284:11
+    at TimeoutManager.withRunnable (/home/jtomar/playwright-demo/playwright-demo-new/node_modules/playwright/lib/worker/timeoutManager.js:67:14)
+    at TestInfoImpl._runWithTimeout (/home/jtomar/playwright-demo/playwright-demo-new/node_modules/playwright/lib/worker/testInfo.js:282:7)
+    at /home/jtomar/playwright-demo/playwright-demo-new/node_modules/playwright/lib/worker/workerMain.js:302:7
+    at WorkerMain._runTest (/home/jtomar/playwright-demo/playwright-demo-new/node_modules/playwright/lib/worker/workerMain.js:277:5)
+    at WorkerMain.runTestGroup (/home/jtomar/playwright-demo/playwright-demo-new/node_modules/playwright/lib/worker/workerMain.js:193:11)
+    at process.<anonymous> (/home/jtomar/playwright-demo/playwright-demo-new/node_modules/playwright/lib/common/process.js:65:22) {
+  [Symbol(step)]: {
+    stepId: 'expect@60',
+    category: 'expect',
+    apiName: 'expect.toContain',
+    title: 'toContain',
+    params: undefined,
+    infectParentStepsWithError: undefined,
+    boxedStack: undefined,
+    location: {
+      file: '/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js',
+      line: 2821,
+      column: 61,
+      function: 'SystemSetupPage.setupTicketField'
+    },
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'expect@60'
+    },
+    complete: [Function: complete],
+    endWallTime: 1754302527876,
+    error: {
+      message: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mTicket\x1B[39m\x1B[2m).\x1B[22mtoContain\x1B[2m(\x1B[22m\x1B[32mundefined\x1B[39m\x1B[2m) // indexOf\x1B[22m\n' +
+        '\n' +
+        '\x1B[1mMatcher error\x1B[22m: \x1B[32mexpected\x1B[39m value must be a string if \x1B[31mreceived\x1B[39m value is a string\n' +
+        '\n' +
+        'Expected has value: \x1B[32mundefined\x1B[39m\n' +
+        'Received has type:  string\n' +
+        'Received has value: \x1B[31m"Ticket"\x1B[39m',
+      stack: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mTicket\x1B[39m\x1B[2m).\x1B[22mtoContain\x1B[2m(\x1B[22m\x1B[32mundefined\x1B[39m\x1B[2m) // indexOf\x1B[22m\n' +
+        '\n' +
+        '\x1B[1mMatcher error\x1B[22m: \x1B[32mexpected\x1B[39m value must be a string if \x1B[31mreceived\x1B[39m value is a string\n' +
+        '\n' +
+        'Expected has value: \x1B[32mundefined\x1B[39m\n' +
+        'Received has type:  string\n' +
+        'Received has value: \x1B[31m"Ticket"\x1B[39m\n' +
+        '    at SystemSetupPage.setupTicketField (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:2821:61)\n' +
+        '    at /home/jtomar/playwright-demo/playwright-demo-new/tests/Sanity/TicketFieldCreationUpdation.spec.js:62:7',
+      cause: undefined
+    }
+  }
+}

@@ -1,0 +1,27 @@
+Navigating to Active Campaign...
+⚠️ Could not click element: locator.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator('xpath=(//a[@id=\'modifyCampaign\'])[1]')
+    - locator resolved to <a id="modifyCampaign" aria-current="page" href="/campaigns/active" class="router-link-active router-link-exact-active">…</a>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    9 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+
+✅ DemandCampPage is visible
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Campaign Creation Updation Data.xlsx, Sheet: Updation Data
+✅ Successfully read 1 data objects from Excel
+
+📋 Running modify campaign test for: AavazCampaign
+Modifying campaign: AavazCampaign
+Navigating to modify campaign page for: AavazCampaign

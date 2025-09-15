@@ -1,0 +1,52 @@
+
+📋 RBL Configuration:
+   Environment: QC2
+   Headless: false
+   Timeout: 600s
+   Browser Args: --start-maximized, --disable-web-security, --disable-features=VizDisplayCompositor
+
+🌐 RBL Config: Navigating to QC2 environment
+✅ Navigated to QC2: https://qc2.devaavaz.biz/
+✅ RBL Config: Successfully navigated to QC2
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Login Creds Data.xlsx, Sheet: UserLoginData
+✅ Successfully read 1 data objects from Excel
+Verifying user role. Expected: 'admin', Actual: 'admin'
+✅ Role verification passed: admin
+✅ RBL Setup: Successfully logged in to QC2
+Successfully Clicked on SystemSetup page
+✅ RBL Setup: Navigated to System Setup
+
+🔍 Testing Disposition Question navigation...
+ Create Disposition Screen  button is visible after clicking Dispositions.
+ Create Disposition Question  button is visible after clicking DispositionQuestion.
+✅ Disposition Question navigation test completed successfully
+✅ RBL Disposition Question: Setup completed on QC2
+
+📋 Starting RBL Disposition Question setup with Excel data...
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/RBL Test Data.xlsx, Sheet: DispositionQuestionCreation
+✅ Successfully read 1 data objects from Excel
+DEBUG RBL DispositionQuestionData: [
+  {
+    category: 'RBL',
+    question: 'NPA Customer Calling',
+    questionType: 'Main Question',
+    parentQuestion: '',
+    inputType: '',
+    min: '',
+    max: '',
+    noOfLines: '',
+    options: '',
+    optionValues: '',
+    allowOther: '',
+    tooltip: ''
+  }
+]
+📊 Processing 1 RBL disposition question(s) from Excel data
+
+📄 Running RBL disposition question creation test for: NPA Customer Calling
+NPA Customer Calling: Child Question does not exist. allong with  Parent Question.
+NPA Customer Calling: Question does not exist. Creating it...
+RBL : RBL Category is selected
+Main Question : Main Question Question Type is selected
+NPA Customer Calling: Main Question is not created.
+✅ RBL disposition question creation test completed for: NPA Customer Calling

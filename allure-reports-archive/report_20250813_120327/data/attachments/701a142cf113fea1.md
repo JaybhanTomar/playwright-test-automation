@@ -1,0 +1,151 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - link "Logo":
+    - /url: /
+    - img "Logo"
+  - navigation:
+    - button "Toggle navigation"
+    - list:
+      - listitem "Notification":  0
+      - listitem:
+        - button "Click to become ready to make and receive calls"
+      - listitem:
+        - link "Admin 0":
+          - /url: javascript:;
+- complementary:
+  - list:
+    - listitem:
+      - link "Home":
+        - /url: /
+    - listitem:
+      - link "Dashboard":
+        - /url: /dashboard
+    - listitem:
+      - link "Import":
+        - /url: /import/list
+    - listitem:
+      - link "Campaign":
+        - /url: "#"
+    - listitem:
+      - link "Leads":
+        - /url: "#"
+    - listitem:
+      - link "Tickets":
+        - /url: "#"
+    - listitem:
+      - link "Contact":
+        - /url: "#"
+    - listitem:
+      - link "Reports":
+        - /url: "#"
+    - listitem:
+      - link "Time Log":
+        - /url: /timeLog
+    - listitem:
+      - link "Agent Monitor":
+        - /url: /agentmonitor
+    - listitem:
+      - link "User Preferences":
+        - /url: "#"
+    - listitem:
+      - link "System Setup":
+        - /url: /settings
+  - button "Search and Add Contact"
+  - button "FEEDBACK"
+  - button "Toggle sidebar"
+- heading "" [level=4]:
+  - button ""
+- heading "Lead Stage" [level=4]
+- list:
+  - text: 
+  - listitem:
+    - link "Home":
+      - /url: /
+  - listitem: / Lead Stage
+- list:
+  - listitem:
+    - link "Lead Field":
+      - /url: "#leadsField"
+  - listitem:
+    - link "Lead Stage":
+      - /url: "#leadsStage"
+  - listitem:
+    - link "Lead Status":
+      - /url: "#leadsStatus"
+  - listitem:
+    - link "Lead Lost Reason":
+      - /url: "#leadsLostReason"
+- text: Create Lead Stage
+- textbox "Search on page"
+- text: Search on page
+- list:
+  - listitem: Filters
+- table:
+  - rowgroup:
+    - row "Category Lead Stage Probability% Actions":
+      - columnheader "Category"
+      - columnheader "Lead Stage"
+      - columnheader "Probability%"
+      - columnheader "Actions"
+  - rowgroup:
+    - row "Aavaz0 Open new 50% Edit Hide Set Default":
+      - cell "Aavaz0"
+      - cell "Open new"
+      - cell "50%"
+      - cell "Edit Hide Set Default":
+        - link "Edit":
+          - /url: /settings/library/lead/leadStage/6
+        - button "Hide"
+        - button "Set Default"
+    - row "BMRC J_New 20% Edit Hide Set Default":
+      - cell "BMRC"
+      - cell "J_New"
+      - cell "20%"
+      - cell "Edit Hide Set Default":
+        - link "Edit":
+          - /url: /settings/library/lead/leadStage/7
+        - button "Hide"
+        - button "Set Default"
+    - row "General Lost 0% Edit Hide Set Default":
+      - cell "General"
+      - cell "Lost"
+      - cell "0%"
+      - cell "Edit Hide Set Default":
+        - button "Edit" [disabled]
+        - button "Hide" [disabled]
+        - button "Set Default" [disabled]
+    - row "General Weak 30% Edit Hide Set Default":
+      - cell "General"
+      - cell "Weak"
+      - cell "30%"
+      - cell "Edit Hide Set Default":
+        - button "Edit" [disabled]
+        - button "Hide" [disabled]
+        - button "Set Default" [disabled]
+    - row "General Open* 50% Edit Hide Set Default":
+      - cell "General"
+      - cell "Open*"
+      - cell "50%"
+      - cell "Edit Hide Set Default":
+        - button "Edit" [disabled]
+        - button "Hide" [disabled]
+        - button "Set Default" [disabled]
+    - row "General Strong 70% Edit Hide Set Default":
+      - cell "General"
+      - cell "Strong"
+      - cell "70%"
+      - cell "Edit Hide Set Default":
+        - button "Edit" [disabled]
+        - button "Hide" [disabled]
+        - button "Set Default" [disabled]
+    - row "General Won 100% Edit Hide Set Default":
+      - cell "General"
+      - cell "Won"
+      - cell "100%"
+      - cell "Edit Hide Set Default":
+        - button "Edit" [disabled]
+        - button "Hide" [disabled]
+        - button "Set Default" [disabled]
+```

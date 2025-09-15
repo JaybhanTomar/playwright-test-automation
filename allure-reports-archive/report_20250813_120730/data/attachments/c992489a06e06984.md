@@ -1,0 +1,160 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - link "Logo":
+    - /url: /
+    - img "Logo"
+  - navigation:
+    - button "Toggle navigation"
+    - list:
+      - listitem "Notification":  0
+      - listitem:
+        - button "Ready to make and receive calls."
+      - listitem:
+        - link "Admin 0":
+          - /url: javascript:;
+- complementary:
+  - list:
+    - listitem:
+      - link "Home":
+        - /url: /
+    - listitem:
+      - link "Dashboard":
+        - /url: /dashboard
+    - listitem:
+      - link "Import":
+        - /url: /import/list
+    - listitem:
+      - link "Campaign":
+        - /url: "#"
+    - listitem:
+      - link "Leads":
+        - /url: "#"
+    - listitem:
+      - link "Tickets":
+        - /url: "#"
+    - listitem:
+      - link "Contact":
+        - /url: "#"
+    - listitem:
+      - link "Reports":
+        - /url: "#"
+    - listitem:
+      - link "Time Log":
+        - /url: /timeLog
+    - listitem:
+      - link "Agent Monitor":
+        - /url: /agentmonitor
+    - listitem:
+      - link "User Preferences":
+        - /url: "#"
+    - listitem:
+      - link "System Setup":
+        - /url: /settings
+  - button "Search and Add Contact"
+  - button "FEEDBACK"
+  - button "Toggle sidebar"
+- heading "" [level=4]:
+  - button ""
+- heading "Ticket Stage" [level=4]
+- list:
+  - text: 
+  - listitem:
+    - link "Home":
+      - /url: /
+  - listitem: / Ticket Stage
+- list:
+  - listitem:
+    - link "Ticket Field":
+      - /url: "#ticketsField"
+  - listitem:
+    - link "Ticket Type":
+      - /url: "#ticketsType"
+  - listitem:
+    - link "Ticket Priority":
+      - /url: "#ticketsPriority"
+  - listitem:
+    - link "Ticket Stage":
+      - /url: "#ticketsStatus"
+- text: Create Ticket Stage
+- heading "Create Ticket Stage" [level=4]
+- text: Category*
+- combobox:
+  - option "Select"
+  - option "General"
+  - option "Aavaz0"
+  - option "BMRC" [selected]
+  - option "Aavaz"
+  - option "IRC"
+  - option "RBL"
+- textbox "Stage*": J_Open
+- text: Stage*
+- spinbutton "Display Order*"
+- text: Display Order* This stage will consider the ticket closed
+- checkbox "This stage will consider the ticket closed"
+- button "Cancel"
+- button "Save"
+- textbox "Search on page"
+- text: Search on page
+- list:
+  - listitem: Filters
+- table:
+  - rowgroup:
+    - row "Category Ticket Stage Order Actions":
+      - columnheader "Category"
+      - columnheader "Ticket Stage"
+      - columnheader "Order"
+      - columnheader "Actions"
+  - rowgroup
+  - rowgroup:
+    - row "Aavaz0 A_Closed 1 Edit Hide Set Default":
+      - cell "Aavaz0"
+      - cell "A_Closed"
+      - cell "1"
+      - cell "Edit Hide Set Default":
+        - link "Edit":
+          - /url: /settings/library/ticket/ticketStage/6
+        - button "Hide"
+        - button "Set Default"
+    - row "General New (Default) 1 Edit Hide Set Default":
+      - cell "General"
+      - cell "New (Default)"
+      - cell "1"
+      - cell "Edit Hide Set Default":
+        - button "Edit" [disabled]
+        - button "Hide" [disabled]
+        - button "Set Default" [disabled]
+    - row "General Open 2 Edit Hide Set Default":
+      - cell "General"
+      - cell "Open"
+      - cell "2"
+      - cell "Edit Hide Set Default":
+        - button "Edit" [disabled]
+        - button "Hide" [disabled]
+        - button "Set Default" [disabled]
+    - row "General Pending 3 Edit Hide Set Default":
+      - cell "General"
+      - cell "Pending"
+      - cell "3"
+      - cell "Edit Hide Set Default":
+        - button "Edit" [disabled]
+        - button "Hide" [disabled]
+        - button "Set Default" [disabled]
+    - row "General Solved 4 Edit Hide Set Default":
+      - cell "General"
+      - cell "Solved"
+      - cell "4"
+      - cell "Edit Hide Set Default":
+        - button "Edit" [disabled]
+        - button "Hide" [disabled]
+        - button "Set Default" [disabled]
+    - row "General Closed 5 Edit Hide Set Default":
+      - cell "General"
+      - cell "Closed"
+      - cell "5"
+      - cell "Edit Hide Set Default":
+        - button "Edit" [disabled]
+        - button "Hide" [disabled]
+        - button "Set Default" [disabled]
+```

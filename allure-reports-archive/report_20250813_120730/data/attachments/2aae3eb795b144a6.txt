@@ -1,0 +1,12 @@
+
+📋 Starting Lead Status setup with Excel data...
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Field Test Data.xlsx, Sheet: LeadStatusCreation
+✅ Successfully read 1 data objects from Excel
+DEBUG FieldData: [ { Category: 'BMRC', Status: 'J_Test', Default: '' } ]
+📊 Processing 1 lead status(es) from Excel data
+
+📄 Running lead status creation test for: J_Test
+Attempting to create/check lead status with Status: J_Test
+J_Test: Lead Status is already created.
+J_Test: Lead Status is not created.
+✅ Lead status creation test completed for: J_Test

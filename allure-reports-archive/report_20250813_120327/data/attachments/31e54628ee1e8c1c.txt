@@ -1,0 +1,117 @@
+
+📋 Starting Lead Stage setup with Excel data...
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Field Test Data.xlsx, Sheet: LeadStageCreation
+✅ Successfully read 10 data objects from Excel
+DEBUG FieldData: [
+  {
+    Category: 'Lakshya Home',
+    Stage: 'Not Interested',
+    Probability: '0',
+    Default: ''
+  },
+  {
+    Category: 'Lakshya Home',
+    Stage: 'Scheduled Site Visit',
+    Probability: '20',
+    Default: 'Yes'
+  },
+  {
+    Category: 'Lakshya Home',
+    Stage: 'Site Visit Done-1',
+    Probability: '30',
+    Default: ''
+  },
+  {
+    Category: 'Lakshya Home',
+    Stage: 'Site Visit Done-2',
+    Probability: '40',
+    Default: ''
+  },
+  {
+    Category: 'Lakshya Home',
+    Stage: 'Site Visit Done-3 and More',
+    Probability: '50',
+    Default: ''
+  },
+  {
+    Category: 'Lakshya Home',
+    Stage: 'Quotation Shared',
+    Probability: '60',
+    Default: ''
+  },
+  {
+    Category: 'Lakshya Home',
+    Stage: 'Negotiation and Meeting Done with Manager',
+    Probability: '70',
+    Default: ''
+  },
+  {
+    Category: 'Lakshya Home',
+    Stage: 'Need Finance Assistance',
+    Probability: '80',
+    Default: ''
+  },
+  {
+    Category: 'Lakshya Home',
+    Stage: 'Want Tarun Sir Assistance',
+    Probability: '90',
+    Default: ''
+  },
+  {
+    Category: 'Lakshya Home',
+    Stage: 'Delivered - Deal Closed',
+    Probability: '100',
+    Default: ''
+  }
+]
+📊 Processing 10 lead stage(s) from Excel data
+
+📄 Running lead stage creation test for: Not Interested
+Not Interested: Lead Stage is already created.
+Not Interested: Lead Stage is already created. Not creating it again.
+✅ Lead stage creation test completed for: Not Interested
+
+📄 Running lead stage creation test for: Scheduled Site Visit
+Scheduled Site Visit: Lead Stage is already created.
+Scheduled Site Visit: Lead Stage is already created. Not creating it again.
+✅ Lead stage creation test completed for: Scheduled Site Visit
+
+📄 Running lead stage creation test for: Site Visit Done-1
+Site Visit Done-1: Lead Stage is already created.
+Site Visit Done-1: Lead Stage is already created. Not creating it again.
+✅ Lead stage creation test completed for: Site Visit Done-1
+
+📄 Running lead stage creation test for: Site Visit Done-2
+Site Visit Done-2: Lead Stage is already created.
+Site Visit Done-2: Lead Stage is already created. Not creating it again.
+✅ Lead stage creation test completed for: Site Visit Done-2
+
+📄 Running lead stage creation test for: Site Visit Done-3 and More
+Site Visit Done-3 and More: Lead Stage is already created.
+Site Visit Done-3 and More: Lead Stage is already created. Not creating it again.
+✅ Lead stage creation test completed for: Site Visit Done-3 and More
+
+📄 Running lead stage creation test for: Quotation Shared
+Quotation Shared: Lead Stage is already created.
+Quotation Shared: Lead Stage is already created. Not creating it again.
+✅ Lead stage creation test completed for: Quotation Shared
+
+📄 Running lead stage creation test for: Negotiation and Meeting Done with Manager
+Negotiation and Meeting Done with Manager: Lead Stage is already created.
+Negotiation and Meeting Done with Manager: Lead Stage is already created. Not creating it again.
+✅ Lead stage creation test completed for: Negotiation and Meeting Done with Manager
+
+📄 Running lead stage creation test for: Need Finance Assistance
+Need Finance Assistance: Lead Stage is already created.
+Need Finance Assistance: Lead Stage is already created. Not creating it again.
+✅ Lead stage creation test completed for: Need Finance Assistance
+
+📄 Running lead stage creation test for: Want Tarun Sir Assistance
+Want Tarun Sir Assistance: Lead Stage is already created.
+Want Tarun Sir Assistance: Lead Stage is already created. Not creating it again.
+✅ Lead stage creation test completed for: Want Tarun Sir Assistance
+
+📄 Running lead stage creation test for: Delivered - Deal Closed
+Delivered - Deal Closed: Lead Stage is already created.
+Delivered - Deal Closed: Lead Stage is already created. Not creating it again.
+✅ Lead stage creation test completed for: Delivered - Deal Closed

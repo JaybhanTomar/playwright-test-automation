@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"2b0f5e300ceae5d73ae2a1ab2b7ec94b","name":"Sanity Tests","statistic":{"failed":7,"broken":0,"skipped":16,"passed":44,"unknown":0,"total":67}},{"uid":"a891cb7fbf6bfdc20047b269ea4a92f2","name":"RBL Tests","statistic":{"failed":7,"broken":0,"skipped":9,"passed":17,"unknown":0,"total":33}}]}

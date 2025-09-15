@@ -1,0 +1,74 @@
+
+📋 Starting Lead Stage setup with Excel data...
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Field Test Data.xlsx, Sheet: LeadStageCreation
+✅ Successfully read 10 data objects from Excel
+DEBUG FieldData: [
+  {
+    Category: 'Lakshya Home',
+    Stage: 'Not Interested',
+    Probability: '0',
+    Default: ''
+  },
+  {
+    Category: 'Lakshya Home',
+    Stage: 'Scheduled Site Visit',
+    Probability: '20',
+    Default: 'Yes'
+  },
+  {
+    Category: 'Lakshya Home',
+    Stage: 'Site Visit Done-1',
+    Probability: '30',
+    Default: ''
+  },
+  {
+    Category: 'Lakshya Home',
+    Stage: 'Site Visit Done-2',
+    Probability: '40',
+    Default: ''
+  },
+  {
+    Category: 'Lakshya Home',
+    Stage: 'Site Visit Done-3 and More',
+    Probability: '50',
+    Default: ''
+  },
+  {
+    Category: 'Lakshya Home',
+    Stage: 'Quotation Shared',
+    Probability: '60',
+    Default: ''
+  },
+  {
+    Category: 'Lakshya Home',
+    Stage: 'Negotiation and Meeting Done with Manager',
+    Probability: '70',
+    Default: ''
+  },
+  {
+    Category: 'Lakshya Home',
+    Stage: 'Need Finance Assistance',
+    Probability: '80',
+    Default: ''
+  },
+  {
+    Category: 'Lakshya Home',
+    Stage: 'Want Tarun Sir Assistance',
+    Probability: '90',
+    Default: ''
+  },
+  {
+    Category: 'Lakshya Home',
+    Stage: 'Delivered - Deal Closed',
+    Probability: '100',
+    Default: ''
+  }
+]
+📊 Processing 10 lead stage(s) from Excel data
+
+📄 Running lead stage creation test for: Not Interested
+Not Interested: Lead Stage is not created.
+Not Interested: Lead Stage is not created. Creating it...
+📊 API Summary: Lead Process Field tests completed
+✅ Browser context closed successfully
+✅ Browser closed successfully

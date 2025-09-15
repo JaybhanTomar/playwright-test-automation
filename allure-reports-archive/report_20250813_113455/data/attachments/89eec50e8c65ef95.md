@@ -1,0 +1,496 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - link "Logo":
+    - /url: /
+    - img "Logo"
+  - navigation:
+    - button "Toggle navigation"
+    - list:
+      - listitem: DCC 0
+      - listitem: CCC 0
+      - listitem: ACC 0
+      - listitem "Notification":  0
+      - listitem:
+        - button "Click to become ready to make and receive calls"
+      - listitem:
+        - link "Admin 0":
+          - /url: javascript:;
+- complementary:
+  - list:
+    - listitem:
+      - link "Home":
+        - /url: /
+    - listitem:
+      - link "Dashboard":
+        - /url: /dashboard
+    - listitem:
+      - link "Import":
+        - /url: /import/list
+    - listitem:
+      - link "Campaign":
+        - /url: "#"
+    - listitem:
+      - link "Leads":
+        - /url: "#"
+    - listitem:
+      - link "Tickets":
+        - /url: "#"
+    - listitem:
+      - link "Contact":
+        - /url: "#"
+    - listitem:
+      - link "Reports":
+        - /url: "#"
+    - listitem:
+      - link "Time Log":
+        - /url: /timeLog
+    - listitem:
+      - link "Agent Monitor":
+        - /url: /agentmonitor
+    - listitem:
+      - link "User Preferences":
+        - /url: "#"
+    - listitem:
+      - link "System Setup":
+        - /url: /settings
+  - button "Search and Add Contact"
+  - button "FEEDBACK"
+  - button "Toggle sidebar"
+- heading "" [level=4]:
+  - button ""
+- heading "Active Campaigns" [level=4]
+- list:
+  - text: 
+  - listitem:
+    - link "Home":
+      - /url: /
+  - listitem: / Active Campaigns
+- list:
+  - listitem:
+    - link "Active Campaigns":
+      - /url: /campaigns/active
+  - listitem:
+    - link "Archived Campaigns":
+      - /url: /campaigns/viewArchiveCampaign
+- link "Create New Campaign":
+  - /url: /campaigns/create
+- text: Demand Campaigns
+- button
+- table:
+  - rowgroup:
+    - row "Campaign Settings (Attributes) List Stats - Prospects Lead Stats":
+      - cell "Campaign Settings (Attributes)"
+      - cell "List Stats - Prospects"
+      - cell "Lead Stats"
+      - cell
+    - row "Campaign Name Dates Duration Time Used Dials Used Callers Max Calls Active Call Backs Leads Obtained Dials/Lead Lost Won Actions":
+      - columnheader "Campaign Name"
+      - columnheader "Dates"
+      - columnheader "Duration"
+      - columnheader "Time Used"
+      - columnheader "Dials Used"
+      - columnheader "Callers"
+      - columnheader "Max Calls"
+      - columnheader "Active"
+      - columnheader "Call Backs"
+      - columnheader "Leads Obtained"
+      - columnheader "Dials/Lead"
+      - columnheader "Lost"
+      - columnheader "Won"
+      - columnheader "Actions"
+  - rowgroup:
+    - 'row "AAJ_Verify_CB NEW  (Outbound) (Batch Preview) (Direct) Start Date: Jun 29, 12:00 am First Call: -- Last Call: -- 1000 0 0 -- 7 0 0 0 0 0"':
+      - cell "AAJ_Verify_CB NEW  (Outbound) (Batch Preview) (Direct)":
+        - link "AAJ_Verify_CB":
+          - /url: /campaigns/modify/demand/7/AAJ_Verify_CB
+        - superscript: NEW
+        - text:  (Outbound) (Batch Preview) (Direct)
+      - 'cell "Start Date: Jun 29, 12:00 am First Call: -- Last Call: --"'
+      - cell "1000"
+      - cell "0"
+      - cell "0"
+      - cell "--"
+      - cell "7"
+      - cell "0"
+      - cell
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell:
+        - link "Edit campaign":
+          - /url: /campaigns/modify/demand/7/AAJ_Verify_CB
+        - button "Delete Campaign"
+    - 'row "Autopreview NEW  (Outbound) (Auto-Preview) (Direct) Start Date: Jun 29, 12:00 am First Call: -- Last Call: -- 1000 0 0 Jay Caller Sachin Caller 7 10 0 0 0 0"':
+      - cell "Autopreview NEW  (Outbound) (Auto-Preview) (Direct)":
+        - link "Autopreview":
+          - /url: /campaigns/modify/demand/14/Autopreview
+        - superscript: NEW
+        - text:  (Outbound) (Auto-Preview) (Direct)
+      - 'cell "Start Date: Jun 29, 12:00 am First Call: -- Last Call: --"'
+      - cell "1000"
+      - cell "0"
+      - cell "0"
+      - cell "Jay Caller Sachin Caller":
+        - list:
+          - listitem: Jay Caller
+          - listitem: Sachin Caller
+      - cell "7"
+      - cell "10"
+      - cell
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell:
+        - link "Edit campaign":
+          - /url: /campaigns/modify/demand/14/Autopreview
+        - button "Delete Campaign"
+    - 'row "Ignorecamp02 NEW  (Outbound) (Batch Preview) (Direct) Start Date: Jun 29, 12:00 am First Call: -- Last Call: -- 1000 0 0 Jay Caller 7 10 0 0 0 0"':
+      - cell "Ignorecamp02 NEW  (Outbound) (Batch Preview) (Direct)":
+        - link "Ignorecamp02":
+          - /url: /campaigns/modify/demand/3/Ignorecamp02
+        - superscript: NEW
+        - text:  (Outbound) (Batch Preview) (Direct)
+      - 'cell "Start Date: Jun 29, 12:00 am First Call: -- Last Call: --"'
+      - cell "1000"
+      - cell "0"
+      - cell "0"
+      - cell "Jay Caller":
+        - list:
+          - listitem: Jay Caller
+      - cell "7"
+      - cell "10"
+      - cell
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell:
+        - link "Edit campaign":
+          - /url: /campaigns/modify/demand/3/Ignorecamp02
+        - button "Delete Campaign"
+    - 'row "J_Final_Automation NEW  (Outbound) (Batch Preview) (Direct) Start Date: Jun 29, 12:00 am First Call: -- Last Call: -- 0 0 0 -- 7 0 0 0 0 0"':
+      - cell "J_Final_Automation NEW  (Outbound) (Batch Preview) (Direct)":
+        - link "J_Final_Automation":
+          - /url: /campaigns/modify/demand/4/J_Final_Automation
+        - superscript: NEW
+        - text:  (Outbound) (Batch Preview) (Direct)
+      - 'cell "Start Date: Jun 29, 12:00 am First Call: -- Last Call: --"'
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell "--"
+      - cell "7"
+      - cell "0"
+      - cell
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell:
+        - link "Edit campaign":
+          - /url: /campaigns/modify/demand/4/J_Final_Automation
+        - button "Delete Campaign"
+    - 'row "J_Final_Automation01 NEW  (Outbound) (Batch Preview) (Direct) Start Date: Jun 29, 12:00 am First Call: -- Last Call: -- 1000 0 0 -- 7 0 0 0 0 0"':
+      - cell "J_Final_Automation01 NEW  (Outbound) (Batch Preview) (Direct)":
+        - link "J_Final_Automation01":
+          - /url: /campaigns/modify/demand/5/J_Final_Automation01
+        - superscript: NEW
+        - text:  (Outbound) (Batch Preview) (Direct)
+      - 'cell "Start Date: Jun 29, 12:00 am First Call: -- Last Call: --"'
+      - cell "1000"
+      - cell "0"
+      - cell "0"
+      - cell "--"
+      - cell "7"
+      - cell "0"
+      - cell
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell:
+        - link "Edit campaign":
+          - /url: /campaigns/modify/demand/5/J_Final_Automation01
+        - button "Delete Campaign"
+    - 'row "J_Final_Automation02 NEW  (Outbound) (Batch Preview) (Direct) Start Date: Jun 29, 12:00 am First Call: -- Last Call: -- 1000 0 0 -- 7 0 0 0 0 0"':
+      - cell "J_Final_Automation02 NEW  (Outbound) (Batch Preview) (Direct)":
+        - link "J_Final_Automation02":
+          - /url: /campaigns/modify/demand/6/J_Final_Automation02
+        - superscript: NEW
+        - text:  (Outbound) (Batch Preview) (Direct)
+      - 'cell "Start Date: Jun 29, 12:00 am First Call: -- Last Call: --"'
+      - cell "1000"
+      - cell "0"
+      - cell "0"
+      - cell "--"
+      - cell "7"
+      - cell "0"
+      - cell
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell:
+        - link "Edit campaign":
+          - /url: /campaigns/modify/demand/6/J_Final_Automation02
+        - button "Delete Campaign"
+    - 'row "J_Final_Automation03 NEW  (Outbound) (Batch Preview) (Direct) Start Date: Jun 29, 12:00 am First Call: -- Last Call: -- 1000 0 0 -- 7 0 0 0 0 0"':
+      - cell "J_Final_Automation03 NEW  (Outbound) (Batch Preview) (Direct)":
+        - link "J_Final_Automation03":
+          - /url: /campaigns/modify/demand/8/J_Final_Automation03
+        - superscript: NEW
+        - text:  (Outbound) (Batch Preview) (Direct)
+      - 'cell "Start Date: Jun 29, 12:00 am First Call: -- Last Call: --"'
+      - cell "1000"
+      - cell "0"
+      - cell "0"
+      - cell "--"
+      - cell "7"
+      - cell "0"
+      - cell
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell:
+        - link "Edit campaign":
+          - /url: /campaigns/modify/demand/8/J_Final_Automation03
+        - button "Delete Campaign"
+    - 'row "J_Final_Automation04 NEW  (Outbound) (Batch Preview) (Direct) Start Date: Jun 29, 12:00 am First Call: -- Last Call: -- 1000 0 0 -- 7 0 0 0 0 0"':
+      - cell "J_Final_Automation04 NEW  (Outbound) (Batch Preview) (Direct)":
+        - link "J_Final_Automation04":
+          - /url: /campaigns/modify/demand/9/J_Final_Automation04
+        - superscript: NEW
+        - text:  (Outbound) (Batch Preview) (Direct)
+      - 'cell "Start Date: Jun 29, 12:00 am First Call: -- Last Call: --"'
+      - cell "1000"
+      - cell "0"
+      - cell "0"
+      - cell "--"
+      - cell "7"
+      - cell "0"
+      - cell
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell:
+        - link "Edit campaign":
+          - /url: /campaigns/modify/demand/9/J_Final_Automation04
+        - button "Delete Campaign"
+    - 'row "J_Final_Automation05 NEW  (Outbound) (Batch Preview) (Direct) Start Date: Jun 29, 12:00 am First Call: -- Last Call: -- 1000 0 0 -- 7 0 0 0 0 0"':
+      - cell "J_Final_Automation05 NEW  (Outbound) (Batch Preview) (Direct)":
+        - link "J_Final_Automation05":
+          - /url: /campaigns/modify/demand/10/J_Final_Automation05
+        - superscript: NEW
+        - text:  (Outbound) (Batch Preview) (Direct)
+      - 'cell "Start Date: Jun 29, 12:00 am First Call: -- Last Call: --"'
+      - cell "1000"
+      - cell "0"
+      - cell "0"
+      - cell "--"
+      - cell "7"
+      - cell "0"
+      - cell
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell:
+        - link "Edit campaign":
+          - /url: /campaigns/modify/demand/10/J_Final_Automation05
+        - button "Delete Campaign"
+    - 'row "J_Final_Automation06 NEW  (Outbound) (Batch Preview) (Direct) Start Date: Jun 29, 12:00 am First Call: -- Last Call: -- 1000 0 0 -- 7 0 0 0 0 0"':
+      - cell "J_Final_Automation06 NEW  (Outbound) (Batch Preview) (Direct)":
+        - link "J_Final_Automation06":
+          - /url: /campaigns/modify/demand/11/J_Final_Automation06
+        - superscript: NEW
+        - text:  (Outbound) (Batch Preview) (Direct)
+      - 'cell "Start Date: Jun 29, 12:00 am First Call: -- Last Call: --"'
+      - cell "1000"
+      - cell "0"
+      - cell "0"
+      - cell "--"
+      - cell "7"
+      - cell "0"
+      - cell
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell:
+        - link "Edit campaign":
+          - /url: /campaigns/modify/demand/11/J_Final_Automation06
+        - button "Delete Campaign"
+    - 'row "J_Final_Automation07 NEW  (Outbound) (Batch Preview) (Direct) Start Date: Jun 29, 12:00 am First Call: -- Last Call: -- 1000 0 0 -- 7 0 0 0 0 0"':
+      - cell "J_Final_Automation07 NEW  (Outbound) (Batch Preview) (Direct)":
+        - link "J_Final_Automation07":
+          - /url: /campaigns/modify/demand/12/J_Final_Automation07
+        - superscript: NEW
+        - text:  (Outbound) (Batch Preview) (Direct)
+      - 'cell "Start Date: Jun 29, 12:00 am First Call: -- Last Call: --"'
+      - cell "1000"
+      - cell "0"
+      - cell "0"
+      - cell "--"
+      - cell "7"
+      - cell "0"
+      - cell
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell:
+        - link "Edit campaign":
+          - /url: /campaigns/modify/demand/12/J_Final_Automation07
+        - button "Delete Campaign"
+    - 'row "J_Final_Automation08 NEW  (Outbound) (Batch Preview) (Direct) Start Date: Jun 29, 12:00 am First Call: -- Last Call: -- 1000 0 0 Jay Caller Sachin Caller 7 10 0 0 0 0"':
+      - cell "J_Final_Automation08 NEW  (Outbound) (Batch Preview) (Direct)":
+        - link "J_Final_Automation08":
+          - /url: /campaigns/modify/demand/13/J_Final_Automation08
+        - superscript: NEW
+        - text:  (Outbound) (Batch Preview) (Direct)
+      - 'cell "Start Date: Jun 29, 12:00 am First Call: -- Last Call: --"'
+      - cell "1000"
+      - cell "0"
+      - cell "0"
+      - cell "Jay Caller Sachin Caller":
+        - list:
+          - listitem: Jay Caller
+          - listitem: Sachin Caller
+      - cell "7"
+      - cell "10"
+      - cell
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell:
+        - link "Edit campaign":
+          - /url: /campaigns/modify/demand/13/J_Final_Automation08
+        - button "Delete Campaign"
+    - 'row "J_Final_Automation09 NEW  (Outbound) (Auto-Preview) (Direct) Start Date: Jun 30, 12:00 am First Call: -- Last Call: -- 1000 0 0 Jay Caller Sachin Caller 7 10 0 0 0 0"':
+      - cell "J_Final_Automation09 NEW  (Outbound) (Auto-Preview) (Direct)":
+        - link "J_Final_Automation09":
+          - /url: /campaigns/modify/demand/16/J_Final_Automation09
+        - superscript: NEW
+        - text:  (Outbound) (Auto-Preview) (Direct)
+      - 'cell "Start Date: Jun 30, 12:00 am First Call: -- Last Call: --"'
+      - cell "1000"
+      - cell "0"
+      - cell "0"
+      - cell "Jay Caller Sachin Caller":
+        - list:
+          - listitem: Jay Caller
+          - listitem: Sachin Caller
+      - cell "7"
+      - cell "10"
+      - cell
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell:
+        - link "Edit campaign":
+          - /url: /campaigns/modify/demand/16/J_Final_Automation09
+        - button "Delete Campaign"
+    - 'row "J_Final_Automation10 NEW  (Outbound) (Batch Preview) (Direct) Start Date: Jun 29, 12:00 am First Call: -- Last Call: -- 1000 0 0 Jay Caller Sachin Caller 7 10 0 0 0 0"':
+      - cell "J_Final_Automation10 NEW  (Outbound) (Batch Preview) (Direct)":
+        - link "J_Final_Automation10":
+          - /url: /campaigns/modify/demand/15/J_Final_Automation10
+        - superscript: NEW
+        - text:  (Outbound) (Batch Preview) (Direct)
+      - 'cell "Start Date: Jun 29, 12:00 am First Call: -- Last Call: --"'
+      - cell "1000"
+      - cell "0"
+      - cell "0"
+      - cell "Jay Caller Sachin Caller":
+        - list:
+          - listitem: Jay Caller
+          - listitem: Sachin Caller
+      - cell "7"
+      - cell "10"
+      - cell
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell:
+        - link "Edit campaign":
+          - /url: /campaigns/modify/demand/15/J_Final_Automation10
+        - button "Delete Campaign"
+    - 'row "Testing Camp01 NEW  (Outbound) (Batch Preview) (Direct) Start Date: Jun 26, 12:00 am First Call: -- Last Call: -- 1000 0 0 -- 7 0 0 0 0 0"':
+      - cell "Testing Camp01 NEW  (Outbound) (Batch Preview) (Direct)":
+        - link "Testing Camp01":
+          - /url: /campaigns/modify/demand/2/Testing Camp01
+        - superscript: NEW
+        - text:  (Outbound) (Batch Preview) (Direct)
+      - 'cell "Start Date: Jun 26, 12:00 am First Call: -- Last Call: --"'
+      - cell "1000"
+      - cell "0"
+      - cell "0"
+      - cell "--"
+      - cell "7"
+      - cell "0"
+      - cell
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell:
+        - link "Edit campaign":
+          - /url: /campaigns/modify/demand/2/Testing Camp01
+        - button "Delete Campaign"
+    - 'row "Verify_Skil_Camp NEW  (Outbound) (Auto-Preview) (Skills) Start Date: Aug 5, 12:00 am First Call: -- Last Call: -- 1000 0 0 -- 7 0 0 0 0 0"':
+      - cell "Verify_Skil_Camp NEW  (Outbound) (Auto-Preview) (Skills)":
+        - link "Verify_Skil_Camp":
+          - /url: /campaigns/modify/demand/18/Verify_Skil_Camp
+        - superscript: NEW
+        - text:  (Outbound) (Auto-Preview) (Skills)
+      - 'cell "Start Date: Aug 5, 12:00 am First Call: -- Last Call: --"'
+      - cell "1000"
+      - cell "0"
+      - cell "0"
+      - cell "--"
+      - cell "7"
+      - cell "0"
+      - cell
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell:
+        - link "Edit campaign":
+          - /url: /campaigns/modify/demand/18/Verify_Skil_Camp
+        - button "Delete Campaign"
+    - 'row "Vinit test Camp NEW  (Outbound) (Auto-Preview) (Direct) Start Date: Jul 14, 2:30 pm First Call: -- Last Call: -- 1000 0 0 Jay Caller 7 5 0 0 0 0"':
+      - cell "Vinit test Camp NEW  (Outbound) (Auto-Preview) (Direct)":
+        - link "Vinit test Camp":
+          - /url: /campaigns/modify/demand/17/Vinit test Camp
+        - superscript: NEW
+        - text:  (Outbound) (Auto-Preview) (Direct)
+      - 'cell "Start Date: Jul 14, 2:30 pm First Call: -- Last Call: --"'
+      - cell "1000"
+      - cell "0"
+      - cell "0"
+      - cell "Jay Caller":
+        - list:
+          - listitem: Jay Caller
+      - cell "7"
+      - cell "5"
+      - cell
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell "0"
+      - cell:
+        - link "Edit campaign":
+          - /url: /campaigns/modify/demand/17/Vinit test Camp
+        - button "Delete Campaign"
+- text: Support Campaigns
+- button
+```

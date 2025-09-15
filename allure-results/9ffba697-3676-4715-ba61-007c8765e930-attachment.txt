@@ -1,0 +1,2 @@
+Error updating user aavazcaller@tekege.com: User is not Created. Actual message: Please select at least one skill
+❌ Error updating user Aavaz Caller: User is not Created. Actual message: Please select at least one skill

@@ -1,0 +1,50 @@
+locator.clear: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator('//input[@id=\'stageName\']')
+
+    at SystemSetupPage.createLeadStageHelper (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:2184:30)
+    at SystemSetupPage.setupLeadStage (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:2155:13)
+    at /home/jtomar/playwright-demo/playwright-demo-new/tests/Sanity/CreateleadprocessField.spec.js:61:7 {
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    stepId: 'pw:api@69',
+    location: {
+      file: '/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js',
+      line: 2184,
+      column: 30,
+      function: 'SystemSetupPage.createLeadStageHelper'
+    },
+    category: 'pw:api',
+    title: `Fill "" locator('//input[@id=\\'stageName\\']')`,
+    apiName: 'locator.clear',
+    params: {
+      selector: "//input[@id='stageName']",
+      value: '',
+      strict: true,
+      timeout: 5000
+    },
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@69'
+    },
+    complete: [Function: complete],
+    endWallTime: 1754295012835,
+    error: {
+      message: 'TimeoutError: locator.clear: Timeout 5000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//input[@id=\\'stageName\\']')\x1B[22m\n",
+      stack: 'TimeoutError: locator.clear: Timeout 5000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//input[@id=\\'stageName\\']')\x1B[22m\n" +
+        '\n' +
+        '    at SystemSetupPage.createLeadStageHelper (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:2184:30)\n' +
+        '    at SystemSetupPage.setupLeadStage (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:2155:13)\n' +
+        '    at /home/jtomar/playwright-demo/playwright-demo-new/tests/Sanity/CreateleadprocessField.spec.js:61:7',
+      cause: undefined
+    }
+  }
+}

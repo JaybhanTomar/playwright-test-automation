@@ -1,0 +1,5 @@
+❌ Error testing login for updated user Sachin Caller: loginPage.navigateToLoginPage is not a function
+❌ Error testing login for updated user Sachin Admin: loginPage.navigateToLoginPage is not a function
+❌ Error testing login for updated user Jay Caller: loginPage.navigateToLoginPage is not a function
+❌ Error testing login for updated user Jay Admin: loginPage.navigateToLoginPage is not a function
+❌ Error testing login for updated user Aavaz Caller: loginPage.navigateToLoginPage is not a function

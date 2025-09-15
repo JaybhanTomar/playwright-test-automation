@@ -1,0 +1,48 @@
+locator.scrollIntoViewIfNeeded: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator('//a[normalize-space()=\'Ticket Type\']')
+
+    at SystemSetupPage.clickOnTicketType (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:3069:35)
+    at /home/jtomar/playwright-demo/playwright-demo-new/tests/Sanity/CreateTicketprocessField.spec.js:41:15 {
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    stepId: 'pw:api@34',
+    location: {
+      file: '/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js',
+      line: 3069,
+      column: 35,
+      function: 'SystemSetupPage.clickOnTicketType'
+    },
+    category: 'pw:api',
+    title: "Scroll into view locator('//a[normalize-space()=\\'Ticket Type\\']')",
+    apiName: 'locator.scrollIntoViewIfNeeded',
+    params: {
+      selector: "//a[normalize-space()='Ticket Type']",
+      strict: true,
+      state: 'attached',
+      timeout: 5000
+    },
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@34'
+    },
+    complete: [Function: complete],
+    endWallTime: 1754148519184,
+    error: {
+      message: 'TimeoutError: locator.scrollIntoViewIfNeeded: Timeout 5000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//a[normalize-space()=\\'Ticket Type\\']')\x1B[22m\n",
+      stack: 'TimeoutError: locator.scrollIntoViewIfNeeded: Timeout 5000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//a[normalize-space()=\\'Ticket Type\\']')\x1B[22m\n" +
+        '\n' +
+        '    at SystemSetupPage.clickOnTicketType (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:3069:35)\n' +
+        '    at /home/jtomar/playwright-demo/playwright-demo-new/tests/Sanity/CreateTicketprocessField.spec.js:41:15',
+      cause: undefined
+    }
+  }
+}

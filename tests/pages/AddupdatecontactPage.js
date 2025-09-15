@@ -1,7 +1,6 @@
 const { expect } = require('@playwright/test');
 const BasePage = require('./BasePage');
 const ErrorUtil = require('../utils/ErrorUtil');
-const TablePaginationHandler = require('../utils/TablePaginationHandler');
 const DatePicker = require('../utils/DatePicker');
 
 class AddupdatecontactPage extends BasePage {
@@ -144,6 +143,59 @@ class AddupdatecontactPage extends BasePage {
           console.warn('Router link not found or not clickable after error:', e.message);
         }
       }
+    }
+  }
+
+  //WIO Direct Methods (After Hangup)
+  async WIOaddNewContactDirect(dialedNumber, companyName, firstName, lastName, email) {
+    try {
+      await expect(this.SearchorAddContactPopUp).toBeVisible({ timeout: 10000 });
+      await this.scrollIntoView(this.AddNewContact);
+      await this.safeClick(this.AddNewContact);
+      await this.Phone.fill(dialedNumber);
+      if(companyName) await this.CompanyName.fill(companyName);
+      if(firstName) await this.FirstName.fill(firstName);
+      if(lastName) await this.LastName.fill(lastName);
+      if(email) await this.Email.fill(email);
+      await this.safeClick(this.SaveAddContact);
+      await ErrorUtil.captureErrorIfPresent(this.page, 'WIOaddNewContactDirect');
+      await ErrorUtil.captureApiErrorIfPresent(this.apiCapture, 'WIOaddNewContactDirect');
+      return true;
+    } catch (error) {
+      console.error('❌ Error adding new contact directly:', error.message);
+      throw error;
+    }
+  }
+
+  async WIOsearchContactDirect(dialedNumber, fieldType) {
+    try {
+      await expect(this.SearchorAddContactPopUp).toBeVisible({ timeout: 10000 });
+      await this.scrollIntoView(this.SearchContact);
+      await this.safeClick(this.SearchContact);
+      await this.FieldType.selectOption(fieldType);
+      await this.FieldValue.fill(dialedNumber);
+      await this.safeClick(this.SearchButton);
+      await ErrorUtil.captureErrorIfPresent(this.page, 'WIOsearchContactDirect');
+      await ErrorUtil.captureApiErrorIfPresent(this.apiCapture, 'WIOsearchContactDirect');
+      return true;
+    } catch (error) {
+      console.error('❌ Error searching contact directly:', error.message);
+      throw error;
+    }
+  }
+
+  async WIOautoDispose() {
+    try {
+      await expect(this.SearchorAddContactPopUp).toBeVisible({ timeout: 10000 });
+      const closeButton = this.page.locator("//i[@class='fa fa-times fa-lg info close-wio hov-pointer']");
+      await this.scrollIntoView(closeButton);
+      await this.safeClick(closeButton);
+      await ErrorUtil.captureErrorIfPresent(this.page, 'WIOautoDispose');
+      await ErrorUtil.captureApiErrorIfPresent(this.apiCapture, 'WIOautoDispose');
+      return true;
+    } catch (error) {
+      console.error('❌ Error auto disposing WIO popup:', error.message);
+      throw error;
     }
   }
 }

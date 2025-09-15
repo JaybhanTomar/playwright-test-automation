@@ -1,0 +1,14 @@
+❌ Error testing login for user Sachin Caller: locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('//input[@id=\'user_login\']') to be visible
+
+❌ Error testing login for user Sachin Admin: locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('//input[@id=\'user_login\']') to be visible
+
+❌ Error testing login for user Jay Caller: locator.waitFor: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('//input[@id=\'user_login\']') to be visible
+
+❌ Error testing login for user Jay Admin: page.goto: Target page, context or browser has been closed
+❌ Error testing login for user Aavaz Caller: page.goto: Target page, context or browser has been closed

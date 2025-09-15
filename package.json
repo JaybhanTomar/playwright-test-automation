@@ -8,36 +8,30 @@
     "test:ui": "playwright test --ui",
     "setup-data": "node scripts/setupTestData.js",
     "validate-config": "node scripts/validate-config.js",
-
     "campaign": "npx playwright test tests/campaign",
     "contacts": "npx playwright test --project='Contact Tests' --reporter=html",
     "sanity": "npx playwright test tests/Sanity",
     "rbl": "npx playwright test tests/RBL",
     "irc": "npx playwright test tests/IRC",
-
     "rbl:headed": "npx playwright test tests/RBL --headed",
     "sanity:headed": "npx playwright test tests/Sanity --headed",
     "irc:headed": "npx playwright test tests/IRC --headed",
     "campaign:headed": "npx playwright test tests/campaign --headed",
-
     "rbl:ui": "npx playwright test tests/RBL --ui",
     "sanity:ui": "npx playwright test tests/Sanity --ui",
     "irc:ui": "npx playwright test tests/IRC --ui",
     "campaign:ui": "npx playwright test tests/campaign --ui",
-
     "test:allure": "./scripts/allure-report.sh test 'npm run test'",
     "test:allure:sanity": "./scripts/allure-report.sh test 'npm run sanity'",
     "test:allure:rbl": "./scripts/allure-report.sh test 'npm run rbl'",
     "test:allure:irc": "./scripts/allure-report.sh test 'npm run irc'",
     "test:allure:campaign": "./scripts/allure-report.sh test 'npm run campaign'",
     "test:allure:contacts": "./scripts/allure-report.sh test 'npm run contacts'",
-
     "allure:generate": "./scripts/allure-report.sh generate",
     "allure:serve": "./scripts/allure-report.sh serve",
     "allure:quick": "./scripts/allure-report.sh quick",
     "allure:open": "./scripts/allure-report.sh open",
     "allure:clean": "./scripts/allure-report.sh clean",
-
     "test:rbl:allure": "./scripts/run-rbl.sh all --allure",
     "test:rbl:allure:headed": "./scripts/run-rbl.sh all --allure --headed",
     "test:rbl:tabbing:allure": "./scripts/run-rbl.sh tabbing --allure",
@@ -47,7 +41,6 @@
     "test:rbl:leads:allure": "./scripts/run-rbl.sh leads --allure",
     "test:rbl:campaigns:allure": "./scripts/run-rbl.sh campaigns --allure",
     "test:rbl:disposition:allure": "./scripts/run-rbl.sh disposition --allure",
-
     "rbl:allure": "./scripts/run-rbl.sh all --allure",
     "rbl:allure:headed": "./scripts/run-rbl.sh all --allure --headed",
     "rbl:tabbing:allure": "./scripts/run-rbl.sh tabbing --allure",
@@ -57,7 +50,6 @@
     "rbl:leads:allure": "./scripts/run-rbl.sh leads --allure",
     "rbl:campaigns:allure": "./scripts/run-rbl.sh campaigns --allure",
     "rbl:disposition:allure": "./scripts/run-rbl.sh disposition --allure",
-
     "t:rbl": "./scripts/run-rbl.sh all",
     "t:rbl:allure": "./scripts/run-rbl.sh all --allure",
     "t:rbl:h": "./scripts/run-rbl.sh all --headed",

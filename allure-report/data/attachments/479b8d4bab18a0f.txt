@@ -1,0 +1,63 @@
+
+📋 RBL Configuration:
+   Environment: QC2
+   Headless: false
+   Timeout: 600s
+   Browser Args: --start-maximized, --disable-web-security, --disable-features=VizDisplayCompositor
+
+🌐 RBL Config: Navigating to QC2 environment
+✅ Navigated to QC2: https://qc2.devaavaz.biz/
+✅ RBL Config: Successfully navigated to QC2
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Login Creds Data.xlsx, Sheet: UserLoginData
+✅ Successfully read 1 data objects from Excel
+Verifying user role. Expected: 'admin', Actual: 'admin'
+✅ Role verification passed: admin
+✅ RBL Setup: Successfully logged in to QC2
+Successfully Clicked on SystemSetup page
+✅ RBL Setup: Navigated to System Setup
+
+🔍 Testing Dispositions navigation...
+ Create Disposition Screen  button is visible after clicking Dispositions.
+✅ Dispositions navigation test completed successfully
+✅ RBL Disposition Screen: Setup completed on QC2
+
+📋 Starting RBL Disposition Screen setup with Excel data...
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/RBL Test Data_withQuestionType_backup.xlsx, Sheet: DispositionScreenCreation
+✅ Successfully read 1 data objects from Excel
+DEBUG RBL DispositionScreenData: [
+  {
+    Type: 'Demand Generation',
+    DispositionScreen: 'RBL Custom Screen2',
+    category: 'RBL',
+    question: 'NPA Customer Calling',
+    questionType: 'positive'
+  }
+]
+📊 Processing 1 RBL disposition screen(s) from Excel data
+
+📄 Running RBL disposition screen creation test for: RBL Custom Screen2
+RBL Disposition screen details: {
+  Type: 'Demand Generation',
+  DispositionScreen: 'RBL Custom Screen2',
+  category: 'RBL',
+  question: 'NPA Customer Calling',
+  questionType: 'positive'
+}
+RBL Custom Screen2: Disposition Screen does not exist.
+RBL Custom Screen2: Disposition Screen does not exist. Creating it...
+✅ Clicked Create Disposition Screen button
+✅ Filled disposition screen name: RBL Custom Screen2
+✅ Selected disposition screen type: Demand Generation
+🔍 Processing disposition type: "Demand Generation" (trimmed: "demand generation")
+📝 Adding positive disposition question as positive...
+🔍 Looking for question: "NPA Customer Calling" in category: "RBL"
+🔍 Found 1 rows containing question text: "NPA Customer Calling"
+✅ Selected positive question: NPA Customer Calling
+✅ Clicked "Add Selected" button for question: NPA Customer Calling
+✅ Saved disposition screen: RBL Custom Screen2
+✅ RBL Custom Screen2: Disposition Screen created successfully
+✅ RBL disposition screen creation test completed for: RBL Custom Screen2
+📊 API Summary: 17 calls, 0 failed
+📊 API Summary: RBL tests completed on QC2
+✅ Browser context closed successfully
+✅ Browser closed successfully

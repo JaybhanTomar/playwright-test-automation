@@ -1,0 +1,18 @@
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/WorkFlow Test Data.xlsx, Sheet: UserCreationData
+✅ Successfully read 5 data objects from Excel
+📊 Processing 5 user lock out test(s) from Excel data
+📋 [1/5] Testing lock out for RBL user with First Name: undefined, Last Name: undefined, Email: sachincaller@tekege.com
+sachincaller@tekege.com: User not found in any page.
+✅ RBL user lock out test completed for: undefined undefined
+📋 [2/5] Testing lock out for RBL user with First Name: undefined, Last Name: undefined, Email: sachinadmin@tekege.com
+sachinadmin@tekege.com: User not found in any page.
+✅ RBL user lock out test completed for: undefined undefined
+📋 [3/5] Testing lock out for RBL user with First Name: undefined, Last Name: undefined, Email: jaycaller@tekege.com
+jaycaller@tekege.com: User not found in any page.
+✅ RBL user lock out test completed for: undefined undefined
+📋 [4/5] Testing lock out for RBL user with First Name: undefined, Last Name: undefined, Email: jayadmin@tekege.com
+jayadmin@tekege.com: User not found in any page.
+✅ RBL user lock out test completed for: undefined undefined
+📋 [5/5] Testing lock out for RBL user with First Name: undefined, Last Name: undefined, Email: aavazcaller@tekege.com
+aavazcaller@tekege.com: User not found in any page.
+✅ RBL user lock out test completed for: undefined undefined
