@@ -1,0 +1,5 @@
+
+🔍 Testing Lead Lost Reason navigation...
+Successfully Clicked on SystemSetup page
+ Create Lead Lost Reason  button is visible after clicking LeadLostReason.
+✅ Lead Lost Reason navigation test completed successfully

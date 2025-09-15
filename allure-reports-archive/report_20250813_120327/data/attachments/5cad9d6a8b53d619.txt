@@ -1,0 +1,43 @@
+❌ API Failed: https://qc2.devaavaz.biz/361-api/v3/tickets/stages - Status: 503
+locator.waitFor: Target page, context or browser has been closed
+    at SystemSetupPage.createTicketStageHelper (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:3659:36)
+    at SystemSetupPage.setupTicketStage (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:3632:5)
+    at /home/jtomar/playwright-demo/playwright-demo-new/tests/Sanity/CreateTicketprocessField.spec.js:192:9 {
+  [Symbol(step)]: {
+    stepId: 'pw:api@23',
+    location: {
+      file: '/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js',
+      line: 3659,
+      column: 36,
+      function: 'SystemSetupPage.createTicketStageHelper'
+    },
+    category: 'pw:api',
+    title: "Wait for selector locator('//a[normalize-space()=\\'Ticket Field\\']')",
+    apiName: 'locator.waitFor',
+    params: {
+      selector: "//a[normalize-space()='Ticket Field']",
+      strict: true,
+      omitReturnValue: true,
+      state: 'visible',
+      timeout: 60000
+    },
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@23'
+    },
+    complete: [Function: complete],
+    endWallTime: 1754391912121,
+    error: {
+      message: 'Error: locator.waitFor: Target page, context or browser has been closed',
+      stack: 'Error: locator.waitFor: Target page, context or browser has been closed\n' +
+        '    at SystemSetupPage.createTicketStageHelper (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:3659:36)\n' +
+        '    at SystemSetupPage.setupTicketStage (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:3632:5)\n' +
+        '    at /home/jtomar/playwright-demo/playwright-demo-new/tests/Sanity/CreateTicketprocessField.spec.js:192:9',
+      cause: undefined
+    }
+  }
+}

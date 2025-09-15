@@ -1,0 +1,25 @@
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/WorkFlow Test Data.xlsx, Sheet: UserCreationData
+✅ Successfully read 5 data objects from Excel
+📊 Processing 5 user login test(s) from Excel data
+📋 [1/5] Testing login for RBL user with First Name: Sachin, Last Name: Caller, Email: sachincaller@tekege.com
+🌐 RBL Config: Navigating to QC3 environment
+✅ Navigated to QC3: https://qc3.devaavaz.biz/
+✅ RBL Config: Successfully navigated to QC3
+📋 [2/5] Testing login for RBL user with First Name: Sachin, Last Name: Admin, Email: sachinadmin@tekege.com
+🌐 RBL Config: Navigating to QC3 environment
+✅ Navigated to QC3: https://qc3.devaavaz.biz/
+✅ RBL Config: Successfully navigated to QC3
+📋 [3/5] Testing login for RBL user with First Name: Jay, Last Name: Caller, Email: jaycaller@tekege.com
+🌐 RBL Config: Navigating to QC3 environment
+✅ Navigated to QC3: https://qc3.devaavaz.biz/
+✅ RBL Config: Successfully navigated to QC3
+📋 [4/5] Testing login for RBL user with First Name: Jay, Last Name: Admin, Email: jayadmin@tekege.com
+🌐 RBL Config: Navigating to QC3 environment
+✅ Navigated to QC3: https://qc3.devaavaz.biz/
+✅ RBL Config: Successfully navigated to QC3
+📊 API Summary: 28 calls, 0 failed
+📊 API Summary: RBL tests completed on QC3
+📋 [5/5] Testing login for RBL user with First Name: Aavaz, Last Name: Caller, Email: aavazcaller@tekege.com
+🌐 RBL Config: Navigating to QC3 environment
+✅ Browser context closed successfully
+✅ Browser closed successfully

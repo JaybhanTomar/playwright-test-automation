@@ -1,0 +1,183 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - link "Logo":
+    - /url: /
+    - img "Logo"
+  - navigation:
+    - button "Toggle navigation"
+    - list:
+      - listitem: DCC 0
+      - listitem: CCC 0
+      - listitem: ACC 0
+      - listitem "Notification":  0
+      - listitem:
+        - button "Click to become ready to make and receive calls"
+      - listitem:
+        - link "Admin 0":
+          - /url: javascript:;
+- complementary:
+  - list:
+    - listitem:
+      - link "Home":
+        - /url: /
+    - listitem:
+      - link "Dashboard":
+        - /url: /dashboard
+    - listitem:
+      - link "Import":
+        - /url: /import/list
+    - listitem:
+      - link "Campaign":
+        - /url: "#"
+    - listitem:
+      - link "Leads":
+        - /url: "#"
+    - listitem:
+      - link "Tickets":
+        - /url: "#"
+    - listitem:
+      - link "Contact":
+        - /url: "#"
+    - listitem:
+      - link "Reports":
+        - /url: "#"
+    - listitem:
+      - link "Time Log":
+        - /url: /timeLog
+    - listitem:
+      - link "Agent Monitor":
+        - /url: /agentmonitor
+    - listitem:
+      - link "User Preferences":
+        - /url: "#"
+    - listitem:
+      - link "System Setup":
+        - /url: /settings
+  - button "Search and Add Contact"
+  - button "FEEDBACK"
+  - button "Toggle sidebar"
+- heading "" [level=4]:
+  - button ""
+- heading "Disposition Screen" [level=4]
+- list:
+  - text: 
+  - listitem:
+    - link "Home":
+      - /url: /
+  - listitem: / Disposition Screen
+- list:
+  - listitem:
+    - link "Disposition Screen":
+      - /url: "#dispositionScreen"
+  - listitem:
+    - link "Disposition Question":
+      - /url: "#dispositionQuestion"
+- text: Create Disposition Screen Di
+- heading "Create Disposition Screen" [level=4]
+- textbox "Disposition Screen Name*": RBL Custom Screen
+- text: Disposition Screen Name* Type*
+- combobox:
+  - option "Select Type"
+  - option "Demand Generation" [selected]
+  - option "Support"
+- text: Disposition Screen Details
+- strong: 1)
+- text: These dispositions will be displayed when you want the prospect to drop of your calling list
+- strong: (Negative).
+- list:
+  - listitem: Not Interested*
+  - listitem: Not Qualified*
+- button "Add Main Questions"
+- separator
+- strong: 2)
+- text: These dispositions will be displayed when you want the contact to be called back
+- strong: (Indeterminate).
+- list:
+  - listitem: Call Back*
+- button "Add Main Questions"
+- separator
+- strong: 3)
+- text: When contact is consider a success
+- strong: (Positive)
+- text: .
+- checkbox "Hide default lead fields" [disabled]
+- text: Hide default lead fields
+- list:
+  - listitem: Lead*
+- button "Add Main Questions" [expanded]
+- heading "Main Questions" [level=4]
+- table:
+  - rowgroup:
+    - row "Select All Category Question":
+      - columnheader "Select All":
+        - text: Select All
+        - checkbox "Select All"
+      - columnheader "Category"
+      - columnheader "Question"
+  - rowgroup:
+    - row
+    - row
+    - row
+    - row
+    - row
+    - row
+    - row
+    - row
+    - row
+    - row "BMRC Ticket Help07":
+      - cell:
+        - checkbox
+      - cell "BMRC"
+      - cell "Ticket Help07"
+    - row
+    - row
+    - row
+    - row "RBL NPA Customer Calling":
+      - cell:
+        - checkbox
+      - cell "RBL"
+      - cell "NPA Customer Calling"
+- button "Cancel"
+- button "Add Selected"
+- separator
+- button "Cancel"
+- button "Save"
+- textbox "Search on page"
+- text: Search on page
+- table:
+  - rowgroup:
+    - row "Disposition Type Actions":
+      - columnheader "Disposition"
+      - columnheader "Type"
+      - columnheader "Actions"
+  - rowgroup
+  - rowgroup:
+    - row "Default Demand Generation Screen Demand Generation Edit Agent View":
+      - cell "Default Demand Generation Screen"
+      - cell "Demand Generation"
+      - cell "Edit Agent View":
+        - button "Edit" [disabled]
+        - button "Agent View" [disabled]
+    - row "Default No Answer Screen Demand Generation Edit Agent View":
+      - cell "Default No Answer Screen"
+      - cell "Demand Generation"
+      - cell "Edit Agent View":
+        - button "Edit" [disabled]
+        - button "Agent View" [disabled]
+    - row "Default Support Screen Support Edit Agent View":
+      - cell "Default Support Screen"
+      - cell "Support"
+      - cell "Edit Agent View":
+        - button "Edit" [disabled]
+        - button "Agent View" [disabled]
+    - row "Positive Response Screen Demand Generation Edit Agent View":
+      - cell "Positive Response Screen"
+      - cell "Demand Generation"
+      - cell "Edit Agent View":
+        - link "Edit":
+          - /url: /settings/library/dispositions/screen/4
+        - link "Agent View":
+          - /url: /settings/library/dispositions/screen/agentView/4
+```

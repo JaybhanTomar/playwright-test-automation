@@ -1,0 +1,145 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - link "Logo":
+    - /url: /
+    - img "Logo"
+  - navigation:
+    - button "Toggle navigation"
+    - list:
+      - listitem "Notification":  0
+      - listitem:
+        - button "Click to become ready to make and receive calls"
+      - listitem:
+        - link "Admin 0":
+          - /url: javascript:;
+- complementary:
+  - list:
+    - listitem:
+      - link "Home":
+        - /url: /
+    - listitem:
+      - link "Dashboard":
+        - /url: /dashboard
+    - listitem:
+      - link "Import":
+        - /url: /import/list
+    - listitem:
+      - link "Campaign":
+        - /url: "#"
+    - listitem:
+      - link "Leads":
+        - /url: "#"
+    - listitem:
+      - link "Tickets":
+        - /url: "#"
+    - listitem:
+      - link "Contact":
+        - /url: "#"
+    - listitem:
+      - link "Reports":
+        - /url: "#"
+    - listitem:
+      - link "Time Log":
+        - /url: /timeLog
+    - listitem:
+      - link "Agent Monitor":
+        - /url: /agentmonitor
+    - listitem:
+      - link "User Preferences":
+        - /url: "#"
+    - listitem:
+      - link "System Setup":
+        - /url: /settings
+  - button "Search and Add Contact"
+  - button "FEEDBACK"
+  - button "Toggle sidebar"
+- heading "" [level=4]:
+  - button ""
+- heading "Ticket Type" [level=4]
+- list:
+  - text: 
+  - listitem:
+    - link "Home":
+      - /url: /
+  - listitem: / Ticket Type
+- list:
+  - listitem:
+    - link "Ticket Field":
+      - /url: "#ticketsField"
+  - listitem:
+    - link "Ticket Type":
+      - /url: "#ticketsType"
+  - listitem:
+    - link "Ticket Priority":
+      - /url: "#ticketsPriority"
+  - listitem:
+    - link "Ticket Stage":
+      - /url: "#ticketsStatus"
+- text: Create Ticket Type
+- textbox "Search on page"
+- text: Search on page
+- list:
+  - listitem: Filters
+- table:
+  - rowgroup:
+    - row "Category Ticket Type Actions":
+      - columnheader "Category"
+      - columnheader "Ticket Type"
+      - columnheader "Actions"
+  - rowgroup
+  - rowgroup:
+    - row "Aavaz0 A_Incident Edit Hide Set Default":
+      - cell "Aavaz0"
+      - cell "A_Incident"
+      - cell "Edit Hide Set Default":
+        - link "Edit":
+          - /url: /settings/library/ticket/ticketType/5
+        - button "Hide"
+        - button "Set Default"
+    - row "General Incident (Default) Edit Hide Set Default":
+      - cell "General"
+      - cell "Incident (Default)"
+      - cell "Edit Hide Set Default":
+        - button "Edit" [disabled]
+        - button "Hide" [disabled]
+        - button "Set Default" [disabled]
+    - row "BMRC Jay_Question Edit Hide Set Default":
+      - cell "BMRC"
+      - cell "Jay_Question"
+      - cell "Edit Hide Set Default":
+        - link "Edit":
+          - /url: /settings/library/ticket/ticketType/6
+        - button "Hide"
+        - button "Set Default"
+    - row "General Problem Edit Hide Set Default":
+      - cell "General"
+      - cell "Problem"
+      - cell "Edit Hide Set Default":
+        - button "Edit" [disabled]
+        - button "Hide" [disabled]
+        - button "Set Default" [disabled]
+    - row "General Question Edit Hide Set Default":
+      - cell "General"
+      - cell "Question"
+      - cell "Edit Hide Set Default":
+        - button "Edit" [disabled]
+        - button "Hide" [disabled]
+        - button "Set Default" [disabled]
+    - row "General Task Edit Hide Set Default":
+      - cell "General"
+      - cell "Task"
+      - cell "Edit Hide Set Default":
+        - button "Edit" [disabled]
+        - button "Hide" [disabled]
+        - button "Set Default" [disabled]
+    - row "BMRC Testing02 Edit Hide Set Default":
+      - cell "BMRC"
+      - cell "Testing02"
+      - cell "Edit Hide Set Default":
+        - link "Edit":
+          - /url: /settings/library/ticket/ticketType/7
+        - button "Hide"
+        - button "Set Default"
+```

@@ -1,0 +1,28 @@
+✅ Navigated to QC2: https://qc2.devaavaz.biz/
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Login Creds Data.xlsx, Sheet: UserLoginData
+✅ Successfully read 1 data objects from Excel
+Verifying user role. Expected: 'admin', Actual: 'admin'
+✅ Role verification passed: admin
+Successfully Clicked on SystemSetup page
+ Create Ticket Type  button is visible after clicking TicketType.
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Field Test Data.xlsx, Sheet: TicketTypeCreation
+✅ Successfully read 2 data objects from Excel
+DEBUG FieldData: [
+  { Category: 'BMRC', Type: 'Jay_Question', Default: '' },
+  { Category: 'BMRC', Type: 'Testing02', Default: 'Yes' }
+]
+📊 Processing 2 ticket type(s) from Excel data
+
+📄 Running ticket type creation test for: Jay_Question
+Attempting to create/check ticket type with Type: Jay_Question
+Jay_Question: Ticket Type does not exist.
+Jay_Question: Ticket Type is not created. Creating it...
+BMRC : Category is selected
+✅ Ticket type creation test completed for: Jay_Question
+
+📄 Running ticket type creation test for: Testing02
+Attempting to create/check ticket type with Type: Testing02
+Testing02: Ticket Type does not exist.
+Testing02: Ticket Type is not created. Creating it...
+BMRC : Category is selected
+✅ Ticket type creation test completed for: Testing02

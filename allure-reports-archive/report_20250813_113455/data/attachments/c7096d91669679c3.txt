@@ -1,0 +1,86 @@
+locator.scrollIntoViewIfNeeded: Timeout 4884.996000000003ms exceeded.
+Call log:
+  - attempting scroll into view action
+    2 × waiting for element to be stable
+      - element is not visible
+    - retrying scroll into view action
+    - waiting 20ms
+    2 × waiting for element to be stable
+      - element is not visible
+    - retrying scroll into view action
+      - waiting 100ms
+    9 × waiting for element to be stable
+      - element is not visible
+    - retrying scroll into view action
+      - waiting 500ms
+
+    at SystemSetupPage.createDispositionQuestionHelper (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:1577:44)
+    at SystemSetupPage.setupDispositionQuestion (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:1504:9)
+    at /home/jtomar/playwright-demo/playwright-demo-new/tests/Sanity/CreateDispositionQuestion.spec.js:90:9 {
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    stepId: 'pw:api@20',
+    location: {
+      file: '/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js',
+      line: 1577,
+      column: 44,
+      function: 'SystemSetupPage.createDispositionQuestionHelper'
+    },
+    category: 'pw:api',
+    title: "Scroll into view locator('//label[@class=\\'ui-checkbox m-t-5\\']//span[@class=\\'ui-checkmark\\']')",
+    apiName: 'locator.scrollIntoViewIfNeeded',
+    params: {
+      selector: "//label[@class='ui-checkbox m-t-5']//span[@class='ui-checkmark']",
+      strict: true,
+      state: 'attached',
+      timeout: 5000
+    },
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@20'
+    },
+    complete: [Function: complete],
+    endWallTime: 1754406096001,
+    error: {
+      message: 'TimeoutError: locator.scrollIntoViewIfNeeded: Timeout 4884.996000000003ms exceeded.\n' +
+        'Call log:\n' +
+        '\x1B[2m  - attempting scroll into view action\x1B[22m\n' +
+        '\x1B[2m    2 × waiting for element to be stable\x1B[22m\n' +
+        '\x1B[2m      - element is not visible\x1B[22m\n' +
+        '\x1B[2m    - retrying scroll into view action\x1B[22m\n' +
+        '\x1B[2m    - waiting 20ms\x1B[22m\n' +
+        '\x1B[2m    2 × waiting for element to be stable\x1B[22m\n' +
+        '\x1B[2m      - element is not visible\x1B[22m\n' +
+        '\x1B[2m    - retrying scroll into view action\x1B[22m\n' +
+        '\x1B[2m      - waiting 100ms\x1B[22m\n' +
+        '\x1B[2m    9 × waiting for element to be stable\x1B[22m\n' +
+        '\x1B[2m      - element is not visible\x1B[22m\n' +
+        '\x1B[2m    - retrying scroll into view action\x1B[22m\n' +
+        '\x1B[2m      - waiting 500ms\x1B[22m\n',
+      stack: 'TimeoutError: locator.scrollIntoViewIfNeeded: Timeout 4884.996000000003ms exceeded.\n' +
+        'Call log:\n' +
+        '\x1B[2m  - attempting scroll into view action\x1B[22m\n' +
+        '\x1B[2m    2 × waiting for element to be stable\x1B[22m\n' +
+        '\x1B[2m      - element is not visible\x1B[22m\n' +
+        '\x1B[2m    - retrying scroll into view action\x1B[22m\n' +
+        '\x1B[2m    - waiting 20ms\x1B[22m\n' +
+        '\x1B[2m    2 × waiting for element to be stable\x1B[22m\n' +
+        '\x1B[2m      - element is not visible\x1B[22m\n' +
+        '\x1B[2m    - retrying scroll into view action\x1B[22m\n' +
+        '\x1B[2m      - waiting 100ms\x1B[22m\n' +
+        '\x1B[2m    9 × waiting for element to be stable\x1B[22m\n' +
+        '\x1B[2m      - element is not visible\x1B[22m\n' +
+        '\x1B[2m    - retrying scroll into view action\x1B[22m\n' +
+        '\x1B[2m      - waiting 500ms\x1B[22m\n' +
+        '\n' +
+        '    at SystemSetupPage.createDispositionQuestionHelper (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:1577:44)\n' +
+        '    at SystemSetupPage.setupDispositionQuestion (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:1504:9)\n' +
+        '    at /home/jtomar/playwright-demo/playwright-demo-new/tests/Sanity/CreateDispositionQuestion.spec.js:90:9',
+      cause: undefined
+    }
+  }
+}

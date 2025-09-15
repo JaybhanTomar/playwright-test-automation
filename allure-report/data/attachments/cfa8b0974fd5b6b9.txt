@@ -1,0 +1,11 @@
+✅ Navigated to QC2: https://qc2.devaavaz.biz/
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Login Creds Data.xlsx, Sheet: UserLoginData
+✅ Successfully read 1 data objects from Excel
+Verifying user role. Expected: 'admin', Actual: 'admin'
+✅ Role verification passed: admin
+Successfully Clicked on SystemSetup page
+
+🔍 Testing Disposition Question navigation...
+ Create Disposition Screen  button is visible after clicking Dispositions.
+ Create Disposition Question  button is visible after clicking DispositionQuestion.
+✅ Disposition Question navigation test completed successfully

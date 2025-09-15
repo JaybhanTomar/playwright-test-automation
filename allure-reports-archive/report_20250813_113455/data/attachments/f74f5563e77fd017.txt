@@ -1,0 +1,5 @@
+
+🔍 Testing Lead Status navigation...
+Successfully Clicked on SystemSetup page
+ Create Lead Status  button is visible after clicking LeadStatus.
+✅ Lead Status navigation test completed successfully

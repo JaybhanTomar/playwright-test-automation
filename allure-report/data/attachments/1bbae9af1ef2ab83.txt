@@ -1,0 +1,13 @@
+
+📋 Starting Ticket Type update with Excel data...
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Field Test Data.xlsx, Sheet: TicketTypeUpdation
+✅ Successfully read 2 data objects from Excel
+
+📄 Running ticket type update test for: Jay_Question
+⚠️ Skipping update for Jay_Question: New category or new type is undefined/empty.
+✅ Ticket type update completed for: Jay_Question
+
+📄 Running ticket type update test for: Testing02
+⚠️ Skipping update for Testing02: New category or new type is undefined/empty.
+✅ Ticket type update completed for: Testing02
+📊 API Summary: Ticket Process Field tests completed

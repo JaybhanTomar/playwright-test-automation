@@ -1,0 +1,20 @@
+
+📋 Starting Ticket Stage setup with Excel data...
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Field Test Data.xlsx, Sheet: TicketStageCreation
+✅ Successfully read 1 data objects from Excel
+DEBUG FieldData: [
+  {
+    Category: 'BMRC',
+    Stage: 'J_Open',
+    Default: '',
+    Order: '2',
+    IsClosed: ''
+  }
+]
+📊 Processing 1 ticket stage(s) from Excel data
+
+📄 Running ticket stage creation test for: J_Open
+J_Open: Ticket Stage does not exist.
+J_Open: Ticket Stage is not created. Creating it...
+BMRC : Category is selected
+📊 API Summary: Ticket Process Field tests completed

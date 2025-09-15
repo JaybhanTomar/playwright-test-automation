@@ -1,0 +1,38 @@
+✅ Navigated to QC2: https://qc2.devaavaz.biz/
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Login Creds Data.xlsx, Sheet: UserLoginData
+✅ Successfully read 1 data objects from Excel
+Verifying user role. Expected: 'admin', Actual: 'admin'
+✅ Role verification passed: admin
+Navigating to Active Campaign...
+✅ DemandCampPage is visible
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Campaign Creation Updation Data.xlsx, Sheet: Creation Data
+✅ Successfully read 1 data objects from Excel
+
+📋 Running create campaign test for: Verify_Skil_Camp02
+🔍 Verifying existing campaign: Verify_Skil_Camp02
+❌ Campaign not found: Verify_Skil_Camp02. Resetting to first page...
+Creating new campaign: Verify_Skil_Camp02
+✅ Selected date: August 5, 2025
+Available options for dropdown (//select[@id='campaignType']): [ 'Demand Campaign', 'Support Campaign' ]
+✅ Selected option 'Demand Campaign' in dropdown.
+Available options for dropdown (//select[@id='assignmentType']): [ 'Direct', 'Skills' ]
+✅ Selected option 'Skills' in dropdown.
+Available options for dropdown (//select[@id='dialMode']): [ 'Batch Preview', 'Auto-Preview' ]
+✅ Selected option 'Auto-Preview' in dropdown.
+✅ Campaign created: Verify_Skil_Camp02
+Assigning list to campaign: Test Simplet List
+✅ Assignment List page is visible
+✅ Found on page 1
+✅ Selected list: Test Simplet List
+✅ List added to campaign: Test Simplet List
+Assigning 2 skill(s) to campaign: QA, Default
+
+📄 Processing skill 1/2: QA
+✅ Skill "QA" checkbox selected
+
+📄 Processing skill 2/2: Default
+✅ Skill "Default" checkbox selected
+✅ Selected skills added to campaign
+🎉 Successfully assigned all 2 skill(s) to campaign
+✅ Skills assigned to campaign
+✅ Create campaign test completed for: Verify_Skil_Camp02

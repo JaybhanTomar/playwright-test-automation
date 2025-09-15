@@ -1,0 +1,8 @@
+❌ Error testing lock out for user Sachin Caller: loginPage.EnterUserPassword is not a function
+❌ Error testing lock out for user Sachin Admin: page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://uat-361.aavaz.biz/", waiting until "load"
+
+❌ Error testing lock out for user Jay Caller: page.goto: Target page, context or browser has been closed
+❌ Error testing lock out for user Jay Admin: page.goto: Target page, context or browser has been closed
+❌ Error testing lock out for user Aavaz Caller: page.goto: Target page, context or browser has been closed

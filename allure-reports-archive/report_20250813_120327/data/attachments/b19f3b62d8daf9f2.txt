@@ -1,0 +1,73 @@
+✅ Navigated to QC2: https://qc2.devaavaz.biz/
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Login Creds Data.xlsx, Sheet: UserLoginData
+✅ Successfully read 1 data objects from Excel
+Verifying user role. Expected: 'admin', Actual: 'admin'
+✅ Role verification passed: admin
+Successfully Clicked on SystemSetup page
+ Create Ticket Field  button is visible after clicking Tickets.
+ Create Ticket Type  button is visible after clicking TicketType.
+🔙 Clicking on Back Button...
+✅ Clicked on Back Button successfully
+ Create Ticket Priority  button is visible after clicking TicketPriority.
+🔙 Clicking on Back Button...
+✅ Clicked on Back Button successfully
+ Create Ticket Stage  button is visible after clicking TicketStage.
+🔙 Clicking on Back Button...
+✅ Clicked on Back Button successfully
+🔙 Clicking on Back Button...
+✅ Clicked on Back Button successfully
+ Create Ticket Field  button is visible
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Field Test Data.xlsx, Sheet: TicketFieldCreation
+✅ Successfully read 3 data objects from Excel
+DEBUG FieldData: [
+  {
+    Category: 'BMRC',
+    DisplayName: 'TicketHelp',
+    FieldName: 'TicketHelp',
+    Type: 'Text',
+    InputType: 'Text Single Line',
+    Min: '0',
+    Max: '155',
+    NoOfLines: '',
+    Options: '',
+    OptionValues: '',
+    AllowOther: '',
+    Tooltip: 'Yes'
+  },
+  {
+    Category: 'BMRC',
+    DisplayName: 'TicketHelp01',
+    FieldName: 'TicketHelp01',
+    Type: 'Text',
+    InputType: 'Text Single Line',
+    Min: '0',
+    Max: '155',
+    NoOfLines: '',
+    Options: '',
+    OptionValues: '',
+    AllowOther: '',
+    Tooltip: 'Yes'
+  },
+  {
+    Category: 'BMRC',
+    DisplayName: 'TicketHelp02',
+    FieldName: 'TicketHelp02',
+    Type: 'Single Select',
+    InputType: 'Radio',
+    Min: '',
+    Max: '',
+    NoOfLines: '',
+    Options: '4',
+    OptionValues: 'opt01,opt02,opt03,opt04',
+    AllowOther: 'Yes',
+    Tooltip: 'Yes'
+  }
+]
+📊 Processing 3 ticket field(s) from Excel data
+
+📄 Running ticket field creation test for: TicketHelp
+Attempting to create/check ticket field with FieldName: TicketHelp
+TicketHelp: Ticket Field does not exist.
+TicketHelp: Ticket Field is not created. Creating it...
+BMRC: Category is selected
+📊 API Summary: 29 calls, 0 failed

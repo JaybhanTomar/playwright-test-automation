@@ -1,0 +1,18 @@
+❌ API Failed: https://uat-361.aavaz.biz/361-api/v3/users/auth - Status: 401
+❌ API Failed: https://uat-361.aavaz.biz/361-api/v3/users/auth - Status: 401
+❌ API Failed: https://uat-361.aavaz.biz/361-api/v3/users/auth - Status: 401
+❌ API Failed: https://uat-361.aavaz.biz/361-api/v3/users/auth - Status: 401
+❌ API Failed: https://uat-361.aavaz.biz/361-api/v3/users/auth - Status: 401
+❌ API Failed: https://uat-361.aavaz.biz/361-api/v3/users/auth - Status: 401
+❌ API Failed: https://uat-361.aavaz.biz/361-api/v3/users/auth - Status: 401
+❌ API Failed: https://uat-361.aavaz.biz/361-api/v3/users/auth - Status: 401
+❌ API Failed: https://uat-361.aavaz.biz/361-api/v3/users/auth - Status: 401
+❌ API Failed: https://uat-361.aavaz.biz/361-api/v3/users/auth - Status: 401
+❌ API Failed: https://uat-361.aavaz.biz/361-api/v3/users/auth - Status: 401
+❌ API Failed: https://uat-361.aavaz.biz/361-api/v3/users/auth - Status: 401
+❌ API Failed: https://uat-361.aavaz.biz/361-api/v3/users/auth - Status: 401
+Error clicking login button or dismissing popup: page.waitForTimeout: Target page, context or browser has been closed
+❌ Error testing lock out for user Sachin Admin: Login button click failed or popup not handled: page.waitForTimeout: Target page, context or browser has been closed
+❌ Error testing lock out for user Jay Caller: page.goto: Target page, context or browser has been closed
+❌ Error testing lock out for user Jay Admin: page.goto: Target page, context or browser has been closed
+❌ Error testing lock out for user Aavaz Caller: page.goto: Target page, context or browser has been closed

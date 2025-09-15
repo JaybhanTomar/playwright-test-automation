@@ -1,0 +1,99 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - link "Logo":
+    - /url: /
+    - img "Logo"
+  - navigation:
+    - button "Toggle navigation"
+    - list:
+      - listitem "Notification":  0
+      - listitem:
+        - button "Click to become ready to make and receive calls"
+      - listitem:
+        - link "Admin 0":
+          - /url: javascript:;
+- complementary:
+  - list:
+    - listitem:
+      - link "Home":
+        - /url: /
+    - listitem:
+      - link "Dashboard":
+        - /url: /dashboard
+    - listitem:
+      - link "Import":
+        - /url: /import/list
+    - listitem:
+      - link "Campaign":
+        - /url: "#"
+    - listitem:
+      - link "Leads":
+        - /url: "#"
+    - listitem:
+      - link "Tickets":
+        - /url: "#"
+    - listitem:
+      - link "Contact":
+        - /url: "#"
+    - listitem:
+      - link "Reports":
+        - /url: "#"
+    - listitem:
+      - link "Time Log":
+        - /url: /timeLog
+    - listitem:
+      - link "Agent Monitor":
+        - /url: /agentmonitor
+    - listitem:
+      - link "User Preferences":
+        - /url: "#"
+    - listitem:
+      - link "System Setup":
+        - /url: /settings
+  - button "Search and Add Contact"
+  - button "FEEDBACK"
+  - button "Toggle sidebar"
+- heading "" [level=4]:
+  - button ""
+- heading "System Setup" [level=4]
+- list:
+  - text: 
+  - listitem:
+    - link "Home":
+      - /url: /
+  - listitem: / System Setup
+- heading "Library" [level=4]
+- button
+- link "Users":
+  - /url: /settings/library/users
+- link "Skills":
+  - /url: /settings/library/skills
+- link "Message Template":
+  - /url: /settings/library/messageTemplates
+- link "Canned Responses":
+  - /url: /settings/library/cannedResponses
+- link "Categories":
+  - /url: /settings/library/category
+- link "Fields":
+  - /url: /settings/library/fields
+- link "Dispositions":
+  - /url: /settings/library/dispositions/screen
+- link "Documents":
+  - /url: /settings/library/documents
+- link "Leads":
+  - /url: /settings/library/lead/leadField
+- link "Tickets":
+  - /url: /settings/library/ticket/ticketField
+- link "Workflows":
+  - /url: /views/workflow
+- link "Tags":
+  - /url: /settings/library/tags/tagList
+- link "Webhooks":
+  - /url: /settings/library/webhooks
+- heading "Channels" [level=4]
+- button
+- heading "Manage Account" [level=4]
+- button
+```

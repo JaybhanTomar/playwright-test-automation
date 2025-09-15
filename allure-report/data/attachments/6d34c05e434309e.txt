@@ -1,0 +1,50 @@
+locator.clear: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator('//input[@id=\'question\']')
+
+    at SystemSetupPage.createDispositionQuestionHelper (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:1523:37)
+    at SystemSetupPage.setupDispositionQuestion (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:1504:9)
+    at /home/jtomar/playwright-demo/playwright-demo-new/tests/Sanity/CreateDispositionQuestion.spec.js:90:9 {
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    stepId: 'pw:api@8',
+    location: {
+      file: '/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js',
+      line: 1523,
+      column: 37,
+      function: 'SystemSetupPage.createDispositionQuestionHelper'
+    },
+    category: 'pw:api',
+    title: `Fill "" locator('//input[@id=\\'question\\']')`,
+    apiName: 'locator.clear',
+    params: {
+      selector: "//input[@id='question']",
+      value: '',
+      strict: true,
+      timeout: 5000
+    },
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@8'
+    },
+    complete: [Function: complete],
+    endWallTime: 1754401173981,
+    error: {
+      message: 'TimeoutError: locator.clear: Timeout 5000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//input[@id=\\'question\\']')\x1B[22m\n",
+      stack: 'TimeoutError: locator.clear: Timeout 5000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//input[@id=\\'question\\']')\x1B[22m\n" +
+        '\n' +
+        '    at SystemSetupPage.createDispositionQuestionHelper (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:1523:37)\n' +
+        '    at SystemSetupPage.setupDispositionQuestion (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:1504:9)\n' +
+        '    at /home/jtomar/playwright-demo/playwright-demo-new/tests/Sanity/CreateDispositionQuestion.spec.js:90:9',
+      cause: undefined
+    }
+  }
+}

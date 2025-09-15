@@ -1,0 +1,31 @@
+
+📋 Starting Lead Status setup with Excel data...
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Field Test Data.xlsx, Sheet: LeadStatusCreation
+✅ Successfully read 3 data objects from Excel
+DEBUG FieldData: [
+  { Category: 'Lakshya Home', Status: 'L-Hot', Default: '' },
+  { Category: 'Lakshya Home', Status: 'L-Cold', Default: '' },
+  { Category: 'Lakshya Home', Status: 'L-Warm', Default: '' }
+]
+📊 Processing 3 lead status(es) from Excel data
+
+📄 Running lead status creation test for: L-Hot
+L-Hot: Lead Status is not created.
+L-Hot: Lead Status is not created. Creating it...
+Lakshya Home: Category is selected
+L-Hot: Lead Status is not created.
+✅ Lead status creation test completed for: L-Hot
+
+📄 Running lead status creation test for: L-Cold
+L-Cold: Lead Status is not created.
+L-Cold: Lead Status is not created. Creating it...
+Lakshya Home: Category is selected
+L-Cold: Lead Status is not created.
+✅ Lead status creation test completed for: L-Cold
+
+📄 Running lead status creation test for: L-Warm
+L-Warm: Lead Status is not created.
+L-Warm: Lead Status is not created. Creating it...
+Lakshya Home: Category is selected
+L-Warm: Lead Status is not created.
+✅ Lead status creation test completed for: L-Warm

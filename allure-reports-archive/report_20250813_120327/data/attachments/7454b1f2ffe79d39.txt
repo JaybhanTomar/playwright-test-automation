@@ -1,0 +1,21 @@
+✅ Navigated to QC2: https://qc2.devaavaz.biz/
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Login Creds Data.xlsx, Sheet: UserLoginData
+✅ Successfully read 1 data objects from Excel
+Verifying user role. Expected: 'admin', Actual: 'admin'
+✅ Role verification passed: admin
+Successfully Clicked on SystemSetup page
+ Create Lead Stage  button is visible after clicking LeadStage.
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Field Test Data.xlsx, Sheet: LeadStageCreation
+✅ Successfully read 1 data objects from Excel
+DEBUG FieldData: [
+  { Category: 'BMRC', Stage: 'J_New', Probability: '20', Default: '' }
+]
+📊 Processing 1 lead stage(s) from Excel data
+
+📄 Running lead stage creation test for: J_New
+Attempting to create/check lead stage with Stage: J_New
+J_New: Lead Stage is not created.
+J_New: Lead Stage is not created. Creating it...
+BMRC: Category is selected
+J_New: Lead Stage is not Present in the table.
+✅ Lead stage creation test completed for: J_New

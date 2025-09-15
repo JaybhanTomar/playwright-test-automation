@@ -1,0 +1,4 @@
+locator.fill: value: expected string, got undefined
+    at SystemSetupPage.createTicketStageHelper (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:3651:37)
+    at SystemSetupPage.setupTicketStage (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:3632:5)
+    at /home/jtomar/playwright-demo/playwright-demo-new/tests/Sanity/CreateTicketprocessField.spec.js:192:9

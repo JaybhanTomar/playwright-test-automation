@@ -1,0 +1,2 @@
+Error clicking login button or dismissing popup: page.waitForTimeout: Target page, context or browser has been closed
+Login failed for user 361admin@aavaz.biz: Login button click failed or popup not handled: page.waitForTimeout: Target page, context or browser has been closed

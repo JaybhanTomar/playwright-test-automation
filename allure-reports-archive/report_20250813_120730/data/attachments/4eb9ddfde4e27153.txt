@@ -1,0 +1,19 @@
+
+📋 RBL Configuration:
+   Environment: QC2
+   Headless: false
+   Timeout: 600s
+   Browser Args: --start-maximized, --disable-web-security, --disable-features=VizDisplayCompositor
+
+🌐 RBL Config: Navigating to QC2 environment
+✅ Navigated to QC2: https://qc2.devaavaz.biz/
+✅ RBL Config: Successfully navigated to QC2
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Login Creds Data.xlsx, Sheet: UserLoginData
+✅ Successfully read 1 data objects from Excel
+Verifying user role. Expected: 'admin', Actual: 'admin'
+✅ Role verification passed: admin
+Successfully Clicked on SystemSetup page
+
+🔍 Testing RBL Lead Stage navigation...
+ Create Lead Stage  button is visible after clicking LeadStage.
+✅ RBL Lead Stage navigation test completed successfully

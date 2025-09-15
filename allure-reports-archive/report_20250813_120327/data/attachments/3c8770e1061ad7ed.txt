@@ -1,0 +1,50 @@
+locator.waitFor: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('//input[@id=\'question\']') to be visible
+
+    at SystemSetupPage.createDispositionQuestionHelper (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:1523:37)
+    at SystemSetupPage.setupDispositionQuestion (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:1504:9)
+    at /home/jtomar/playwright-demo/playwright-demo-new/tests/Sanity/CreateDispositionQuestion.spec.js:90:9 {
+  [Symbol(step)]: {
+    stepId: 'pw:api@8',
+    location: {
+      file: '/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js',
+      line: 1523,
+      column: 37,
+      function: 'SystemSetupPage.createDispositionQuestionHelper'
+    },
+    category: 'pw:api',
+    title: "Wait for selector locator('//input[@id=\\'question\\']')",
+    apiName: 'locator.waitFor',
+    params: {
+      selector: "//input[@id='question']",
+      strict: true,
+      omitReturnValue: true,
+      state: 'visible',
+      timeout: 60000
+    },
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@8'
+    },
+    complete: [Function: complete],
+    endWallTime: 1754401431327,
+    error: {
+      message: 'Error: locator.waitFor: Target page, context or browser has been closed\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//input[@id=\\'question\\']') to be visible\x1B[22m\n",
+      stack: 'Error: locator.waitFor: Target page, context or browser has been closed\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//input[@id=\\'question\\']') to be visible\x1B[22m\n" +
+        '\n' +
+        '    at SystemSetupPage.createDispositionQuestionHelper (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:1523:37)\n' +
+        '    at SystemSetupPage.setupDispositionQuestion (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:1504:9)\n' +
+        '    at /home/jtomar/playwright-demo/playwright-demo-new/tests/Sanity/CreateDispositionQuestion.spec.js:90:9',
+      cause: undefined
+    }
+  }
+}

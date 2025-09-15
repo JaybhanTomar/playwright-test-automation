@@ -1,0 +1,8 @@
+Navigating to Active Campaign...
+✅ DemandCampPage is visible
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Campaign Creation Updation Data.xlsx, Sheet: Updation Data
+✅ Successfully read 1 data objects from Excel
+
+📋 Running modify campaign test for: AavazCampaign
+Modifying campaign: AavazCampaign
+Navigating to modify campaign page for: AavazCampaign

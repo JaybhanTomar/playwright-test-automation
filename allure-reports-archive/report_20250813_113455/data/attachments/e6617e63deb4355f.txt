@@ -1,0 +1,6 @@
+
+🔍 Navigating back to Ticket Stage for update...
+Successfully Clicked on SystemSetup page
+ Create Ticket Field  button is visible
+ Create Ticket Stage  button is visible after clicking TicketStage.
+✅ Ticket Stage navigation for update completed

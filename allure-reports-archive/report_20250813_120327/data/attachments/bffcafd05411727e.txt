@@ -1,0 +1,10 @@
+
+📋 Starting RBL Lead Lost Reason setup with Excel data...
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/RBL Test Data.xlsx, Sheet: LeadLostReasonCreation
+✅ Successfully read 1 data objects from Excel
+DEBUG RBL FieldData: [ { Category: 'BMRC', LostReason: 'Caseless' } ]
+📊 Processing 1 RBL lead lost reason(s) from Excel data
+
+📄 Running RBL lead lost reason creation test for: Caseless
+Caseless: Lead Lost Reason is already created.
+✅ RBL lead lost reason creation test completed for: Caseless

@@ -1,0 +1,12 @@
+ReferenceError: fieldName is not defined
+    at SystemSetupPage.createDispositionQuestionHelper (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:1595:48)
+    at SystemSetupPage.setupDispositionQuestion (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:1504:9)
+    at /home/jtomar/playwright-demo/playwright-demo-new/tests/Sanity/CreateDispositionQuestion.spec.js:90:9
+    at /home/jtomar/playwright-demo/playwright-demo-new/node_modules/playwright/lib/worker/workerMain.js:304:9
+    at /home/jtomar/playwright-demo/playwright-demo-new/node_modules/playwright/lib/worker/testInfo.js:284:11
+    at TimeoutManager.withRunnable (/home/jtomar/playwright-demo/playwright-demo-new/node_modules/playwright/lib/worker/timeoutManager.js:67:14)
+    at TestInfoImpl._runWithTimeout (/home/jtomar/playwright-demo/playwright-demo-new/node_modules/playwright/lib/worker/testInfo.js:282:7)
+    at /home/jtomar/playwright-demo/playwright-demo-new/node_modules/playwright/lib/worker/workerMain.js:302:7
+    at WorkerMain._runTest (/home/jtomar/playwright-demo/playwright-demo-new/node_modules/playwright/lib/worker/workerMain.js:277:5)
+    at WorkerMain.runTestGroup (/home/jtomar/playwright-demo/playwright-demo-new/node_modules/playwright/lib/worker/workerMain.js:193:11)
+    at process.<anonymous> (/home/jtomar/playwright-demo/playwright-demo-new/node_modules/playwright/lib/common/process.js:65:22)

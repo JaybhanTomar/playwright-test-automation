@@ -1,0 +1,6 @@
+⚠️ JD Templates not found or not accessible: locator.scrollIntoViewIfNeeded: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator('//div[contains(text(),\'JD Templates\')]')
+
+❌ API Failed: https://qc2.devaavaz.biz/361-api/v3/webhooks - Status: 500
+❌ API Failed: https://o4504178358681600.ingest.sentry.io/api/4504178360057856/envelope/?sentry_key=a87712579ff541538ae15096a1373f73&sentry_version=7&sentry_client=sentry.javascript.vue%2F7.16.0 - Status: 429

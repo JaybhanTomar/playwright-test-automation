@@ -1,0 +1,5 @@
+❌ Error locking out user Sachin Caller: loginPage.navigateToLoginPage is not a function
+❌ Error locking out user Sachin Admin: loginPage.navigateToLoginPage is not a function
+❌ Error locking out user Jay Caller: loginPage.navigateToLoginPage is not a function
+❌ Error locking out user Jay Admin: loginPage.navigateToLoginPage is not a function
+❌ Error locking out user Aavaz Caller: loginPage.navigateToLoginPage is not a function

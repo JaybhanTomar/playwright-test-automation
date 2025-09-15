@@ -1,0 +1,12 @@
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/WorkFlow Test Data.xlsx, Sheet: UserCreationData
+✅ Successfully read 5 data objects from Excel
+📊 Processing 5 user lock out test(s) from Excel data
+📋 [1/5] Testing lock out for RBL user with First Name: undefined, Last Name: undefined, Email: sachincaller@tekege.com
+📋 [2/5] Testing lock out for RBL user with First Name: undefined, Last Name: undefined, Email: sachinadmin@tekege.com
+📋 [3/5] Testing lock out for RBL user with First Name: undefined, Last Name: undefined, Email: jaycaller@tekege.com
+📋 [4/5] Testing lock out for RBL user with First Name: undefined, Last Name: undefined, Email: jayadmin@tekege.com
+📋 [5/5] Testing lock out for RBL user with First Name: undefined, Last Name: undefined, Email: aavazcaller@tekege.com
+📊 API Summary: 0 calls, 0 failed
+📊 API Summary: RBL tests completed on QC3
+✅ Browser context closed successfully
+✅ Browser closed successfully

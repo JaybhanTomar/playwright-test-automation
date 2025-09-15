@@ -1,0 +1,3 @@
+❌ Error processing user Aavaz Caller: User is not Created. Actual message: Please select at least one skill
+❌ API Failed: https://qc3.devaavaz.biz/361-api/v3/undefined/notifications?query=type:Notification - Status: 401
+❌ API Failed: https://qc3.devaavaz.biz/361-api/v3/undefined/notifications?query=type:Banner - Status: 401

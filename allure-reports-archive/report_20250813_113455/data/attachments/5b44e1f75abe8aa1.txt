@@ -1,0 +1,9 @@
+
+📋 RBL Configuration:
+   Environment: QC2
+   Headless: false
+   Timeout: 600s
+   Browser Args: --start-maximized, --disable-web-security, --disable-features=VizDisplayCompositor
+
+✅ Browser context closed successfully
+✅ Browser closed successfully

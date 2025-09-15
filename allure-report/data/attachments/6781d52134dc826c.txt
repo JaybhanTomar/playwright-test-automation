@@ -1,0 +1,8 @@
+
+📋 Starting Lead Status update with Excel data...
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Field Test Data.xlsx, Sheet: LeadStatusUpdation
+✅ Successfully read 1 data objects from Excel
+
+📄 Running lead status update test for: J_Test
+⚠️ Skipping update for J_Test: New category or new status is undefined/empty.
+✅ Lead status update completed for: J_Test

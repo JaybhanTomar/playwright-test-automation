@@ -1,0 +1,78 @@
+
+📋 Starting Disposition Question setup with Excel data...
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Field Test Data.xlsx, Sheet: DispositionQuestionCreation
+✅ Successfully read 4 data objects from Excel
+DEBUG FieldData: [
+  {
+    Category: 'BMRC',
+    Question: 'Ticket Help07',
+    QuestionType: 'Text',
+    ParentQuestion: '',
+    InputType: 'Text Single Line',
+    Min: '0',
+    Max: '155',
+    NoOfLines: '',
+    Options: '',
+    OptionValues: '',
+    AllowOther: '',
+    Tooltip: 'Yes'
+  },
+  {
+    Category: 'BMRC',
+    Question: 'Ticket Help08',
+    QuestionType: 'Text',
+    ParentQuestion: 'Ticket Help07',
+    InputType: 'Text Single Line',
+    Min: '0',
+    Max: '155',
+    NoOfLines: '',
+    Options: '',
+    OptionValues: '',
+    AllowOther: '',
+    Tooltip: 'Yes'
+  },
+  {
+    Category: 'BMRC',
+    Question: 'Ticket Help09',
+    QuestionType: 'Single Select',
+    ParentQuestion: 'Ticket Help07',
+    InputType: 'Radio',
+    Min: '',
+    Max: '',
+    NoOfLines: '',
+    Options: '4',
+    OptionValues: 'opt01,opt02,opt03,opt04',
+    AllowOther: 'Yes',
+    Tooltip: 'Yes'
+  },
+  {
+    Category: 'BMRC',
+    Question: 'Ticket Help10',
+    QuestionType: 'Single Select',
+    ParentQuestion: 'Ticket Help07',
+    InputType: 'Radio',
+    Min: '',
+    Max: '',
+    NoOfLines: '',
+    Options: '4',
+    OptionValues: 'opt01,opt02,opt03,opt04',
+    AllowOther: 'Yes',
+    Tooltip: 'Yes'
+  }
+]
+📊 Processing 4 disposition question(s) from Excel data
+
+📄 Running disposition question creation test for: Ticket Help07
+Ticket Help07: Child Question does not exist. allong with  Parent Question.
+Ticket Help07: Question does not exist. Creating it...
+Clicking Create Disposition Question button...
+Waiting for disposition question form to load...
+Current URL after clicking: https://qc2.devaavaz.biz/settings/library/dispositions/question
+BMRC : BMRC Category is selected
+Waiting for question input field...
+Question input field count in DOM: 0
+Total input fields found: 38
+Current page title: aavaz361
+📊 API Summary: Disposition Question tests completed
+✅ Browser context closed successfully
+✅ Browser closed successfully

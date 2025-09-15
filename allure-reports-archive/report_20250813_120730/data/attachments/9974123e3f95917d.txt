@@ -1,0 +1,35 @@
+
+📋 RBL Configuration:
+   Environment: QC2
+   Headless: false
+   Timeout: 600s
+   Browser Args: --start-maximized, --disable-web-security, --disable-features=VizDisplayCompositor
+
+🌐 RBL Config: Navigating to QC2 environment
+✅ Navigated to QC2: https://qc2.devaavaz.biz/
+✅ RBL Config: Successfully navigated to QC2
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Login Creds Data.xlsx, Sheet: UserLoginData
+✅ Successfully read 1 data objects from Excel
+Verifying user role. Expected: 'admin', Actual: 'admin'
+✅ Role verification passed: admin
+✅ RBL Setup: Successfully logged in to QC2
+Successfully Clicked on SystemSetup page
+✅ RBL Setup: Navigated to System Setup
+✅ RBL Tabbing: Setup completed on QC2
+Successfully Clicked on SystemSetup page
+Create User button is visible after clicking Users.
+🔙 Clicking on Back Button...
+✅ Clicked on Back Button successfully
+ Create Skill  button is visible after clicking Skills.
+🔙 Clicking on Back Button...
+✅ Clicked on Back Button successfully
+ Add Message Template button is visible after clicking Message Template.
+🔙 Clicking on Back Button...
+✅ Clicked on Back Button successfully
+ Add Canned Responses button is visible after clicking Canned Responses.
+🔙 Clicking on Back Button...
+✅ Clicked on Back Button successfully
+📊 API Summary: 24 calls, 0 failed
+📊 API Summary: RBL tests completed on QC2
+✅ Browser context closed successfully
+✅ Browser closed successfully

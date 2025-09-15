@@ -1,0 +1,4 @@
+locator.fill: value: expected string, got undefined
+    at SystemSetupPage.createTicketPriorityHelper (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:3396:30)
+    at SystemSetupPage.setupTicketPriority (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:3378:5)
+    at /home/jtomar/playwright-demo/playwright-demo-new/tests/Sanity/CreateTicketprocessField.spec.js:134:9

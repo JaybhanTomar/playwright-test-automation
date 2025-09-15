@@ -1,0 +1,8 @@
+❌ Error processing user Sachin Admin: locator.scrollIntoViewIfNeeded: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator('//div[@class=\'btn btn-info btn-block action w-full\']')
+
+❌ Error processing user Aavaz Caller: locator.scrollIntoViewIfNeeded: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator('//div[@class=\'btn btn-info btn-block action w-full\']')
+

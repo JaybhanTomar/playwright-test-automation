@@ -1,0 +1,5 @@
+
+🔍 Testing RBL Lead Status navigation...
+Successfully Clicked on SystemSetup page
+ Create Lead Status  button is visible after clicking LeadStatus.
+✅ RBL Lead Status navigation test completed successfully

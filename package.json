@@ -65,16 +65,7 @@
     "t:leads": "./scripts/run-rbl.sh leads",
     "t:leads:a": "./scripts/run-rbl.sh leads --allure",
     "t:campaigns": "./scripts/run-rbl.sh campaigns",
-    "t:campaigns:a": "./scripts/run-rbl.sh campaigns --allure",
-
-    "mcp:server": "node mcp/servers/playwright-ai-server.js",
-    "mcp:cli": "node mcp-cli.js",
-    "mcp:test": "node mcp-cli.js test",
-    "mcp:generate": "node mcp-cli.js generate",
-    "mcp:analyze": "node mcp-cli.js analyze",
-    "mcp:status": "node mcp-cli.js status",
-    "mcp:config": "node mcp-cli.js config",
-    "mcp:clean": "node mcp-cli.js clean"
+    "t:campaigns:a": "./scripts/run-rbl.sh campaigns --allure"
   },
   "keywords": [],
   "author": "",
@@ -90,13 +81,8 @@
     "typescript": "^5.1.6"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.62.0",
-    "@modelcontextprotocol/sdk": "^1.18.0",
-    "commander": "^14.0.1",
-    "dotenv": "^16.6.1",
-    "fs-extra": "^11.3.1",
+    "dotenv": "^16.5.0",
     "mysql2": "^3.14.2",
-    "uuid": "^13.0.0",
     "xlsx": "^0.18.5"
   },
   "directories": {

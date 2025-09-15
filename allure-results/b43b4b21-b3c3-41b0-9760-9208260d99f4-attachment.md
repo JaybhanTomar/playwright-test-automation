@@ -1,0 +1,82 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - link "Logo":
+    - /url: /
+    - img "Logo"
+  - navigation:
+    - button "Toggle navigation"
+    - list:
+      - listitem "Notification":  0
+      - listitem:
+        - button "Click to become ready to make and receive calls"
+      - listitem:
+        - link "0":
+          - /url: javascript:;
+    - strong:  Session Expired
+    - paragraph: You have left this browser idle for minutes.
+    - button "Please Login Again"
+- complementary:
+  - list:
+    - listitem:
+      - link "Home":
+        - /url: /
+    - listitem:
+      - link "Dashboard":
+        - /url: /dashboard
+    - listitem:
+      - link "Import":
+        - /url: /import/list
+    - listitem:
+      - link "Campaign":
+        - /url: "#"
+    - listitem:
+      - link "Leads":
+        - /url: "#"
+    - listitem:
+      - link "Tickets":
+        - /url: "#"
+    - listitem:
+      - link "Contact":
+        - /url: "#"
+    - listitem:
+      - link "Reports":
+        - /url: "#"
+    - listitem:
+      - link "Time Log":
+        - /url: /timeLog
+    - listitem:
+      - link "Agent Monitor":
+        - /url: /agentmonitor
+    - listitem:
+      - link "User Preferences":
+        - /url: "#"
+    - listitem:
+      - link "System Setup":
+        - /url: /settings
+  - button "FEEDBACK"
+  - button "Toggle sidebar"
+- heading "" [level=4]
+- heading "Overview" [level=4]
+- list:
+  - text: 
+  - listitem:
+    - link "Home":
+      - /url: /
+  - listitem: / Overview
+- heading "Campaigns & Contacts" [level=4]
+- button
+- link "Active Campaigns":
+  - /url: /campaigns/active
+- link "Archived Campaigns":
+  - /url: /campaigns/viewArchiveCampaign
+- link "All Contacts":
+  - /url: /contacts/allContact
+- link "Add Contact":
+  - /url: /contacts/addContact
+- heading "Leads & Tickets" [level=4]
+- button
+- heading "Others" [level=4]
+- button
+```

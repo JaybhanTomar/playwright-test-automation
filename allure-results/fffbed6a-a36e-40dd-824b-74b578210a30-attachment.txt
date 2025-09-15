@@ -1,0 +1,42 @@
+
+📋 RBL Configuration:
+   Environment: QC3
+   Headless: false
+   Timeout: 120s
+   Browser Args: --start-maximized, --disable-web-security, --disable-features=VizDisplayCompositor, --no-sandbox, --disable-dev-shm-usage, --disable-gpu, --disable-extensions, --disable-background-timer-throttling, --disable-backgrounding-occluded-windows, --disable-renderer-backgrounding, --disable-features=TranslateUI, --disable-ipc-flooding-protection
+
+🌐 RBL Config: Navigating to QC3 environment
+✅ Navigated to QC3: https://qc3.devaavaz.biz/
+✅ RBL Config: Successfully navigated to QC3
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Login Creds Data.xlsx, Sheet: UserLoginData
+✅ Successfully read 1 data objects from Excel
+Verifying user role. Expected: 'admin', Actual: 'admin'
+✅ Role verification passed: admin
+✅ RBL Setup: Successfully logged in to QC3
+Successfully Clicked on SystemSetup page
+✅ RBL Setup: Navigated to System Setup
+✅ RBL User Creation: Navigated to Users section
+✅ RBL User Creation: Setup completed, ready for user creation/update tests
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/WorkFlow Test Data.xlsx, Sheet: UserUpdationData
+✅ Successfully read 5 data objects from Excel
+📊 Processing 5 user login test(s) from Excel data
+📋 [1/5] Testing login for updated RBL user with First Name: Sachin, Last Name: Caller, Email: sachincaller@tekege.com
+🌐 RBL Config: Navigating to QC3 environment
+✅ Navigated to QC3: https://qc3.devaavaz.biz/
+✅ RBL Config: Successfully navigated to QC3
+📋 [2/5] Testing login for updated RBL user with First Name: Sachin, Last Name: Admin, Email: sachinadmin@tekege.com
+🌐 RBL Config: Navigating to QC3 environment
+✅ Navigated to QC3: https://qc3.devaavaz.biz/
+✅ RBL Config: Successfully navigated to QC3
+📋 [3/5] Testing login for updated RBL user with First Name: Jay, Last Name: Caller, Email: jaycaller@tekege.com
+🌐 RBL Config: Navigating to QC3 environment
+✅ Navigated to QC3: https://qc3.devaavaz.biz/
+✅ RBL Config: Successfully navigated to QC3
+📊 API Summary: 21 calls, 0 failed
+📊 API Summary: RBL tests completed on QC3
+📋 [4/5] Testing login for updated RBL user with First Name: Jay, Last Name: Admin, Email: jayadmin@tekege.com
+🌐 RBL Config: Navigating to QC3 environment
+✅ Browser context closed successfully
+📋 [5/5] Testing login for updated RBL user with First Name: Aavaz, Last Name: Caller, Email: aavazcaller@tekege.com
+🌐 RBL Config: Navigating to QC3 environment
+✅ Browser closed successfully

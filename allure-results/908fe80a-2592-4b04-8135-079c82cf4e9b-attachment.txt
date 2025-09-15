@@ -1,0 +1,12 @@
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/WorkFlow Test Data.xlsx, Sheet: UserCreationData
+✅ Successfully read 5 data objects from Excel
+📊 Processing 5 user activation and login test(s) from Excel data
+📋 [1/5] Activating and testing login for RBL user with First Name: Sachin, Last Name: Caller, Email: sachincaller@tekege.com
+📋 [2/5] Activating and testing login for RBL user with First Name: Sachin, Last Name: Admin, Email: sachinadmin@tekege.com
+📋 [3/5] Activating and testing login for RBL user with First Name: Jay, Last Name: Caller, Email: jaycaller@tekege.com
+📋 [4/5] Activating and testing login for RBL user with First Name: Jay, Last Name: Admin, Email: jayadmin@tekege.com
+📋 [5/5] Activating and testing login for RBL user with First Name: Aavaz, Last Name: Caller, Email: aavazcaller@tekege.com
+📊 API Summary: 13 calls, 0 failed
+📊 API Summary: RBL tests completed on UAT361
+✅ Browser context closed successfully
+✅ Browser closed successfully

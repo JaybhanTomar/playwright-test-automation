@@ -1,0 +1,37 @@
+
+📋 Starting Lead Status complete test (Click → Setup → Click → Update)...
+✅ Navigated to QC2: https://qc2.devaavaz.biz/
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Login Creds Data.xlsx, Sheet: UserLoginData
+✅ Successfully read 1 data objects from Excel
+Verifying user role. Expected: 'admin', Actual: 'admin'
+✅ Role verification passed: admin
+Successfully Clicked on SystemSetup page
+
+🔍 Step 1: Navigating to Lead Status...
+ Create Lead Status  button is visible after clicking LeadStatus.
+✅ Lead Status navigation completed
+
+📋 Step 2: Starting Lead Status setup with Excel data...
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Field Test Data.xlsx, Sheet: LeadStatusCreation
+✅ Successfully read 1 data objects from Excel
+DEBUG FieldData: [ { Category: 'BMRC', Status: 'J_Test', Default: '' } ]
+📊 Processing 1 lead status(es) from Excel data
+
+📄 Running lead status creation test for: J_Test
+J_Test: Lead Status is already created.
+J_Test: Lead Status is not created.
+✅ Lead status creation test completed for: J_Test
+
+🔍 Step 3: Navigating back to Lead Status for update...
+Successfully Clicked on SystemSetup page
+ Create Lead Status  button is visible after clicking LeadStatus.
+✅ Lead Status navigation for update completed
+
+📋 Step 4: Starting Lead Status update with Excel data...
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Field Test Data.xlsx, Sheet: LeadStatusUpdation
+✅ Successfully read 1 data objects from Excel
+
+📄 Running lead status update test for: J_Test
+⚠️ Skipping update for J_Test: New category or new status is undefined/empty.
+✅ Lead status update completed for: J_Test
+📊 API Summary: Lead Status complete test finished

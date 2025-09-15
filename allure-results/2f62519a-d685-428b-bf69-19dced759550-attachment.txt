@@ -1,0 +1,33 @@
+Login failed for user sachincaller@tekege.com: locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('//input[@id=\'user_login\']') to be visible
+
+❌ Error testing login for user Sachin Caller: Login failed for user sachincaller@tekege.com: locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('//input[@id=\'user_login\']') to be visible
+
+Login failed for user sachinadmin@tekege.com: locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('//input[@id=\'user_login\']') to be visible
+
+❌ Error testing login for user Sachin Admin: Login failed for user sachinadmin@tekege.com: locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('//input[@id=\'user_login\']') to be visible
+
+Login failed for user jaycaller@tekege.com: locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('//input[@id=\'user_login\']') to be visible
+
+❌ Error testing login for user Jay Caller: Login failed for user jaycaller@tekege.com: locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('//input[@id=\'user_login\']') to be visible
+
+Login failed for user jayadmin@tekege.com: locator.waitFor: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('//input[@id=\'user_login\']') to be visible
+
+❌ Error testing login for user Jay Admin: Login failed for user jayadmin@tekege.com: locator.waitFor: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('//input[@id=\'user_login\']') to be visible
+
+❌ Error testing login for user Aavaz Caller: page.goto: Target page, context or browser has been closed

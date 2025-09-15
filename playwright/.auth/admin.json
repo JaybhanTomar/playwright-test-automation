@@ -1,0 +1,82 @@
+{
+  "cookies": [
+    {
+      "name": "JSESSIONID",
+      "value": "94671D59EFDB9259363359F2D1639DF5",
+      "domain": "uat-361.aavaz.biz",
+      "path": "/361-api/v3",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://uat-361.aavaz.biz",
+      "localStorage": [
+        {
+          "name": "localeCode",
+          "value": "en_US"
+        },
+        {
+          "name": "currentSmsProvider",
+          "value": "undefined"
+        },
+        {
+          "name": "users",
+          "value": "{\"id\":21,\"login_id\":\"361admin@aavaz.biz\",\"first_name\":\"Admin\",\"last_name\":\"Admin\",\"is_active\":true,\"is_unlocked\":true,\"role\":\"admin\",\"timezone\":\"Asia/Kolkata\",\"extension\":172,\"is_first_time_login_flag\":false,\"is_forced_login\":false,\"settings\":{\"phone_format\":\"334\",\"channel_phone\":{\"provider_id\":1,\"provider_name\":\"11 External Phone\"},\"channel_sms\":null},\"sys_company_id\":1,\"location\":\"Default\",\"phone\":\"9822098661\",\"is_api_user\":false}"
+        },
+        {
+          "name": "isSessionExpire",
+          "value": "false"
+        },
+        {
+          "name": "previousUserState",
+          "value": ""
+        },
+        {
+          "name": "",
+          "value": "Bearer eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiIyMSIsImlhdCI6MTc1NzkxODY5NiwiZXhwIjoxNzU3OTU0Njk2fQ.hyj14xpJXHx6NO7sru7H_RS6K_6aPZc4VYLv4_xXvVIyFXXbNLsSb6RCpeziw3Sw"
+        },
+        {
+          "name": "currentProvider",
+          "value": "11 External Phone"
+        },
+        {
+          "name": "notificationCount",
+          "value": "5"
+        },
+        {
+          "name": "urlCache",
+          "value": "{}"
+        },
+        {
+          "name": "filterHistory",
+          "value": ""
+        },
+        {
+          "name": "inactivityTime",
+          "value": "60"
+        },
+        {
+          "name": "role",
+          "value": "admin"
+        },
+        {
+          "name": "currentUserState",
+          "value": "ready"
+        }
+      ]
+    },
+    {
+      "origin": "https://www.google.com",
+      "localStorage": [
+        {
+          "name": "rc::a",
+          "value": "ZGplcHFwMWV6NjAzbw=="
+        }
+      ]
+    }
+  ]
+}

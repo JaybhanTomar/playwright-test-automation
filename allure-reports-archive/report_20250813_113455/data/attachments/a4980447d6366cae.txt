@@ -1,0 +1,15 @@
+TypeError: Cannot read properties of undefined (reading 'trim')
+    at SystemSetupPage.verifyExistingUpdatedLeadStatus (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:2488:62)
+    at SystemSetupPage.updateLeadStatus (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:2421:44)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at processImmediate (node:internal/timers:453:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+    at /home/jtomar/playwright-demo/playwright-demo-new/tests/Sanity/CreateleadprocessField.spec.js:133:9
+    at /home/jtomar/playwright-demo/playwright-demo-new/node_modules/playwright/lib/worker/workerMain.js:304:9
+    at /home/jtomar/playwright-demo/playwright-demo-new/node_modules/playwright/lib/worker/testInfo.js:284:11
+    at TimeoutManager.withRunnable (/home/jtomar/playwright-demo/playwright-demo-new/node_modules/playwright/lib/worker/timeoutManager.js:67:14)
+    at TestInfoImpl._runWithTimeout (/home/jtomar/playwright-demo/playwright-demo-new/node_modules/playwright/lib/worker/testInfo.js:282:7)
+    at /home/jtomar/playwright-demo/playwright-demo-new/node_modules/playwright/lib/worker/workerMain.js:302:7
+    at WorkerMain._runTest (/home/jtomar/playwright-demo/playwright-demo-new/node_modules/playwright/lib/worker/workerMain.js:277:5)
+    at WorkerMain.runTestGroup (/home/jtomar/playwright-demo/playwright-demo-new/node_modules/playwright/lib/worker/workerMain.js:193:11)
+    at process.<anonymous> (/home/jtomar/playwright-demo/playwright-demo-new/node_modules/playwright/lib/common/process.js:65:22)

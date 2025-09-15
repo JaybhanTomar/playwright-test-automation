@@ -1,0 +1,136 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - link "Logo":
+    - /url: /
+    - img "Logo"
+  - navigation:
+    - button "Toggle navigation"
+    - list:
+      - listitem "Notification":  0
+      - listitem:
+        - button "Click to become ready to make and receive calls"
+      - listitem:
+        - link "Admin 0":
+          - /url: javascript:;
+- complementary:
+  - list:
+    - listitem:
+      - link "Home":
+        - /url: /
+    - listitem:
+      - link "Dashboard":
+        - /url: /dashboard
+    - listitem:
+      - link "Import":
+        - /url: /import/list
+    - listitem:
+      - link "Campaign":
+        - /url: "#"
+    - listitem:
+      - link "Leads":
+        - /url: "#"
+    - listitem:
+      - link "Tickets":
+        - /url: "#"
+    - listitem:
+      - link "Contact":
+        - /url: "#"
+    - listitem:
+      - link "Reports":
+        - /url: "#"
+    - listitem:
+      - link "Time Log":
+        - /url: /timeLog
+    - listitem:
+      - link "Agent Monitor":
+        - /url: /agentmonitor
+    - listitem:
+      - link "User Preferences":
+        - /url: "#"
+    - listitem:
+      - link "System Setup":
+        - /url: /settings
+  - button "Search and Add Contact"
+  - button "FEEDBACK"
+  - button "Toggle sidebar"
+- heading "" [level=4]:
+  - button ""
+- heading "Lead Status" [level=4]
+- list:
+  - text: 
+  - listitem:
+    - link "Home":
+      - /url: /
+  - listitem: / Lead Status
+- list:
+  - listitem:
+    - link "Lead Field":
+      - /url: "#leadsField"
+  - listitem:
+    - link "Lead Stage":
+      - /url: "#leadsStage"
+  - listitem:
+    - link "Lead Status":
+      - /url: "#leadsStatus"
+  - listitem:
+    - link "Lead Lost Reason":
+      - /url: "#leadsLostReason"
+- text: Create Lead Status
+- heading "Create Lead Status" [level=4]
+- text: Category*
+- combobox:
+  - option "Select"
+  - option "General"
+  - option "Aavaz0"
+  - option "BMRC" [selected]
+  - option "Aavaz"
+  - option "IRC"
+  - option "RBL"
+- textbox "Status*": J_Test
+- text: Status*
+- button "Cancel"
+- button "Save"
+- textbox "Search on page"
+- text: Search on page
+- list:
+  - listitem: Filters
+- table:
+  - rowgroup:
+    - row "Category Lead Status Actions":
+      - columnheader "Category"
+      - columnheader "Lead Status"
+      - columnheader "Actions"
+  - rowgroup
+  - rowgroup:
+    - row "Aavaz0 Fizzy Edit Hide Set Default":
+      - cell "Aavaz0"
+      - cell "Fizzy"
+      - cell "Edit Hide Set Default":
+        - link "Edit":
+          - /url: /settings/library/lead/leadStatus/4
+        - button "Hide"
+        - button "Set Default"
+    - row "General Cold Edit Hide Set Default":
+      - cell "General"
+      - cell "Cold"
+      - cell "Edit Hide Set Default":
+        - button "Edit" [disabled]
+        - button "Hide" [disabled]
+        - button "Set Default" [disabled]
+    - row "General Hot Edit Hide Set Default":
+      - cell "General"
+      - cell "Hot"
+      - cell "Edit Hide Set Default":
+        - button "Edit" [disabled]
+        - button "Hide" [disabled]
+        - button "Set Default" [disabled]
+    - row "General Warm Edit Hide Set Default":
+      - cell "General"
+      - cell "Warm"
+      - cell "Edit Hide Set Default":
+        - button "Edit" [disabled]
+        - button "Hide" [disabled]
+        - button "Set Default" [disabled]
+```

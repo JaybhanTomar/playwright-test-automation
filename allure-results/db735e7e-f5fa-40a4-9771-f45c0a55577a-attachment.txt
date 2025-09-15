@@ -1,0 +1,25 @@
+❌ API Failed: https://qc3.devaavaz.biz/361-api/v3/client_settings/public - Status: 503
+❌ API Failed: https://qc3.devaavaz.biz/361-api/v3/users/auth - Status: 500
+Error clicking login button or dismissing popup: Captured error banner: "Oops!Request failed with status code 503"
+Login failed for user sachincaller@tekege.com: Login button click failed or popup not handled: Captured error banner: "Oops!Request failed with status code 503"
+❌ Error testing login for created user Sachin Caller: Login failed for user sachincaller@tekege.com: Login button click failed or popup not handled: Captured error banner: "Oops!Request failed with status code 503"
+❌ API Failed: https://qc3.devaavaz.biz/361-api/v3/client_settings/public - Status: 503
+❌ API Failed: https://qc3.devaavaz.biz/361-api/v3/users/auth - Status: 500
+Error clicking login button or dismissing popup: Captured error banner: "Oops!Request failed with status code 503"
+Login failed for user sachinadmin@tekege.com: Login button click failed or popup not handled: Captured error banner: "Oops!Request failed with status code 503"
+❌ Error testing login for created user Sachin Admin: Login failed for user sachinadmin@tekege.com: Login button click failed or popup not handled: Captured error banner: "Oops!Request failed with status code 503"
+❌ API Failed: https://qc3.devaavaz.biz/361-api/v3/client_settings/public - Status: 503
+❌ API Failed: https://qc3.devaavaz.biz/361-api/v3/users/auth - Status: 500
+Error clicking login button or dismissing popup: Captured error banner: "Oops!Request failed with status code 503"
+Login failed for user jaycaller@tekege.com: Login button click failed or popup not handled: Captured error banner: "Oops!Request failed with status code 503"
+❌ Error testing login for created user Jay Caller: Login failed for user jaycaller@tekege.com: Login button click failed or popup not handled: Captured error banner: "Oops!Request failed with status code 503"
+❌ API Failed: https://qc3.devaavaz.biz/361-api/v3/client_settings/public - Status: 503
+❌ API Failed: https://qc3.devaavaz.biz/361-api/v3/users/auth - Status: 500
+Error clicking login button or dismissing popup: Captured error banner: "Oops!Request failed with status code 503"
+Login failed for user jayadmin@tekege.com: Login button click failed or popup not handled: Captured error banner: "Oops!Request failed with status code 503"
+❌ Error testing login for created user Jay Admin: Login failed for user jayadmin@tekege.com: Login button click failed or popup not handled: Captured error banner: "Oops!Request failed with status code 503"
+❌ API Failed: https://qc3.devaavaz.biz/361-api/v3/client_settings/public - Status: 503
+❌ API Failed: https://qc3.devaavaz.biz/361-api/v3/users/auth - Status: 500
+Error clicking login button or dismissing popup: Captured error banner: "Oops!Request failed with status code 503"
+Login failed for user aavazcaller@tekege.com: Login button click failed or popup not handled: Captured error banner: "Oops!Request failed with status code 503"
+❌ Error testing login for created user Aavaz Caller: Login failed for user aavazcaller@tekege.com: Login button click failed or popup not handled: Captured error banner: "Oops!Request failed with status code 503"

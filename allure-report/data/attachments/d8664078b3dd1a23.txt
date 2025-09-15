@@ -1,0 +1,49 @@
+locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('//div[@id=\'tgPositive\']//td[.=\'RBL\']/following-sibling::td[.=\'NPA Customer Calling\']/preceding-sibling::td//span') to be visible
+
+    at SystemSetupPage.createDispositionScreen (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:1789:74)
+    at /home/jtomar/playwright-demo/playwright-demo-new/tests/RBL/RBL/J_setupDispositionScreen.spec.js:56:7 {
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    stepId: 'pw:api@59',
+    location: {
+      file: '/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js',
+      line: 1789,
+      column: 74,
+      function: 'SystemSetupPage.createDispositionScreen'
+    },
+    category: 'pw:api',
+    title: "Wait for selector locator('//div[@id=\\'tgPositive\\']//td[.=\\'RBL\\']/following-sibling::td[.=\\'NPA Customer Calling\\']/preceding-sibling::td//span')",
+    apiName: 'locator.waitFor',
+    params: {
+      selector: "//div[@id='tgPositive']//td[.='RBL']/following-sibling::td[.='NPA Customer Calling']/preceding-sibling::td//span",
+      strict: true,
+      omitReturnValue: true,
+      state: 'visible',
+      timeout: 60000
+    },
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@59'
+    },
+    complete: [Function: complete],
+    endWallTime: 1754928232361,
+    error: {
+      message: 'TimeoutError: locator.waitFor: Timeout 60000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//div[@id=\\'tgPositive\\']//td[.=\\'RBL\\']/following-sibling::td[.=\\'NPA Customer Calling\\']/preceding-sibling::td//span') to be visible\x1B[22m\n",
+      stack: 'TimeoutError: locator.waitFor: Timeout 60000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//div[@id=\\'tgPositive\\']//td[.=\\'RBL\\']/following-sibling::td[.=\\'NPA Customer Calling\\']/preceding-sibling::td//span') to be visible\x1B[22m\n" +
+        '\n' +
+        '    at SystemSetupPage.createDispositionScreen (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:1789:74)\n' +
+        '    at /home/jtomar/playwright-demo/playwright-demo-new/tests/RBL/RBL/J_setupDispositionScreen.spec.js:56:7',
+      cause: undefined
+    }
+  }
+}

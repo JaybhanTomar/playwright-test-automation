@@ -1,0 +1,8 @@
+
+📋 Starting RBL Lead Stage update with Excel data...
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/RBL Test Data.xlsx, Sheet: LeadStageUpdation
+✅ Successfully read 1 data objects from Excel
+
+📄 Running RBL lead stage update test for: J_New
+⚠️ Skipping update for J_New: New category or new stage is undefined/empty.
+✅ RBL lead stage update completed for: J_New

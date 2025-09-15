@@ -1,0 +1,52 @@
+locator.scrollIntoViewIfNeeded: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('.flatpickr-days .flatpickr-day[aria-label=\'Invalid Date NaN, NaN\']')
+
+    at DatePicker.selectDateByISO (/home/jtomar/playwright-demo/playwright-demo-new/tests/utils/DatePicker.js:58:22)
+    at SystemSetupPage.createLeadFieldHelper (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:2157:17)
+    at SystemSetupPage.setupLeadFields (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:2107:16)
+    at /home/jtomar/playwright-demo/playwright-demo-new/tests/RBL/RBL/E_setupLeadField.spec.js:51:7 {
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    stepId: 'pw:api@72',
+    location: {
+      file: '/home/jtomar/playwright-demo/playwright-demo-new/tests/utils/DatePicker.js',
+      line: 58,
+      column: 22,
+      function: 'DatePicker.selectDateByISO'
+    },
+    category: 'pw:api',
+    title: "Scroll into view locator('.flatpickr-days .flatpickr-day[aria-label=\\'Invalid Date NaN, NaN\\']')",
+    apiName: 'locator.scrollIntoViewIfNeeded',
+    params: {
+      selector: ".flatpickr-days .flatpickr-day[aria-label='Invalid Date NaN, NaN']",
+      strict: true,
+      state: 'attached',
+      timeout: 10000
+    },
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@72'
+    },
+    complete: [Function: complete],
+    endWallTime: 1755067247618,
+    error: {
+      message: 'TimeoutError: locator.scrollIntoViewIfNeeded: Timeout 10000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('.flatpickr-days .flatpickr-day[aria-label=\\'Invalid Date NaN, NaN\\']')\x1B[22m\n",
+      stack: 'TimeoutError: locator.scrollIntoViewIfNeeded: Timeout 10000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('.flatpickr-days .flatpickr-day[aria-label=\\'Invalid Date NaN, NaN\\']')\x1B[22m\n" +
+        '\n' +
+        '    at DatePicker.selectDateByISO (/home/jtomar/playwright-demo/playwright-demo-new/tests/utils/DatePicker.js:58:22)\n' +
+        '    at SystemSetupPage.createLeadFieldHelper (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:2157:17)\n' +
+        '    at SystemSetupPage.setupLeadFields (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:2107:16)\n' +
+        '    at /home/jtomar/playwright-demo/playwright-demo-new/tests/RBL/RBL/E_setupLeadField.spec.js:51:7',
+      cause: undefined
+    }
+  }
+}

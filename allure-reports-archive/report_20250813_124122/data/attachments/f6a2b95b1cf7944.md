@@ -1,0 +1,187 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - link "Logo":
+    - /url: /
+    - img "Logo"
+  - navigation:
+    - button "Toggle navigation"
+    - list:
+      - listitem "Notification":  0
+      - listitem:
+        - button "Click to become ready to make and receive calls"
+      - listitem:
+        - link "Admin 0":
+          - /url: javascript:;
+- complementary:
+  - list:
+    - listitem:
+      - link "Home":
+        - /url: /
+    - listitem:
+      - link "Dashboard":
+        - /url: /dashboard
+    - listitem:
+      - link "Import":
+        - /url: /import/list
+    - listitem:
+      - link "Campaign":
+        - /url: "#"
+    - listitem:
+      - link "Leads":
+        - /url: "#"
+    - listitem:
+      - link "Tickets":
+        - /url: "#"
+    - listitem:
+      - link "Contact":
+        - /url: "#"
+    - listitem:
+      - link "Reports":
+        - /url: "#"
+    - listitem:
+      - link "Time Log":
+        - /url: /timeLog
+    - listitem:
+      - link "Agent Monitor":
+        - /url: /agentmonitor
+    - listitem:
+      - link "User Preferences":
+        - /url: "#"
+    - listitem:
+      - link "System Setup":
+        - /url: /settings
+  - button "Search and Add Contact"
+  - button "FEEDBACK"
+  - button "Toggle sidebar"
+- heading "" [level=4]:
+  - button ""
+- heading "Ticket Field" [level=4]
+- list:
+  - text: 
+  - listitem:
+    - link "Home":
+      - /url: /
+  - listitem: / Ticket Field
+- list:
+  - listitem:
+    - link "Ticket Field":
+      - /url: "#ticketsField"
+  - listitem:
+    - link "Ticket Type":
+      - /url: "#ticketsType"
+  - listitem:
+    - link "Ticket Priority":
+      - /url: "#ticketsPriority"
+  - listitem:
+    - link "Ticket Stage":
+      - /url: "#ticketsStatus"
+- text: Create Ticket Field
+- textbox "Search on page"
+- text: Search on page
+- list:
+  - listitem: Filters
+- table:
+  - rowgroup:
+    - row "Category Display Name Field Name Type Action":
+      - columnheader "Category"
+      - columnheader "Display Name"
+      - columnheader "Field Name"
+      - columnheader "Type"
+      - columnheader "Action"
+  - rowgroup
+  - rowgroup:
+    - row "General ticket assigned caller assignedCallerId text Edit":
+      - cell "General"
+      - cell "ticket assigned caller"
+      - cell "assignedCallerId"
+      - cell "text"
+      - cell "Edit":
+        - button "Edit" [disabled]
+    - row "General ticket assigned caller stageId text Edit":
+      - cell "General"
+      - cell "ticket assigned caller"
+      - cell "stageId"
+      - cell "text"
+      - cell "Edit":
+        - button "Edit" [disabled]
+    - row "General ticket priorityId priorityId text Edit":
+      - cell "General"
+      - cell "ticket priorityId"
+      - cell "priorityId"
+      - cell "text"
+      - cell "Edit":
+        - button "Edit" [disabled]
+    - row "General ticket typeId typeId text Edit":
+      - cell "General"
+      - cell "ticket typeId"
+      - cell "typeId"
+      - cell "text"
+      - cell "Edit":
+        - button "Edit" [disabled]
+    - row "General ticket subject subject text Edit":
+      - cell "General"
+      - cell "ticket subject"
+      - cell "subject"
+      - cell "text"
+      - cell "Edit":
+        - button "Edit" [disabled]
+    - row "General ticket respondBy respondBy text Edit":
+      - cell "General"
+      - cell "ticket respondBy"
+      - cell "respondBy"
+      - cell "text"
+      - cell "Edit":
+        - button "Edit" [disabled]
+    - row "General ticket resolvedBy resolvedBy text Edit":
+      - cell "General"
+      - cell "ticket resolvedBy"
+      - cell "resolvedBy"
+      - cell "text"
+      - cell "Edit":
+        - button "Edit" [disabled]
+    - row "General ticket isClosed isClosed text Edit":
+      - cell "General"
+      - cell "ticket isClosed"
+      - cell "isClosed"
+      - cell "text"
+      - cell "Edit":
+        - button "Edit" [disabled]
+    - row "General ticket lastRespondedAt lastRespondedAt text Edit":
+      - cell "General"
+      - cell "ticket lastRespondedAt"
+      - cell "lastRespondedAt"
+      - cell "text"
+      - cell "Edit":
+        - button "Edit" [disabled]
+    - row "General ticket ticketReplyTypeId ticketReplyTypeId text Edit":
+      - cell "General"
+      - cell "ticket ticketReplyTypeId"
+      - cell "ticketReplyTypeId"
+      - cell "text"
+      - cell "Edit":
+        - button "Edit" [disabled]
+    - row "General ticket trailRespondBy trailRespondBy text Edit":
+      - cell "General"
+      - cell "ticket trailRespondBy"
+      - cell "trailRespondBy"
+      - cell "text"
+      - cell "Edit":
+        - button "Edit" [disabled]
+    - row "General ticket assignedSkillId assignedSkillId text Edit":
+      - cell "General"
+      - cell "ticket assignedSkillId"
+      - cell "assignedSkillId"
+      - cell "text"
+      - cell "Edit":
+        - button "Edit" [disabled]
+    - row "Aavaz0 Issue Status IssueStatus text Edit":
+      - cell "Aavaz0"
+      - cell "Issue Status"
+      - cell "IssueStatus"
+      - cell "text"
+      - cell "Edit":
+        - link "Edit":
+          - /url: /settings/library/ticket/ticketField/1003
+```

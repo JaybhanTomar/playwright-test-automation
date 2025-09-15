@@ -1,0 +1,92 @@
+locator.selectOption: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator('//select[@id=\'selectTextType\']')
+    - locator resolved to <select id="selectTextType" class="form-control">…</select>
+  - attempting select option action
+    2 × waiting for element to be visible and enabled
+      - element is not visible
+    - retrying select option action
+    - waiting 20ms
+    2 × waiting for element to be visible and enabled
+      - element is not visible
+    - retrying select option action
+      - waiting 100ms
+    10 × waiting for element to be visible and enabled
+       - element is not visible
+     - retrying select option action
+       - waiting 500ms
+
+    at SystemSetupPage.createDispositionQuestionHelper (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:1556:50)
+    at SystemSetupPage.setupDispositionQuestion (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:1504:9)
+    at /home/jtomar/playwright-demo/playwright-demo-new/tests/Sanity/CreateDispositionQuestion.spec.js:82:9 {
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    stepId: 'pw:api@11',
+    location: {
+      file: '/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js',
+      line: 1556,
+      column: 50,
+      function: 'SystemSetupPage.createDispositionQuestionHelper'
+    },
+    category: 'pw:api',
+    title: "Select option locator('//select[@id=\\'selectTextType\\']')",
+    apiName: 'locator.selectOption',
+    params: {
+      selector: "//select[@id='selectTextType']",
+      options: [Array],
+      strict: true,
+      timeout: 5000
+    },
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@11'
+    },
+    complete: [Function: complete],
+    endWallTime: 1754404554158,
+    error: {
+      message: 'TimeoutError: locator.selectOption: Timeout 5000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//select[@id=\\'selectTextType\\']')\x1B[22m\n" +
+        '\x1B[2m    - locator resolved to <select id="selectTextType" class="form-control">…</select>\x1B[22m\n' +
+        '\x1B[2m  - attempting select option action\x1B[22m\n' +
+        '\x1B[2m    2 × waiting for element to be visible and enabled\x1B[22m\n' +
+        '\x1B[2m      - element is not visible\x1B[22m\n' +
+        '\x1B[2m    - retrying select option action\x1B[22m\n' +
+        '\x1B[2m    - waiting 20ms\x1B[22m\n' +
+        '\x1B[2m    2 × waiting for element to be visible and enabled\x1B[22m\n' +
+        '\x1B[2m      - element is not visible\x1B[22m\n' +
+        '\x1B[2m    - retrying select option action\x1B[22m\n' +
+        '\x1B[2m      - waiting 100ms\x1B[22m\n' +
+        '\x1B[2m    10 × waiting for element to be visible and enabled\x1B[22m\n' +
+        '\x1B[2m       - element is not visible\x1B[22m\n' +
+        '\x1B[2m     - retrying select option action\x1B[22m\n' +
+        '\x1B[2m       - waiting 500ms\x1B[22m\n',
+      stack: 'TimeoutError: locator.selectOption: Timeout 5000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//select[@id=\\'selectTextType\\']')\x1B[22m\n" +
+        '\x1B[2m    - locator resolved to <select id="selectTextType" class="form-control">…</select>\x1B[22m\n' +
+        '\x1B[2m  - attempting select option action\x1B[22m\n' +
+        '\x1B[2m    2 × waiting for element to be visible and enabled\x1B[22m\n' +
+        '\x1B[2m      - element is not visible\x1B[22m\n' +
+        '\x1B[2m    - retrying select option action\x1B[22m\n' +
+        '\x1B[2m    - waiting 20ms\x1B[22m\n' +
+        '\x1B[2m    2 × waiting for element to be visible and enabled\x1B[22m\n' +
+        '\x1B[2m      - element is not visible\x1B[22m\n' +
+        '\x1B[2m    - retrying select option action\x1B[22m\n' +
+        '\x1B[2m      - waiting 100ms\x1B[22m\n' +
+        '\x1B[2m    10 × waiting for element to be visible and enabled\x1B[22m\n' +
+        '\x1B[2m       - element is not visible\x1B[22m\n' +
+        '\x1B[2m     - retrying select option action\x1B[22m\n' +
+        '\x1B[2m       - waiting 500ms\x1B[22m\n' +
+        '\n' +
+        '    at SystemSetupPage.createDispositionQuestionHelper (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:1556:50)\n' +
+        '    at SystemSetupPage.setupDispositionQuestion (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:1504:9)\n' +
+        '    at /home/jtomar/playwright-demo/playwright-demo-new/tests/Sanity/CreateDispositionQuestion.spec.js:82:9',
+      cause: undefined
+    }
+  }
+}

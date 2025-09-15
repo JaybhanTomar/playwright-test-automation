@@ -1,0 +1,6 @@
+✅ Navigated to QC2: https://qc2.devaavaz.biz/
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Login Creds Data.xlsx, Sheet: UserLoginData
+✅ Successfully read 1 data objects from Excel
+📊 API Summary: 4 calls, 1 failed
+❌ Failed APIs:
+  - POST https://qc2.devaavaz.biz/361-api/v3/users/auth (401)

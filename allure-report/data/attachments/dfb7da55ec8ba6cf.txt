@@ -1,0 +1,97 @@
+
+📋 RBL Configuration:
+   Environment: QC2
+   Headless: false
+   Timeout: 600s
+   Browser Args: --start-maximized, --disable-web-security, --disable-features=VizDisplayCompositor
+
+🌐 RBL Config: Navigating to QC2 environment
+✅ Navigated to QC2: https://qc2.devaavaz.biz/
+✅ RBL Config: Successfully navigated to QC2
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Login Creds Data.xlsx, Sheet: UserLoginData
+✅ Successfully read 1 data objects from Excel
+Verifying user role. Expected: 'admin', Actual: 'admin'
+✅ Role verification passed: admin
+✅ RBL Setup: Successfully logged in to QC2
+Successfully Clicked on SystemSetup page
+✅ RBL Setup: Navigated to System Setup
+ Create Lead Field  button is visible
+✅ RBL Lead Field: Setup completed on QC2
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/RBL Test Data.xlsx, Sheet: LeadFieldCreation
+✅ Successfully read 4 data objects from Excel
+DEBUG RBL LeadFieldData: [
+  {
+    Category: 'RBL',
+    DisplayName: 'PTP Date',
+    FieldName: 'PTPDate',
+    Type: 'Text',
+    InputType: 'Date',
+    Min: '25-08-15',
+    Max: '25-10-15',
+    NoOfLines: '',
+    Options: '',
+    OptionValues: '',
+    AllowOther: '',
+    Tooltip: ''
+  },
+  {
+    Category: 'RBL',
+    DisplayName: 'PTP Amount',
+    FieldName: 'PTPAmount',
+    Type: 'Text',
+    InputType: 'Number',
+    Min: '0',
+    Max: '1000',
+    NoOfLines: '',
+    Options: '',
+    OptionValues: '',
+    AllowOther: '',
+    Tooltip: ''
+  },
+  {
+    Category: 'RBL',
+    DisplayName: 'Action Code',
+    FieldName: 'ActionCode',
+    Type: 'Single Select',
+    InputType: 'Drop Down',
+    Min: '',
+    Max: '',
+    NoOfLines: '',
+    Options: '4',
+    OptionValues: 'Death Case,OTS,Spouse,Financial Issue',
+    AllowOther: '',
+    Tooltip: ''
+  },
+  {
+    Category: 'RBL',
+    DisplayName: 'Renewal Action Code',
+    FieldName: 'RenewalActionCode',
+    Type: 'Single Select',
+    InputType: 'Drop Down',
+    Min: '',
+    Max: '',
+    NoOfLines: '',
+    Options: '3',
+    OptionValues: 'Need Discount,No discount,None',
+    AllowOther: '',
+    Tooltip: ''
+  }
+]
+📊 Processing 4 RBL lead field(s) from Excel data
+
+📄 Running RBL lead field creation test for: PTPDate
+RBL Lead field details: {
+  Category: 'RBL',
+  Level: 'Lead',
+  DisplayName: 'PTP Date',
+  Type: 'Text',
+  InputType: 'Date',
+  Tooltip: ''
+}
+PTPDate: Lead Field is not created.
+PTPDate: Lead Field is not created. Creating it...
+RBL: Category is selected
+📊 API Summary: 14 calls, 0 failed
+📊 API Summary: RBL tests completed on QC2
+✅ Browser context closed successfully
+✅ Browser closed successfully

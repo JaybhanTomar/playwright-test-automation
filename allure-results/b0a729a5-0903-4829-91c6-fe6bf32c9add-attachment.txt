@@ -1,0 +1,37 @@
+RBL User Creation beforeAll starting
+
+📋 RBL Configuration:
+   Environment: QC6
+   Headless: false
+   Timeout: 120s
+   Browser Args: --start-maximized, --disable-web-security, --disable-features=VizDisplayCompositor, --no-sandbox, --disable-dev-shm-usage, --disable-gpu, --disable-extensions, --disable-background-timer-throttling, --disable-backgrounding-occluded-windows, --disable-renderer-backgrounding, --disable-features=TranslateUI, --disable-ipc-flooding-protection
+
+🌐 RBL Config: Navigating to QC6 environment
+✅ Navigated to QC6: https://qc6.devaavaz.biz/
+✅ RBL Config: Successfully navigated to QC6
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Login Creds Data.xlsx, Sheet: UserLoginData
+✅ Successfully read 1 data objects from Excel
+Verifying user role. Expected: 'admin', Actual: 'admin'
+✅ Role verification passed: admin
+✅ RBL Setup: Successfully logged in to QC6
+Successfully Clicked on SystemSetup page
+✅ RBL Setup: Navigated to System Setup
+RBL User Creation beforeAll finished
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/WorkFlow Test Data.xlsx, Sheet: UserCreationData
+✅ Successfully read 5 data objects from Excel
+📊 Processing 5 user(s) from Excel data
+📋 [1/5] Creating new RBL user with First Name: Sachin, Last Name: Caller, Email: sachincaller@tekege.com, Skill: Default
+sachincaller@tekege.com: User already exists.
+✅ RBL user creation completed for: Sachin Caller
+📋 [2/5] Creating new RBL user with First Name: Sachin, Last Name: Admin, Email: sachinadmin@tekege.com, Skill: Default
+sachinadmin@tekege.com: User not found. Creating user...
+📋 [3/5] Creating new RBL user with First Name: Jay, Last Name: Caller, Email: jaycaller@tekege.com, Skill: Default
+jaycaller@tekege.com: User already exists.
+✅ RBL user creation completed for: Jay Caller
+📋 [4/5] Creating new RBL user with First Name: Jay, Last Name: Admin, Email: jayadmin@tekege.com, Skill: Default
+jayadmin@tekege.com: User already exists.
+✅ RBL user creation completed for: Jay Admin
+📋 [5/5] Creating new RBL user with First Name: Aavaz, Last Name: Caller, Email: aavazcaller@tekege.com, Skill: Default
+aavazcaller@tekege.com: User not found. Creating user...
+User logged out successfully
+✅ Admin logged out after user creation

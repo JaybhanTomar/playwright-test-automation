@@ -1,0 +1,15 @@
+✅ Navigated to QC2: https://qc2.devaavaz.biz/
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Login Creds Data.xlsx, Sheet: UserLoginData
+✅ Successfully read 1 data objects from Excel
+Verifying user role. Expected: 'admin', Actual: 'admin'
+✅ Role verification passed: admin
+Navigating to Active Campaign...
+✅ DemandCampPage is visible
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Campaign Creation Updation Data.xlsx, Sheet: Creation Data
+✅ Successfully read 1 data objects from Excel
+
+📋 Running create campaign test for: Verify_Skil_Camp01
+🔍 Verifying existing campaign: Verify_Skil_Camp01
+✅ Campaign found on page 1: Verify_Skil_Camp01 NEW(Outbound)(Auto-Preview)(Skills)Disposition Screen: Default Demand Generation ScreenCreated On: Aug 6th 2025 10:47 amCaller ID:  ACW time expire:
+⏩ Campaign already exists: Verify_Skil_Camp01. Skipping creation.
+✅ Create campaign test completed for: Verify_Skil_Camp01

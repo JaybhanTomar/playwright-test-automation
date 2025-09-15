@@ -1,16 +1,14 @@
-# 🎭 Playwright Demo - AI-Powered Test Automation Framework
+# 🎭 Playwright Demo - Advanced Test Automation Framework
 
 [![Playwright Tests](https://github.com/your-username/playwright-demo-new/actions/workflows/playwright.yml/badge.svg)](https://github.com/your-username/playwright-demo-new/actions/workflows/playwright.yml)
-[![MCP Integration](https://img.shields.io/badge/MCP-Enabled-blue)](https://github.com/modelcontextprotocol/specification)
-[![AI Powered](https://img.shields.io/badge/AI-Claude%203%20Sonnet-green)](https://www.anthropic.com/claude)
+[![Tests](https://img.shields.io/badge/Tests-Passing-green)](https://github.com/your-username/playwright-demo-new)
 
-> **Advanced Playwright testing framework with AI-powered analysis, automated failure diagnosis, and intelligent test data generation.**
+> **Comprehensive Playwright testing framework for RBL, IRC, and Sanity testing with multi-environment support.**
 
 ## 📋 **Table of Contents**
 
 - [🚀 What Makes This Special](#-what-makes-this-special)
 - [🎯 Quick Start](#-quick-start)
-- [🤖 MCP (AI Features)](#-mcp-model-context-protocol---ai-features)
 - [🎭 Test Suites](#-test-suites)
 - [⚙️ Configuration](#️-configuration)
 - [📊 Reporting & Analytics](#-reporting--analytics)
@@ -22,12 +20,6 @@
 ---
 
 ## 🚀 **What Makes This Special**
-
-### **🤖 AI-Powered Testing (MCP Integration)**
-- **Smart Test Analysis**: AI analyzes failures and suggests fixes
-- **Intelligent Data Generation**: Creates realistic test data automatically
-- **Performance Insights**: AI-driven performance optimization recommendations
-- **Automated Reporting**: Comprehensive test reports with actionable insights
 
 ### **🎭 Comprehensive Test Coverage**
 - **RBL Testing**: Complete RBL (Real-time Business Logic) test suite
@@ -79,55 +71,6 @@ QC_ENV=uat361 npm test
 # Run in headed mode for debugging
 npm run test:headed
 ```
-
----
-
-## 🤖 **MCP (Model Context Protocol) - AI Features**
-
-### **🚀 Quick MCP Commands**
-
-#### **Check System Status**
-```bash
-npm run mcp:status
-```
-
-#### **Generate Test Data with AI**
-```bash
-# Generate 5 users
-npm run mcp:generate users -- --count 5
-
-# Generate campaigns in CSV format
-npm run mcp:generate campaigns -- --count 3 --format csv
-```
-
-#### **Run Tests with AI Analysis**
-```bash
-# Run test with automatic failure analysis
-npm run mcp:test tests/RBL/RBL/E_setupLeadField.spec.js
-
-# Run in headed mode with data generation
-npm run mcp:test tests/Sanity/A_setupCategory.spec.js -- --headed --generate-data users
-```
-
-#### **Analyze Test Failures**
-```bash
-# Get AI analysis of test failure
-npm run mcp:analyze tests/RBL/RBL/E_setupLeadField.spec.js -- --type failure --error "Element not found"
-
-# Code quality analysis
-npm run mcp:analyze tests/IRC/campaign.spec.js -- --type code
-```
-
-### **🎯 MCP Features**
-
-- **🤖 AI Test Analysis**: Intelligent failure diagnosis with actionable recommendations
-- **📊 Smart Data Generation**: Creates realistic test data (users, campaigns, leads, contacts)
-- **🔍 Code Quality Review**: AI-powered code analysis and improvement suggestions
-- **📈 Performance Insights**: Automated performance analysis and optimization tips
-- **🧹 Artifact Management**: Automated cleanup and organization of test artifacts
-
-### **📚 Learn More**
-For detailed MCP usage, see [MCP Integration Guide](MCP-INTEGRATION-GUIDE.md)
 
 ---
 
@@ -272,16 +215,6 @@ npm run test:irc              # IRC tests
 npm run test:sanity           # Sanity tests
 npm run test:headed           # Run in headed mode
 npm run test:debug            # Debug mode
-```
-
-### **MCP (AI) Commands**
-```bash
-npm run mcp:status            # Show MCP system status
-npm run mcp:test <file>       # Run test with AI analysis
-npm run mcp:generate <type>   # Generate test data
-npm run mcp:analyze <file>    # Analyze test failures/code
-npm run mcp:config            # Show/update configuration
-npm run mcp:clean             # Clean MCP artifacts
 ```
 
 ### **Reporting Commands**

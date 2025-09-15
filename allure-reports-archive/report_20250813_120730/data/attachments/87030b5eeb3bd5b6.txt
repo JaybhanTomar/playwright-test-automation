@@ -1,0 +1,15 @@
+
+📋 Starting Lead Stage setup with Excel data...
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Field Test Data.xlsx, Sheet: LeadStageCreation
+✅ Successfully read 1 data objects from Excel
+DEBUG FieldData: [
+  { Category: 'BMRC', Stage: 'J_New', Probability: '20', Default: '' }
+]
+📊 Processing 1 lead stage(s) from Excel data
+
+📄 Running lead stage creation test for: J_New
+Attempting to create/check lead stage with Stage: J_New
+J_New: Lead Stage is already created.
+J_New: Lead Stage is already created. Not creating it again.
+✅ Lead stage creation test completed for: J_New
+📊 API Summary: 15 calls, 0 failed

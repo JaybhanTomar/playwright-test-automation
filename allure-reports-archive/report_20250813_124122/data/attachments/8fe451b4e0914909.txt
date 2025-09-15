@@ -1,0 +1,12 @@
+
+📋 Starting Ticket Priority update with Excel data...
+📊 Reading Excel as objects: /home/jtomar/playwright-demo/playwright-demo-new/tests/data/Field Test Data.xlsx, Sheet: TicketPriorityUpdation
+✅ Successfully read 2 data objects from Excel
+
+📄 Running ticket priority update test for: J_High
+⚠️ Skipping update for J_High: New category or new priority is undefined/empty.
+✅ Ticket priority update completed for: J_High
+
+📄 Running ticket priority update test for: J_High01
+⚠️ Skipping update for J_High01: New category or new priority is undefined/empty.
+✅ Ticket priority update completed for: J_High01

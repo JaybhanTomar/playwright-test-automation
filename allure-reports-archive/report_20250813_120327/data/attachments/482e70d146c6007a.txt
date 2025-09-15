@@ -1,0 +1,48 @@
+locator.scrollIntoViewIfNeeded: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator('//div[contains(text(),\'Tickets\')]')
+
+    at SystemSetupPage.clickOnTicketPriority (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:3354:28)
+    at /home/jtomar/playwright-demo/playwright-demo-new/tests/Sanity/CreateTicketprocessField.spec.js:112:17 {
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    stepId: 'pw:api@26',
+    location: {
+      file: '/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js',
+      line: 3354,
+      column: 28,
+      function: 'SystemSetupPage.clickOnTicketPriority'
+    },
+    category: 'pw:api',
+    title: "Scroll into view locator('//div[contains(text(),\\'Tickets\\')]')",
+    apiName: 'locator.scrollIntoViewIfNeeded',
+    params: {
+      selector: "//div[contains(text(),'Tickets')]",
+      strict: true,
+      state: 'attached',
+      timeout: 5000
+    },
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@26'
+    },
+    complete: [Function: complete],
+    endWallTime: 1754391422387,
+    error: {
+      message: 'TimeoutError: locator.scrollIntoViewIfNeeded: Timeout 5000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//div[contains(text(),\\'Tickets\\')]')\x1B[22m\n",
+      stack: 'TimeoutError: locator.scrollIntoViewIfNeeded: Timeout 5000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//div[contains(text(),\\'Tickets\\')]')\x1B[22m\n" +
+        '\n' +
+        '    at SystemSetupPage.clickOnTicketPriority (/home/jtomar/playwright-demo/playwright-demo-new/tests/pages/SystemSetupPage.js:3354:28)\n' +
+        '    at /home/jtomar/playwright-demo/playwright-demo-new/tests/Sanity/CreateTicketprocessField.spec.js:112:17',
+      cause: undefined
+    }
+  }
+}

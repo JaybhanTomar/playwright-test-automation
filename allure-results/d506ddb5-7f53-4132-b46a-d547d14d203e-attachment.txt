@@ -1,0 +1,14 @@
+❌ Error testing lock out for user undefined undefined: locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('//input[@id=\'user_login\']') to be visible
+
+❌ Error testing lock out for user undefined undefined: locator.waitFor: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('//input[@id=\'user_login\']') to be visible
+
+❌ Error testing lock out for user undefined undefined: locator.waitFor: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('//input[@id=\'user_login\']') to be visible
+
+❌ Error testing lock out for user undefined undefined: locator.waitFor: Target page, context or browser has been closed
+❌ Error testing lock out for user undefined undefined: locator.waitFor: Target page, context or browser has been closed
